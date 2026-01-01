@@ -1,0 +1,1247 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lousa da Fluência</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap" rel="stylesheet" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+
+  <style>
+    :root { --blue-1:#007bff; --blue-2:#00b1e0; --orange:#ff6b00; --grey-bg:#f5f5f5; --grey-txt:#555; }
+    * { box-sizing: border-box; margin:0; padding:0; }
+    body { font-family:'Roboto',sans-serif; background:#fff; color:#333; min-height:100vh; display:flex; flex-direction:column; }
+    header { background:linear-gradient(135deg,var(--blue-1) 0%,var(--blue-2)100%); color:#fff; text-align:center; padding:60px 20px 80px; position:relative; }
+    header h1 { font-size:2.4rem; font-weight:800; }
+    header svg.wave { position:absolute; left:0; bottom:-1px; width:100%; height:60px; }
+    .container { flex:1; display:flex; flex-wrap:wrap; padding:40px 20px; gap:30px; justify-content:center; }
+    .main { flex:1 1 600px; max-width:800px; text-align:center; }
+    .board { background:var(--grey-bg); border:2px solid var(--blue-1); border-radius:10px; padding:32px; margin-bottom:24px; box-shadow:0 6px 14px rgba(0,0,0,0.08); width:100%; }
+    .board p { font-size:1.2rem; margin-bottom:18px; color:#333; }
+    .dropzone { display:flex; flex-wrap:wrap; justify-content:center; gap:12px; min-height:64px; }
+    .slot { position:relative; flex:1 1 120px; max-width:150px; min-width:80px; padding:12px; border:2px dashed var(--blue-1); border-radius:6px; background:#fff; display:flex; align-items:center; justify-content:center; font-size:0.9rem; color:#333; user-select:none; word-wrap:break-word; }
+    .slot .hint { position:absolute; top:4px; right:6px; color:var(--blue-1); cursor:pointer; opacity:0.9; font-weight:700; }
+    .slot .hint:hover { opacity:1; }
+    #word-bank { display:flex; flex-wrap:wrap; justify-content:center; gap:12px; margin-top:12px; }
+    .word { flex:1 1 100px; max-width:150px; padding:8px 16px; background:#fff; border:2px solid var(--blue-1); color:var(--blue-1); border-radius:6px; font-size:0.85rem; cursor:grab; user-select:none; transition:.2s; text-align:center; word-wrap:break-word; }
+    .word.incorrect { border-color:#e53935; color:#e53935; }
+    #controls { margin-bottom:24px; display:flex; flex-wrap:wrap; gap:10px; justify-content:center; }
+    input[type="file"] { display:none; }
+    .btn { padding:10px 20px; font-size:1rem; font-weight:500; border:none; border-radius:6px; cursor:pointer; transition:.2s; flex:1 1 auto; min-width:170px; }
+    .btn-primary { background:var(--blue-1); color:#fff; }
+    .btn-primary:hover { background:var(--blue-2); }
+    .btn-orange { background:var(--orange); color:#fff; }
+    .btn-orange:hover { filter:brightness(1.1); }
+    .btn-soft { background:#fff; color:var(--blue-1); border:2px solid var(--blue-1); }
+    .btn-soft:hover { background:rgba(0,123,255,0.06); }
+
+    .feedback { display:none; margin-top:24px; text-align:left; background:#fff; border-left:6px solid var(--orange); padding:18px; border-radius:8px; }
+    .feedback div { font-weight:700; font-size:1.1rem; color:var(--blue-1); margin:6px 0; }
+
+    #sidebar { flex:0 0 320px; max-width:360px; background:var(--grey-bg); padding:24px; border-left:4px solid var(--blue-1); overflow-y:auto; }
+    #sidebar h2 { font-size:1.15rem; color:var(--blue-1); margin-bottom:10px; }
+    #madeCountLabel { font-size:1.15rem; color:var(--blue-1); margin-bottom:12px; }
+    #score { font-size:1.0rem; font-weight:500; margin-bottom:10px; color:#333; }
+    #srsStats { font-size:0.95rem; color:#333; background:#fff; border-radius:8px; padding:12px; border:1px solid rgba(0,0,0,0.06); margin-bottom:14px; }
+
+    .panel {
+      font-size:0.95rem;
+      color:#333;
+      background:#fff;
+      border-radius:8px;
+      padding:12px;
+      border:1px solid rgba(0,0,0,0.06);
+      margin-bottom:14px;
+    }
+    .panel .title {
+      font-weight:800;
+      color: var(--blue-1);
+      margin-bottom:8px;
+      font-size:1.0rem;
+    }
+    .panel .small {
+      color: var(--grey-txt);
+      font-size:0.9rem;
+    }
+    .panel table {
+      width:100%;
+      border-collapse:collapse;
+      margin-top:8px;
+    }
+    .panel th, .panel td {
+      text-align:left;
+      padding:6px 4px;
+      border-bottom:1px solid rgba(0,0,0,0.06);
+      vertical-align:top;
+      font-size: 0.92rem;
+    }
+    .panel th { color: var(--grey-txt); font-weight:700; }
+
+    #history { list-style:none; max-height:260px; overflow-y:auto; }
+    #history li { font-size:.9rem; color:var(--grey-txt); margin-bottom:8px; }
+
+    footer { text-align:center; padding:20px 10px; font-size:.9rem; color:var(--blue-1); background:#fff; }
+
+    #audio-controls { display:flex; flex-wrap:wrap; justify-content:center; gap:16px; margin:30px 0 10px; }
+
+    .copy-btn { background: transparent; border: 1px solid rgba(0,0,0,0.10); cursor: pointer; padding: 2px 8px; border-radius: 6px; margin-left: 8px; }
+    .copy-btn:hover { background: rgba(0,0,0,0.05); }
+    .pill {
+      display:inline-block;
+      padding:2px 8px;
+      border-radius: 999px;
+      border: 1px solid rgba(0,0,0,0.08);
+      background: rgba(0,123,255,0.06);
+      color: var(--blue-1);
+      font-weight: 800;
+      font-size: 0.82rem;
+      margin-left: 8px;
+    }
+
+    .statusline {
+      margin-top: 10px;
+      font-size: 0.95rem;
+      color: #333;
+      background: #fff;
+      border-radius: 8px;
+      padding: 10px 12px;
+      border: 1px solid rgba(0,0,0,0.06);
+      display: inline-block;
+    }
+    .muted { color: var(--grey-txt); font-weight: 600; }
+
+    #nextBtn {
+      position: relative;
+      box-shadow: 0 0 0 3px rgba(255,107,0,0.22);
+      border: 2px solid rgba(255,107,0,0.65);
+    }
+    #nextBtn:hover {
+      box-shadow: 0 0 0 4px rgba(255,107,0,0.28);
+      transform: translateY(-1px);
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Lousa da Fluência</h1>
+    <svg class="wave" viewBox="0 0 1440 60" preserveAspectRatio="none">
+      <path d="M0,30 C400,60 1040,0 1440,30 L1440,60 L0,60 Z" fill="#fff"/>
+    </svg>
+  </header>
+
+  <div class="container">
+    <div class="main">
+      <div id="controls">
+        <button id="loadOnlineBtn" class="btn btn-primary">Carregar Online</button>
+        <label class="btn btn-primary" for="fileInput">Carregar TXT</label>
+        <input type="file" id="fileInput" accept=".txt" />
+        <button id="nextBtn" class="btn btn-primary" style="display:none;">Próxima Frase</button>
+        <button id="reviewNowBtn" class="btn btn-soft" style="display:none;">Revisar Agora</button>
+        <button id="trainWorstBtn" class="btn btn-soft" style="display:none;">Treinar minhas piores frases</button>
+        <button id="clearBtn" class="btn btn-primary" style="display:none;">Limpar Histórico</button>
+      </div>
+
+      <div class="board">
+        <p>Arraste as palavras para os quadrados:</p>
+        <div class="dropzone" id="slots"></div>
+      </div>
+      <div id="word-bank"></div>
+
+      <div class="statusline" id="statusLine" style="display:none;">
+        <span class="muted">Status:</span>
+        <span id="statusBox"></span>
+        <span id="statusDue"></span>
+        <span id="statusRepeat"></span>
+        <span id="statusMode"></span>
+      </div>
+
+      <div id="audio-controls">
+        <button id="playAudioEn" class="btn btn-orange">Ouvir em Inglês</button>
+        <button id="revealBtn" class="btn btn-orange">Revelar Tradução</button>
+        <button id="playAudioPt" class="btn btn-orange">Ouvir em Português</button>
+      </div>
+
+      <div class="feedback" id="feedback">
+        <div id="sentenceEn"></div>
+        <div id="sentencePt"></div>
+      </div>
+    </div>
+
+    <aside id="sidebar">
+      <h2 id="madeCountLabel">Frases feitas: 0</h2>
+
+      <h2>Resumo</h2>
+      <div id="score">Frases vistas: 0</div>
+      <div id="srsStats"></div>
+
+      <h2>Análise de Erros</h2>
+      <div class="panel" id="errorSummaryPanel">
+        <div class="title">Painel</div>
+        <div class="small">Captura erros reais (drops errados) e gera estatística automática.</div>
+        <button id="refreshAnalysisBtn" class="btn btn-primary" style="width:100%; margin-top:10px;">Atualizar Análise</button>
+        <button id="resetErrorsBtn" class="btn btn-soft" style="width:100%; margin-top:10px;">Zerar Estatística de Erros</button>
+      </div>
+
+      <div class="panel" id="errorTypePanel">
+        <div class="title">Top Tipos de Erro</div>
+        <div id="errorTypeTable"></div>
+      </div>
+
+      <div class="panel" id="errorPhrasePanel">
+        <div class="title">Top Frases com Erro</div>
+        <div id="errorPhraseTable"></div>
+      </div>
+
+      <div class="panel" id="errorWordPanel">
+        <div class="title">Palavras Mais Erradas</div>
+        <div id="errorWordTable"></div>
+      </div>
+
+      <h2>Histórico</h2>
+      <ul id="history"></ul>
+      <button id="savePdfBtn" class="btn btn-primary" style="width:100%; margin-top:10px;">Salvar em PDF</button>
+    </aside>
+  </div>
+
+  <footer>© 2025 Igarapé Digital – Todos os direitos reservados</footer>
+
+  <script>
+    // =========================
+    // DADOS PRINCIPAIS
+    // =========================
+    let sentences = [];
+    let translationCache = {};
+    let history = [];
+
+    let currentCard = null;
+    let currentWords = [];
+    let dragged = null;
+
+    let textEn = "";
+    let textPt = "";
+
+    let madeCount = 0;
+
+    // Erros por card
+    let cardHadError = false;
+    let attemptErrorEvents = [];
+
+    // Repetição rápida
+    let repeatSoon = [];
+    const REPEAT_AFTER_N = 3;
+
+    // =========================
+    // MODO TREINO: PIORES FRASES
+    // =========================
+    const TRAIN_MODE_KEY = "trainMode_v1";          // "normal" | "worst"
+    const WORST_PTR_KEY  = "worstPointer_v1";       // índice do ciclo
+    const WORST_LIST_KEY = "worstListCache_v1";     // cache opcional
+
+    let trainMode = "normal"; // default
+    let worstList = [];
+    let worstPointer = 0;
+
+    function loadTrainMode() {
+      const m = localStorage.getItem(TRAIN_MODE_KEY);
+      trainMode = (m === "worst") ? "worst" : "normal";
+      const p = localStorage.getItem(WORST_PTR_KEY);
+      worstPointer = p ? parseInt(p, 10) : 0;
+      if (Number.isNaN(worstPointer)) worstPointer = 0;
+    }
+
+    function saveTrainMode() {
+      localStorage.setItem(TRAIN_MODE_KEY, trainMode);
+      localStorage.setItem(WORST_PTR_KEY, String(worstPointer));
+    }
+
+    function setTrainMode(mode) {
+      trainMode = (mode === "worst") ? "worst" : "normal";
+      worstPointer = 0;
+      saveTrainMode();
+      updateTrainButtonUI();
+      renderStatusLine(textEn);
+    }
+
+    function updateTrainButtonUI() {
+      const btn = document.getElementById("trainWorstBtn");
+      if (!btn) return;
+
+      if (trainMode === "worst") {
+        btn.textContent = "Voltar ao modo normal";
+      } else {
+        btn.textContent = "Treinar minhas piores frases";
+      }
+    }
+
+    // =========================
+    // LOGS DE ERRO / ESTATÍSTICA
+    // =========================
+    const ATTEMPT_LOG_KEY = "attemptLog_v1";
+    const ERROR_EVENT_LOG_KEY = "errorEventLog_v1";
+
+    function loadAttemptLog() {
+      try {
+        const raw = localStorage.getItem(ATTEMPT_LOG_KEY);
+        return raw ? JSON.parse(raw) : [];
+      } catch {
+        return [];
+      }
+    }
+
+    function saveAttemptLog(log) {
+      localStorage.setItem(ATTEMPT_LOG_KEY, JSON.stringify(log));
+    }
+
+    function loadErrorEventLog() {
+      try {
+        const raw = localStorage.getItem(ERROR_EVENT_LOG_KEY);
+        return raw ? JSON.parse(raw) : [];
+      } catch {
+        return [];
+      }
+    }
+
+    function saveErrorEventLog(log) {
+      localStorage.setItem(ERROR_EVENT_LOG_KEY, JSON.stringify(log));
+    }
+
+    function normalizeWord(w) {
+      return String(w || "").trim();
+    }
+
+    function classifyError(expected, received, index, words) {
+      const exp = normalizeWord(expected).toLowerCase();
+      const rec = normalizeWord(received).toLowerCase();
+
+      const preps = new Set(["in","on","at","before","after","of","to","for","with","from","by","into","over","under","between","during","without","within","about","against","around","through"]);
+      const auxiliaries = new Set(["do","does","did","am","is","are","was","were","be","been","being","have","has","had","will","would","can","could","should","may","might","must"]);
+
+      const wordsLower = words.map(x => normalizeWord(x).toLowerCase());
+      if (wordsLower.includes(rec) && rec !== exp) return "ordem_das_palavras";
+      if (preps.has(exp)) return "preposicao";
+      if (exp === "to" || exp.endsWith("ing") || auxiliaries.has(exp)) return "forma_verbal";
+
+      if (exp.endsWith("s") && index > 0) return "concordancia";
+
+      const det = new Set(["a","an","the","this","that","these","those"]);
+      if (det.has(exp)) return "artigo_determinante";
+
+      return "outros";
+    }
+
+    function logErrorEvent(expected, received, position) {
+      const type = classifyError(expected, received, position, currentWords);
+      const ev = {
+        en: textEn,
+        expected: normalizeWord(expected),
+        received: normalizeWord(received),
+        position: position,
+        type: type,
+        ts: Date.now()
+      };
+
+      attemptErrorEvents.push(ev);
+
+      const global = loadErrorEventLog();
+      global.push(ev);
+      saveErrorEventLog(global);
+    }
+
+    function saveAttemptRecord(isCorrectByRule) {
+      const record = {
+        en: textEn,
+        pt: textPt || "",
+        ts: Date.now(),
+        hadAnyError: attemptErrorEvents.length > 0,
+        ruleCorrect: !!isCorrectByRule,
+        errorTypes: Array.from(new Set(attemptErrorEvents.map(e => e.type))),
+        errorCount: attemptErrorEvents.length,
+        events: attemptErrorEvents.slice()
+      };
+
+      const log = loadAttemptLog();
+      log.push(record);
+      saveAttemptLog(log);
+
+      attemptErrorEvents = [];
+    }
+
+    // =========================
+    // PIORES FRASES: CÁLCULO E SELEÇÃO
+    // =========================
+    function computeWorstList(maxItems = 30) {
+      const attemptLog = loadAttemptLog();
+
+      // Map por frase: totalErros, tentativas, tentativasComErro
+      const map = {};
+      for (const a of attemptLog) {
+        if (!a || !a.en) continue;
+        if (!map[a.en]) {
+          map[a.en] = { errors: 0, attempts: 0, attemptsWithError: 0, lastTs: 0 };
+        }
+        map[a.en].attempts += 1;
+        map[a.en].errors += (a.errorCount || 0);
+        if (a.hadAnyError) map[a.en].attemptsWithError += 1;
+        if (a.ts && a.ts > map[a.en].lastTs) map[a.en].lastTs = a.ts;
+      }
+
+      const rows = Object.entries(map).map(([en, v]) => {
+        // Score Pareto: peso forte em erros totais + recorrência
+        // E um peso leve para “mais recente”, para atacar o erro quente
+        const recencyBoost = v.lastTs ? Math.min(3, (Date.now() - v.lastTs) < 24*3600*1000 ? 1 : 0) : 0;
+        const score = (v.errors * 2) + (v.attemptsWithError * 3) + recencyBoost;
+
+        return { en, score, ...v };
+      });
+
+      rows.sort((a,b) => b.score - a.score);
+
+      // Filtra só as que realmente têm erro
+      const filtered = rows.filter(r => r.errors > 0 || r.attemptsWithError > 0);
+
+      const list = filtered.slice(0, maxItems).map(r => r.en);
+
+      localStorage.setItem(WORST_LIST_KEY, JSON.stringify(list));
+      return list;
+    }
+
+    function refreshWorstListIfNeeded() {
+      // Recalcula sempre que você quiser modo worst
+      worstList = computeWorstList(30);
+      worstPointer = 0;
+      saveTrainMode();
+    }
+
+    function pickWorstCard(forceDueOnly = false) {
+      if (!sentences.length) return null;
+
+      if (!worstList || worstList.length === 0) {
+        worstList = computeWorstList(30);
+      }
+
+      // Se ainda assim não tem dados de erro, cai pro modo normal
+      if (!worstList.length) {
+        return pickNextCard(forceDueOnly);
+      }
+
+      // Se quiser forçar “devidas” (SRS), filtra por due <= now
+      let candidates = worstList.slice();
+
+      if (forceDueOnly) {
+        const now = Date.now();
+        candidates = candidates.filter(en => (srs[en]?.due || 0) <= now && (srs[en]?.seen || 0) > 0);
+        if (!candidates.length) {
+          // fallback: piores frases mesmo sem due
+          candidates = worstList.slice();
+        }
+      }
+
+      // Ciclo
+      if (worstPointer >= candidates.length) worstPointer = 0;
+
+      const en = candidates[worstPointer];
+      worstPointer += 1;
+      saveTrainMode();
+
+      const card = getCardByEn(en);
+      if (card) return card;
+
+      // Se por algum motivo não encontrar (TXT novo), tenta próximo
+      for (let i = 0; i < candidates.length; i++) {
+        const c = getCardByEn(candidates[i]);
+        if (c) return c;
+      }
+
+      return pickNextCard(forceDueOnly);
+    }
+
+    // =========================
+    // SRS (Leitner simplificado)
+    // =========================
+    const SRS_KEY = "srsData_v1";
+    const SENTENCES_KEY = "sentences_v2";
+    const CURRENT_KEY = "currentKey_v1";
+    const TRANSLATION_KEY = "translationCache_v1";
+
+    const BOX_INTERVALS_MS = {
+      1: 5 * 60 * 1000,
+      2: 60 * 60 * 1000,
+      3: 6 * 60 * 60 * 1000,
+      4: 24 * 60 * 60 * 1000,
+      5: 3 * 24 * 60 * 60 * 1000
+    };
+
+    let srs = {};
+
+    function loadSRS() {
+      try {
+        const raw = localStorage.getItem(SRS_KEY);
+        srs = raw ? JSON.parse(raw) : {};
+      } catch {
+        srs = {};
+      }
+    }
+
+    function saveSRS() {
+      localStorage.setItem(SRS_KEY, JSON.stringify(srs));
+    }
+
+    function ensureSrsEntry(en) {
+      if (!srs[en]) {
+        srs[en] = {
+          box: 1,
+          due: 0,
+          seen: 0,
+          correct: 0,
+          wrong: 0,
+          lastSeen: 0,
+          lastResult: ""
+        };
+      }
+      return srs[en];
+    }
+
+    function formatDue(ts) {
+      if (!ts) return "agora";
+      const d = new Date(ts);
+      return d.toLocaleString("pt-BR");
+    }
+
+    function setDueForBox(entry) {
+      const now = Date.now();
+      const interval = BOX_INTERVALS_MS[entry.box] || BOX_INTERVALS_MS[1];
+      entry.due = now + interval;
+    }
+
+    function applyResult(en, isCorrect) {
+      const entry = ensureSrsEntry(en);
+      const now = Date.now();
+
+      entry.lastSeen = now;
+      entry.lastResult = isCorrect ? "acerto" : "erro";
+
+      if (isCorrect) {
+        entry.correct += 1;
+        entry.box = Math.min(5, entry.box + 1);
+        setDueForBox(entry);
+      } else {
+        entry.wrong += 1;
+        entry.box = 1;
+        entry.due = now;
+        scheduleRepeatSoon(en);
+      }
+
+      saveSRS();
+      renderSrsStats();
+    }
+
+    function scheduleRepeatSoon(en) {
+      const found = repeatSoon.find(x => x.key === en);
+      if (found) {
+        found.remaining = Math.min(found.remaining, REPEAT_AFTER_N);
+        return;
+      }
+      repeatSoon.push({ key: en, remaining: REPEAT_AFTER_N });
+      saveRepeatSoon();
+    }
+
+    function tickRepeatSoonCounters() {
+      repeatSoon.forEach(x => x.remaining = Math.max(0, x.remaining - 1));
+      saveRepeatSoon();
+    }
+
+    function popRepeatIfReady() {
+      const idx = repeatSoon.findIndex(x => x.remaining === 0);
+      if (idx >= 0) {
+        const item = repeatSoon.splice(idx, 1)[0];
+        saveRepeatSoon();
+        return item.key;
+      }
+      return null;
+    }
+
+    function loadRepeatSoon() {
+      try {
+        const raw = localStorage.getItem("repeatSoon_v1");
+        repeatSoon = raw ? JSON.parse(raw) : [];
+      } catch {
+        repeatSoon = [];
+      }
+    }
+
+    function saveRepeatSoon() {
+      localStorage.setItem("repeatSoon_v1", JSON.stringify(repeatSoon));
+    }
+
+    function getCardByEn(en) {
+      return sentences.find(s => s.en === en) || null;
+    }
+
+    function pickNextCard(forceReviewOnly = false) {
+      tickRepeatSoonCounters();
+
+      const repeatKey = popRepeatIfReady();
+      if (repeatKey) {
+        const c = getCardByEn(repeatKey);
+        if (c) return c;
+      }
+
+      const now = Date.now();
+      sentences.forEach(s => ensureSrsEntry(s.en));
+
+      const dueCards = sentences
+        .filter(s => (srs[s.en]?.due || 0) <= now && (srs[s.en]?.seen || 0) > 0)
+        .sort((a,b) => {
+          const ea = srs[a.en], eb = srs[b.en];
+          if (ea.box !== eb.box) return ea.box - eb.box;
+          return (ea.lastSeen || 0) - (eb.lastSeen || 0);
+        });
+
+      if (dueCards.length > 0) return dueCards[0];
+
+      if (!forceReviewOnly) {
+        const newCards = sentences
+          .filter(s => (srs[s.en]?.seen || 0) === 0)
+          .sort(() => 0.5 - Math.random());
+
+        if (newCards.length > 0) return newCards[0];
+      }
+
+      const any = sentences
+        .slice()
+        .sort((a,b) => (srs[a.en]?.due || 0) - (srs[b.en]?.due || 0));
+
+      return any.length ? any[0] : null;
+    }
+
+    function markCardShown(en) {
+      const entry = ensureSrsEntry(en);
+      entry.seen += 1;
+      entry.lastSeen = Date.now();
+      saveSRS();
+      renderSrsStats();
+    }
+
+    // =========================
+    // HISTÓRICO / CONTADORES
+    // =========================
+    function loadMadeCount() {
+      const stored = localStorage.getItem('madeCount');
+      madeCount = stored ? parseInt(stored) : 0;
+      document.getElementById('madeCountLabel').textContent = 'Frases feitas: ' + madeCount;
+    }
+
+    function saveMadeCount() {
+      localStorage.setItem('madeCount', madeCount);
+    }
+
+    function incrementMadeCount() {
+      madeCount++;
+      saveMadeCount();
+      document.getElementById('madeCountLabel').textContent = 'Frases feitas: ' + madeCount;
+    }
+
+    function renderSidebarHistory() {
+      document.getElementById("score").textContent = "Frases vistas: " + history.length;
+      const ul = document.getElementById("history");
+      ul.innerHTML = "";
+      history.slice().reverse().forEach(item => {
+        const li = document.createElement("li");
+        li.textContent = `${item.en} | ${item.pt || ""}`;
+        ul.appendChild(li);
+      });
+    }
+
+    function saveHistory(en, pt) {
+      history.push({ en, pt });
+      localStorage.setItem('history', JSON.stringify(history));
+      renderSidebarHistory();
+    }
+
+    function speak(txt, lang = 'en-US', rate = 1) {
+      const utter = new SpeechSynthesisUtterance(txt);
+      utter.lang = lang;
+      utter.rate = rate;
+      window.speechSynthesis.cancel();
+      window.speechSynthesis.speak(utter);
+    }
+
+    // =========================
+    // TRADUÇÃO: SEM BUG
+    // =========================
+    async function getPtTranslationForCurrentCard() {
+      const en = textEn;
+
+      if (textPt && textPt.trim()) return textPt.trim();
+
+      const cached = translationCache[en];
+      if (cached && cached.trim()) {
+        textPt = cached.trim();
+        return textPt;
+      }
+
+      try {
+        const url = `https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=pt&dt=t&q=${encodeURIComponent(en)}`;
+        const res = await fetch(url);
+        const data = await res.json();
+        const pt = data?.[0]?.[0]?.[0] || "Tradução indisponível";
+        translationCache[en] = pt;
+        localStorage.setItem(TRANSLATION_KEY, JSON.stringify(translationCache));
+        textPt = pt;
+        return pt;
+      } catch {
+        textPt = "Tradução indisponível";
+        return textPt;
+      }
+    }
+
+    function setPlayAudioHandlers() {
+      document.getElementById("playAudioEn").onclick = () => speak(textEn, "en-US", 1);
+      document.getElementById("playAudioPt").onclick = async () => {
+        const pt = await getPtTranslationForCurrentCard();
+        speak(pt, "pt-BR", 1.1);
+      };
+    }
+
+    // =========================
+    // PARSER TXT
+    // =========================
+    function parseTxtToSentences(txt) {
+      txt = txt.replace(/^\uFEFF/, '');
+      const lines = txt.split(/\r?\n/).map(x => x.trim()).filter(Boolean);
+
+      const parsed = [];
+      for (const line of lines) {
+        const partsPipe = line.split(" | ");
+        if (partsPipe.length >= 2) {
+          const en = partsPipe[0].trim();
+          const pt = partsPipe.slice(1).join(" | ").trim();
+          if (en) parsed.push({ en, pt });
+          continue;
+        }
+
+        const partsTab = line.split("\t");
+        if (partsTab.length >= 2) {
+          const en = partsTab[0].trim();
+          const pt = partsTab.slice(1).join("\t").trim();
+          if (en) parsed.push({ en, pt });
+          continue;
+        }
+
+        parsed.push({ en: line, pt: "" });
+      }
+
+      const seen = new Set();
+      const unique = [];
+      for (const s of parsed) {
+        if (!s.en) continue;
+        if (seen.has(s.en)) continue;
+        seen.add(s.en);
+        unique.push(s);
+      }
+
+      return unique;
+    }
+
+    function persistSentences() {
+      localStorage.setItem(SENTENCES_KEY, JSON.stringify(sentences));
+    }
+
+    function loadPersistedSentences() {
+      const raw = localStorage.getItem(SENTENCES_KEY);
+      if (!raw) return null;
+
+      try {
+        const arr = JSON.parse(raw);
+        if (Array.isArray(arr) && arr.length && typeof arr[0] === "string") {
+          return arr.map(x => ({ en: x, pt: "" }));
+        }
+        if (Array.isArray(arr)) return arr;
+      } catch {}
+
+      return null;
+    }
+
+    // =========================
+    // UI: STATUS / STATS
+    // =========================
+    function renderStatusLine(en) {
+      const entry = srs[en];
+      const line = document.getElementById("statusLine");
+      if (!entry) { line.style.display = "none"; return; }
+
+      line.style.display = "inline-block";
+
+      const boxEl = document.getElementById("statusBox");
+      const dueEl = document.getElementById("statusDue");
+      const repEl = document.getElementById("statusRepeat");
+      const modeEl = document.getElementById("statusMode");
+
+      boxEl.innerHTML = `Caixa <span class="pill">${entry.box}</span>`;
+      dueEl.innerHTML = ` <span class="muted">Próxima revisão:</span> ${formatDue(entry.due)}`;
+
+      const inRepeat = repeatSoon.find(x => x.key === en);
+      if (inRepeat) {
+        repEl.innerHTML = ` <span class="pill">Repetição rápida em ${inRepeat.remaining} frase(s)</span>`;
+      } else {
+        repEl.innerHTML = "";
+      }
+
+      if (trainMode === "worst") {
+        modeEl.innerHTML = ` <span class="pill">Modo piores frases</span>`;
+      } else {
+        modeEl.innerHTML = "";
+      }
+    }
+
+    function renderSrsStats() {
+      if (!sentences.length) {
+        document.getElementById("srsStats").textContent = "Carregue um TXT para começar.";
+        return;
+      }
+      const now = Date.now();
+
+      let newCount = 0, dueCount = 0, learningCount = 0;
+      for (const s of sentences) {
+        const e = ensureSrsEntry(s.en);
+        if ((e.seen || 0) === 0) newCount++;
+        else {
+          learningCount++;
+          if ((e.due || 0) <= now) dueCount++;
+        }
+      }
+
+      const repeatReady = repeatSoon.filter(x => x.remaining === 0).length;
+      const repeatPending = repeatSoon.length;
+
+      document.getElementById("srsStats").innerHTML =
+        `Novas: <b>${newCount}</b><br>` +
+        `Em estudo: <b>${learningCount}</b><br>` +
+        `Devidas agora: <b>${dueCount}</b><br>` +
+        `Repetição rápida: <b>${repeatPending}</b>` +
+        (repeatReady ? ` (prontas: <b>${repeatReady}</b>)` : "");
+    }
+
+    // =========================
+    // ANÁLISE DE ERROS (PAINEL)
+    // =========================
+    function buildTable(rows, headers) {
+      if (!rows.length) return "<div class='small'>Sem dados ainda. Faça algumas tentativas e erre de propósito para capturar.</div>";
+
+      let html = "<table><thead><tr>";
+      for (const h of headers) html += `<th>${h}</th>`;
+      html += "</tr></thead><tbody>";
+
+      for (const r of rows) {
+        html += "<tr>";
+        for (const cell of r) html += `<td>${cell}</td>`;
+        html += "</tr>";
+      }
+      html += "</tbody></table>";
+      return html;
+    }
+
+    function refreshErrorAnalysis() {
+      const attemptLog = loadAttemptLog();
+      const eventLog = loadErrorEventLog();
+
+      const typeCounts = {};
+      for (const ev of eventLog) {
+        typeCounts[ev.type] = (typeCounts[ev.type] || 0) + 1;
+      }
+      const typeRows = Object.entries(typeCounts)
+        .sort((a,b) => b[1] - a[1])
+        .slice(0, 8)
+        .map(([t,c]) => [t, String(c)]);
+      document.getElementById("errorTypeTable").innerHTML = buildTable(typeRows, ["Tipo", "Qtd"]);
+
+      const phraseCounts = {};
+      for (const a of attemptLog) {
+        if (!a || !a.en) continue;
+        if (!a.hadAnyError) continue;
+        phraseCounts[a.en] = (phraseCounts[a.en] || 0) + (a.errorCount || 1);
+      }
+      const phraseRows = Object.entries(phraseCounts)
+        .sort((a,b) => b[1] - a[1])
+        .slice(0, 6)
+        .map(([en,c]) => [en, String(c)]);
+      document.getElementById("errorPhraseTable").innerHTML = buildTable(phraseRows, ["Frase (EN)", "Erros"]);
+
+      const wordCounts = {};
+      for (const ev of eventLog) {
+        const w = (ev.expected || "").toLowerCase();
+        if (!w) continue;
+        wordCounts[w] = (wordCounts[w] || 0) + 1;
+      }
+      const wordRows = Object.entries(wordCounts)
+        .sort((a,b) => b[1] - a[1])
+        .slice(0, 10)
+        .map(([w,c]) => [w, String(c)]);
+      document.getElementById("errorWordTable").innerHTML = buildTable(wordRows, ["Palavra esperada", "Qtd"]);
+
+      const totalAttempts = attemptLog.length;
+      const attemptsWithError = attemptLog.filter(x => x && x.hadAnyError).length;
+      const totalEvents = eventLog.length;
+
+      const summary = document.getElementById("errorSummaryPanel");
+      const info = document.createElement("div");
+      info.style.marginTop = "10px";
+      info.className = "small dynamic";
+      info.textContent = `Tentativas: ${totalAttempts} | Tentativas com erro: ${attemptsWithError} | Eventos de erro: ${totalEvents}`;
+
+      const old = summary.querySelector(".small.dynamic");
+      if (old) old.remove();
+      summary.appendChild(info);
+    }
+
+    function resetErrorStats() {
+      localStorage.removeItem(ATTEMPT_LOG_KEY);
+      localStorage.removeItem(ERROR_EVENT_LOG_KEY);
+      localStorage.removeItem(WORST_LIST_KEY);
+      worstList = [];
+      worstPointer = 0;
+      saveTrainMode();
+      refreshErrorAnalysis();
+    }
+
+    // =========================
+    // CARREGAR E MOSTRAR FRASE
+    // =========================
+    function loadSentence(card) {
+      if (!card) return;
+
+      currentCard = card;
+      textEn = card.en;
+      textPt = (card.pt || "");
+      currentWords = textEn.split(" ").filter(Boolean);
+
+      cardHadError = false;
+      attemptErrorEvents = [];
+
+      document.getElementById("sentenceEn").textContent = "";
+      document.getElementById("sentencePt").textContent = "";
+      document.getElementById("feedback").style.display = "none";
+
+      setupBoard();
+      setPlayAudioHandlers();
+
+      setTimeout(() => speak(textEn, "en-US", 1), 200);
+
+      markCardShown(textEn);
+      localStorage.setItem(CURRENT_KEY, textEn);
+
+      renderStatusLine(textEn);
+    }
+
+    function setupBoard() {
+      const slots = document.getElementById("slots"), bank = document.getElementById("word-bank");
+      slots.innerHTML = "";
+      bank.innerHTML = "";
+
+      currentWords.forEach((_, i) => {
+        const slot = document.createElement("div");
+        slot.className = "slot";
+        slot.dataset.index = i;
+
+        const hint = document.createElement("span");
+        hint.className = "hint";
+        hint.textContent = "i";
+        hint.title = "Dica";
+        hint.onclick = () => {
+          const w = currentWords[i] || "";
+          if (!w) return;
+          hint.title = `Dica: começa com "${w.substring(0,1)}"`;
+        };
+        slot.appendChild(hint);
+
+        slot.ondragover = e => e.preventDefault();
+        slot.ondrop = () => {
+          if (!dragged) return;
+
+          const idx = parseInt(slot.dataset.index, 10);
+          const correctWord = currentWords[idx];
+
+          if (dragged.textContent === correctWord) {
+            if (slot.querySelector(".word")) bank.appendChild(slot.querySelector(".word"));
+            slot.appendChild(dragged);
+            checkComplete();
+          } else {
+            cardHadError = true;
+            logErrorEvent(correctWord, dragged.textContent, idx);
+
+            dragged.classList.add("incorrect");
+            setTimeout(() => dragged.classList.remove("incorrect"), 500);
+          }
+        };
+
+        slots.appendChild(slot);
+      });
+
+      [...currentWords]
+        .sort(() => 0.5 - Math.random())
+        .forEach(w => {
+          const el = document.createElement("div");
+          el.className = "word";
+          el.textContent = w;
+          el.draggable = true;
+          el.ondragstart = () => dragged = el;
+          bank.appendChild(el);
+        });
+    }
+
+    function checkComplete() {
+      const slots = [...document.querySelectorAll(".slot")];
+      if (!slots.every(s => s.querySelector(".word"))) return;
+
+      incrementMadeCount();
+
+      const isCorrect = !cardHadError;
+      applyResult(textEn, isCorrect);
+
+      saveAttemptRecord(isCorrect);
+
+      document.getElementById("sentenceEn").innerHTML = `
+        <span id="copyEnText" style="color: var(--blue-1); font-weight: bold;">EN: ${textEn}</span>
+        <button class="copy-btn" onclick="copyText('copyEnText')" title="Copiar">Copiar</button>
+        <span class="pill">${isCorrect ? "Acerto" : "Erro"}</span>
+      `;
+
+      document.getElementById("feedback").style.display = "block";
+
+      document.getElementById("revealBtn").onclick = async () => {
+        document.getElementById("revealBtn").disabled = true;
+
+        const pt = await getPtTranslationForCurrentCard();
+
+        document.getElementById("sentencePt").innerHTML = `
+          <span id="copyPtText" style="color: var(--blue-1); font-weight: bold;">PT: ${pt}</span>
+          <button class="copy-btn" onclick="copyText('copyPtText')" title="Copiar">Copiar</button>
+        `;
+
+        saveHistory(textEn, pt);
+
+        document.getElementById("revealBtn").disabled = false;
+      };
+
+      renderStatusLine(textEn);
+      refreshErrorAnalysis();
+
+      // Atualiza a lista de piores frases dinamicamente (se estiver no modo worst)
+      if (trainMode === "worst") {
+        refreshWorstListIfNeeded();
+      }
+    }
+
+    // =========================
+    // BOOT / RESTORE
+    // =========================
+    document.addEventListener('DOMContentLoaded', () => {
+      // Histórico
+      const savedHistory = localStorage.getItem('history');
+      history = savedHistory ? JSON.parse(savedHistory) : [];
+      renderSidebarHistory();
+
+      // Contador
+      loadMadeCount();
+
+      // Cache tradução
+      try {
+        const tc = localStorage.getItem(TRANSLATION_KEY);
+        translationCache = tc ? JSON.parse(tc) : {};
+      } catch {
+        translationCache = {};
+      }
+
+      loadSRS();
+      loadRepeatSoon();
+
+      // Modo treino (persistente)
+      loadTrainMode();
+      updateTrainButtonUI();
+
+      const persisted = loadPersistedSentences();
+      if (persisted && persisted.length) {
+        sentences = persisted;
+        sentences.forEach(s => ensureSrsEntry(s.en));
+        saveSRS();
+        renderSrsStats();
+
+        // prepara worstList se modo worst
+        if (trainMode === "worst") {
+          worstList = computeWorstList(30);
+          worstPointer = 0;
+          saveTrainMode();
+        }
+
+        const lastKey = localStorage.getItem(CURRENT_KEY);
+        const lastCard = lastKey ? getCardByEn(lastKey) : null;
+
+        let startCard = lastCard || null;
+        if (!startCard) {
+          startCard = (trainMode === "worst") ? pickWorstCard(false) : pickNextCard(false);
+        }
+
+        loadSentence(startCard);
+
+        document.getElementById("nextBtn").style.display = 'inline-block';
+        document.getElementById("reviewNowBtn").style.display = 'inline-block';
+        document.getElementById("trainWorstBtn").style.display = 'inline-block';
+        document.getElementById("clearBtn").style.display = 'inline-block';
+      } else {
+        renderSrsStats();
+      }
+
+      document.getElementById("refreshAnalysisBtn").onclick = refreshErrorAnalysis;
+      document.getElementById("resetErrorsBtn").onclick = () => {
+        if (confirm("Deseja zerar a estatística de erros?")) resetErrorStats();
+      };
+
+      // Botão de treino piores frases (toggle)
+      document.getElementById("trainWorstBtn").onclick = () => {
+        if (!sentences.length) return;
+
+        if (trainMode === "normal") {
+          refreshWorstListIfNeeded();
+
+          // Se não tiver dados de erro, não ativa
+          if (!worstList.length) {
+            alert("Ainda não há erros registrados. Faça algumas tentativas e erre algumas palavras para capturar estatística.");
+            return;
+          }
+
+          setTrainMode("worst");
+          const card = pickWorstCard(false);
+          loadSentence(card);
+        } else {
+          setTrainMode("normal");
+          const card = pickNextCard(false);
+          loadSentence(card);
+        }
+      };
+
+      refreshErrorAnalysis();
+    });
+
+    // =========================
+    // AÇÕES: ONLINE / TXT / PRÓXIMA / REVISAR
+    // =========================
+    document.getElementById("loadOnlineBtn").onclick = () => {
+    //fetch("https://raw.githubusercontent.com/andersonoab/aprender_ingles/main/frases_unicas_1000.txt")
+      fetch("https://raw.githubusercontent.com/advmarinho/LearningEnglish/refs/heads/main/frases_unicas_1000.txt")
+      
+        .then(res => res.text())
+        .then(txt => {
+          sentences = parseTxtToSentences(txt);
+
+          sentences.forEach(s => ensureSrsEntry(s.en));
+          saveSRS();
+
+          persistSentences();
+          renderSrsStats();
+
+          // se estiver em worst, recalcula lista
+          if (trainMode === "worst") {
+            refreshWorstListIfNeeded();
+          }
+
+          const next = (trainMode === "worst") ? pickWorstCard(false) : pickNextCard(false);
+          loadSentence(next);
+
+          document.getElementById("nextBtn").style.display = "inline-block";
+          document.getElementById("reviewNowBtn").style.display = "inline-block";
+          document.getElementById("trainWorstBtn").style.display = "inline-block";
+          document.getElementById("clearBtn").style.display = "inline-block";
+        });
+    };
+
+    document.getElementById("fileInput").onchange = function () {
+      const file = this.files[0];
+      if (!file) return;
+
+      const reader = new FileReader();
+      reader.onload = e => {
+        const txt = e.target.result;
+        sentences = parseTxtToSentences(txt);
+
+        sentences.forEach(s => ensureSrsEntry(s.en));
+        saveSRS();
+
+        persistSentences();
+        renderSrsStats();
+
+        if (trainMode === "worst") {
+          refreshWorstListIfNeeded();
+        }
+
+        const next = (trainMode === "worst") ? pickWorstCard(false) : pickNextCard(false);
+        loadSentence(next);
+
+        document.getElementById("nextBtn").style.display = 'inline-block';
+        document.getElementById("reviewNowBtn").style.display = 'inline-block';
+        document.getElementById("trainWorstBtn").style.display = 'inline-block';
+        document.getElementById("clearBtn").style.display = 'inline-block';
+
+        document.getElementById("fileInput").value = "";
+      };
+
+      reader.readAsText(file, "UTF-8");
+    };
+
+    document.getElementById("nextBtn").onclick = () => {
+      if (!sentences.length) return;
+
+      const next = (trainMode === "worst")
+        ? pickWorstCard(false)
+        : pickNextCard(false);
+
+      loadSentence(next);
+    };
+
+    document.getElementById("reviewNowBtn").onclick = () => {
+      if (!sentences.length) return;
+
+      const next = (trainMode === "worst")
+        ? pickWorstCard(true)   // tenta due, se não tiver cai para piores frases
+        : pickNextCard(true);
+
+      loadSentence(next);
+    };
+
+    document.getElementById("clearBtn").onclick = () => {
+      history = [];
+      localStorage.removeItem('history');
+      renderSidebarHistory();
+    };
+
+    // =========================
+    // UTIL
+    // =========================
+    function copyText(elementId) {
+      const text = document.getElementById(elementId).textContent.replace(/^EN: |^PT: /, '');
+      navigator.clipboard.writeText(text).then(() => {});
+    }
+
+    document.getElementById("savePdfBtn").onclick = () => {
+      const { jsPDF } = window.jspdf;
+      const doc = new jsPDF({ unit: "pt", format: "a4" });
+      let y = 40;
+
+      doc.setFontSize(16);
+      doc.text("Histórico de Frases", 40, y);
+      y += 30;
+
+      history.forEach((h, i) => {
+        doc.setFontSize(12);
+        doc.text(`${i + 1}. ${h.en} | ${h.pt || ""}`, 40, y);
+        y += 20;
+        if (y > 780) { doc.addPage(); y = 40; }
+      });
+
+      doc.save("historico_frases.pdf");
+    };
+  </script>
+</body>
+</html>
+
+
