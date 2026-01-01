@@ -108,3 +108,293 @@ We actually had an example of one of our recruiters in the Houston market who ha
 They had some of the best references, they had good experience, but the recruiter could not get behind and support the | Ele tinha algumas das melhores referências, tinha boa experiência, mas a recrutadora não conseguiu endossar e apoiar o
 candidate because they didn't understand the story or feel like it was consistent. | candidato porque não entendeu a história ou não sentiu que ela era consistente.
 So I think it's always important to be able to show your track record of why you've made changes and to be able to | Então, acho que é sempre importante conseguir mostrar seu histórico de por que você fez mudanças e conseguir
+Good morning. How are you? | Bom dia. Como você está?
+I’m online now. | Estou online agora.
+I’m working on payroll today. | Hoje eu estou cuidando da folha.
+Can we talk for five minutes? | Podemos falar cinco minutos?
+I’ll get back to you today. | Eu te retorno hoje.
+Here’s my plan for today. | Aqui está meu plano de hoje.
+I’m starting with the priority items. | Vou começar pelo que é prioridade.
+I’ll finish this before lunch. | Vou finalizar isso antes do almoço.
+Let’s start the meeting. | Vamos começar a reunião.
+Can you share your screen? | Você pode compartilhar sua tela?
+Just to confirm, what’s the deadline? | Só para confirmar, qual é o prazo?
+I’ll send the notes after the meeting. | Vou mandar o resumo depois da reunião.
+We found an issue in the file. | Encontramos um problema no arquivo.
+The numbers don’t match. | Os números não batem.
+I’ll double-check and fix it. | Vou conferir de novo e corrigir.
+We need to rerun the report. | Precisamos rodar o relatório de novo.
+Let’s decide the next step. | Vamos decidir o próximo passo.
+Here’s what happened. | Aqui está o que aconteceu.
+The goal is to pay everyone on time. | O objetivo é pagar todo mundo em dia.
+I can interpret the data, not just process it. | Eu consigo interpretar os dados, não só processar.
+Just to confirm, what’s the deadline? | Só para confirmar, qual é o prazo?
+What’s the deadline for this? | Qual é o prazo disso?
+When do you need this? | Para quando você precisa disso?
+I’ll double-check and fix it. | Vou conferir de novo e corrigir.
+I’ll review it and fix it. | Vou revisar e corrigir.
+Let me check again and fix it. | Deixa eu checar de novo e corrigir.
+I’ll get back to you today. | Eu te retorno hoje.
+I’ll reply later today. | Respondo mais tarde hoje.
+I’ll send an update today. | Vou mandar uma atualização hoje.
+What are you working on today? | No que você está trabalhando hoje?
+What’s the deadline? | Qual é o prazo?
+Do the numbers match? | Os números batem?
+What happened? | O que aconteceu?
+What’s the next step? | Qual é o próximo passo?
+Can we talk for five minutes? | Podemos falar cinco minutos?
+I’m working on payroll today. | Hoje eu estou cuidando da folha.
+Here’s my plan for today. | Aqui está meu plano de hoje.
+Just to confirm, what’s the deadline? | Só para confirmar, qual é o prazo?
+We found an issue in the file. | Encontramos um problema no arquivo.
+The numbers don’t match. | Os números não batem.
+I’ll double-check and fix it. | Vou conferir de novo e corrigir.
+We need to rerun the report. | Precisamos rodar o relatório de novo.
+Let’s decide the next step. | Vamos decidir o próximo passo.
+I’ll get back to you today. | Eu te retorno hoje.
+The goal is to pay everyone on time. | O objetivo é pagar todo mundo em dia.
+I’m following up on this. | Estou retomando esse assunto.
+Just checking if you had a chance to review. | Só checando se você conseguiu revisar.
+Do you need anything from me? | Você precisa de algo de mim?
+We’re waiting for your approval. | Estamos aguardando sua aprovação.
+Once approved, we’ll proceed. | Assim que for aprovado, seguimos.
+I sent the file yesterday. | Enviei o arquivo ontem.
+Could you please confirm receipt? | Você pode confirmar o recebimento?
+This is blocking the process. | Isso está travando o processo.
+We need this to move forward. | Precisamos disso para avançar.
+Let me know if you have questions. | Me avise se tiver dúvidas.
+Can we align on the next steps? | Podemos alinhar os próximos passos?
+I’ll keep you posted. | Te mantenho informado.
+We’re on track with the deadline. | Estamos no prazo.
+There’s a small delay. | Há um pequeno atraso.
+We’re working to resolve it. | Estamos trabalhando para resolver.
+There was a mistake in the data. | Houve um erro nos dados.
+The issue came from the input file. | O problema veio do arquivo de entrada.
+We already fixed the issue. | Já corrigimos o problema.
+The values are correct now. | Os valores estão corretos agora.
+Thanks for flagging this. | Obrigado por sinalizar isso.
+This was not expected. | Isso não era esperado.
+We’re investigating the root cause. | Estamos investigando a causa.
+We want to avoid this next time. | Queremos evitar isso da próxima vez.
+We’re adding an extra check. | Estamos adicionando uma conferência extra.
+This should not happen again. | Isso não deve acontecer novamente.
+I take responsibility for this. | Eu assumo a responsabilidade por isso.
+Thanks for your patience. | Obrigado pela paciência.
+We appreciate your understanding. | Agradecemos a compreensão.
+Please let us know if you see anything else. | Avise se notar mais alguma coisa.
+We’re here to support. | Estamos aqui para apoiar.
+Let me explain the situation. | Deixa eu explicar a situação.
+Here’s the full context. | Aqui está o contexto completo.
+This happened due to a system issue. | Isso aconteceu por causa de um problema no sistema.
+We followed the standard process. | Seguimos o processo padrão.
+The calculation was done correctly. | O cálculo foi feito corretamente.
+The impact was limited. | O impacto foi limitado.
+No employees were affected. | Nenhum colaborador foi impactado.
+Payment will be made on time. | O pagamento será feito em dia.
+There’s no action needed from your side. | Não é necessária nenhuma ação da sua parte.
+We’ll monitor this closely. | Vamos acompanhar isso de perto.
+If anything changes, we’ll inform you. | Se algo mudar, avisamos.
+This is already under control. | Isso já está sob controle.
+We’re aligned with Finance. | Estamos alinhados com o Financeiro.
+We have management approval. | Temos aprovação da gestão.
+We’re good to proceed. | Podemos seguir.
+This is my role today. | Esse é o meu papel hoje.
+I work closely with different teams. | Trabalho de perto com times diferentes.
+I focus on accuracy and deadlines. | Tenho foco em precisão e prazos.
+I support payroll and reporting. | Dou suporte à folha e relatórios.
+I help prevent issues before payment. | Ajudo a evitar problemas antes do pagamento.
+I’m used to tight deadlines. | Estou acostumado com prazos apertados.
+I stay calm under pressure. | Mantenho a calma sob pressão.
+I communicate clearly with stakeholders. | Me comunico de forma clara com as partes envolvidas.
+I escalate issues when needed. | Escalo problemas quando necessário.
+I make sure everyone is paid correctly. | Garanto que todos sejam pagos corretamente.
+This is how I add value. | É assim que eu gero valor.
+I’m always improving the process. | Estou sempre melhorando o processo.
+I learn from past issues. | Aprendo com problemas passados.
+I’m comfortable working in English. | Fico à vontade trabalhando em inglês.
+I’m ready for the next challenge. | Estou pronto para o próximo desafio.
+This is my role today. | Esse é o meu papel hoje.
+I work closely with different teams. | Trabalho de perto com times diferentes.
+I focus on accuracy and deadlines. | Tenho foco em precisão e prazos.
+I support payroll and reporting. | Dou suporte à folha e relatórios.
+I help prevent issues before payment. | Ajudo a evitar problemas antes do pagamento.
+I’m used to tight deadlines. | Estou acostumado com prazos apertados.
+I stay calm under pressure. | Mantenho a calma sob pressão.
+I communicate clearly with stakeholders. | Me comunico de forma clara com as partes envolvidas.
+I escalate issues when needed. | Escalo problemas quando necessário.
+I make sure everyone is paid correctly. | Garanto que todos sejam pagos corretamente.
+This is how I add value. | É assim que eu gero valor.
+I’m always improving the process. | Estou sempre melhorando o processo.
+I learn from past issues. | Aprendo com problemas passados.
+I’m comfortable working in English. | Fico à vontade trabalhando em inglês.
+I’m ready for the next challenge. | Estou pronto para o próximo desafio.
+I need to align this with Finance. | Preciso alinhar isso com o Financeiro.
+We’re waiting for final confirmation. | Estamos aguardando a confirmação final.
+Once confirmed, we can proceed. | Assim que confirmar, podemos seguir.
+This depends on your approval. | Isso depende da sua aprovação.
+We need to make a decision today. | Precisamos tomar uma decisão hoje.
+Let’s keep this simple. | Vamos manter isso simples.
+We’re aligned on the approach. | Estamos alinhados quanto à abordagem.
+This makes sense to me. | Isso faz sentido para mim.
+I agree with this plan. | Concordo com esse plano.
+Let’s move forward with this. | Vamos seguir com isso.
+I’ll document the decision. | Vou documentar a decisão.
+This is the agreed action. | Essa é a ação acordada.
+We’re all on the same page. | Estamos todos alinhados.
+No further action is needed. | Não é necessária mais nenhuma ação.
+We can close this topic. | Podemos encerrar esse assunto.
+There was a delay in the process. | Houve um atraso no processo.
+The delay was due to missing data. | O atraso foi por falta de dados.
+We received the information late. | Recebemos a informação tarde.
+This impacted the timeline. | Isso impactou o cronograma.
+We adjusted the schedule. | Ajustamos o cronograma.
+We’re back on track now. | Agora voltamos ao normal.
+This won’t affect the payment. | Isso não vai afetar o pagamento.
+We communicated the delay. | Comunicamos o atraso.
+Thanks for the update. | Obrigado pela atualização.
+Please keep me informed. | Por favor, me mantenha informado.
+I’ll share an update soon. | Vou compartilhar uma atualização em breve.
+We’re monitoring the situation. | Estamos monitorando a situação.
+This is being handled. | Isso está sendo tratado.
+We expect no further delays. | Não esperamos mais atrasos.
+Everything is under control. | Está tudo sob controle.
+Let me clarify this point. | Deixa eu esclarecer esse ponto.
+There seems to be some confusion. | Parece haver uma confusão.
+This is how the process works. | É assim que o processo funciona.
+I’ll walk you through it. | Vou te explicar passo a passo.
+Here’s a simple example. | Aqui está um exemplo simples.
+This is based on the policy. | Isso é baseado na política.
+This follows the standard rule. | Isso segue a regra padrão.
+There’s no exception here. | Não há exceção aqui.
+This applies to everyone. | Isso se aplica a todos.
+That’s why the value changed. | Por isso o valor mudou.
+I hope this clarifies it. | Espero que isso esclareça.
+Let me know if it’s clear now. | Me avise se agora ficou claro.
+I’m happy to explain again. | Fico à disposição para explicar de novo.
+We want full transparency. | Queremos total transparência.
+Clarity is important here. | Clareza é importante aqui.
+I’m reviewing this profile. | Estou revisando esse perfil.
+This candidate has relevant experience. | Esse candidato tem experiência relevante.
+They worked with payroll systems. | Já trabalharam com sistemas de folha.
+They understand deadlines and controls. | Entendem prazos e controles.
+Communication skills are strong. | As habilidades de comunicação são fortes.
+They handle pressure well. | Lidam bem com pressão.
+They ask the right questions. | Fazem as perguntas certas.
+They focus on accuracy. | Têm foco em precisão.
+They understand the business impact. | Entendem o impacto no negócio.
+This matches our expectations. | Isso atende às nossas expectativas.
+They would add value to the team. | Agregariam valor ao time.
+This is a good fit. | É um bom encaixe.
+I recommend moving forward. | Recomendo seguir adiante.
+Let’s proceed with the next step. | Vamos seguir para o próximo passo.
+I’m available for questions. | Fico à disposição para perguntas.
+In my current role, I support payroll operations. | Na minha função atual, dou suporte às operações de folha.
+I work with monthly and off-cycle payroll. | Trabalho com folha mensal e complementar.
+I ensure data accuracy before processing. | Garanto a precisão dos dados antes do processamento.
+I work closely with HR and Finance. | Trabalho próximo ao RH e Financeiro.
+I handle adjustments and corrections. | Trato ajustes e correções.
+I help resolve payroll issues. | Ajudo a resolver problemas de folha.
+I communicate clearly with stakeholders. | Me comunico claramente com as partes envolvidas.
+I’m used to global environments. | Estou acostumado a ambientes globais.
+I meet strict deadlines. | Cumpro prazos rigorosos.
+I focus on continuous improvement. | Tenho foco em melhoria contínua.
+I document processes and controls. | Documento processos e controles.
+I support audits when needed. | Dou suporte a auditorias quando necessário.
+I’m proactive in identifying risks. | Sou proativo em identificar riscos.
+I bring structure to the process. | Trago estrutura ao processo.
+I’m ready to contribute from day one. | Estou pronto para contribuir desde o primeiro dia.
+I’m working on this now. | Estou trabalhando nisso agora.
+This is my main priority today. | Isso é minha principal prioridade hoje.
+Let me check this and get back to you. | Deixa eu verificar isso e te retorno.
+Just to confirm the details. | Só para confirmar os detalhes.
+We’re aligned on this. | Estamos alinhados sobre isso.
+There’s an issue we need to fix. | Há um problema que precisamos corrigir.
+The numbers don’t look right. | Os números não parecem corretos.
+We’re reviewing this carefully. | Estamos revisando isso com cuidado.
+This needs an adjustment. | Isso precisa de um ajuste.
+It’s under control now. | Agora está sob controle.
+We need your approval to proceed. | Precisamos da sua aprovação para seguir.
+Once approved, we’ll move forward. | Assim que aprovado, vamos avançar.
+I’ll keep you updated. | Vou te manter atualizado.
+Please let me know if you have questions. | Por favor, me avise se tiver dúvidas.
+Thanks for the support. | Obrigado pelo apoio.
+I’m working on that right now. | Estou trabalhando nisso agora.
+We’re on track with this. | Estamos no prazo com isso.
+There’s a small delay, but it’s under control. | Há um pequeno atraso, mas está sob controle.
+We’re waiting for confirmation. | Estamos aguardando confirmação.
+Once we get approval, we’ll proceed. | Assim que tivermos aprovação, seguimos.
+Let me clarify this point. | Deixa eu esclarecer esse ponto.
+From my side, everything looks fine. | Do meu lado, está tudo certo.
+I agree with this approach. | Concordo com essa abordagem.
+That makes sense to me. | Isso faz sentido para mim.
+I don’t see any major issues. | Não vejo nenhum problema relevante.
+We need to decide this today. | Precisamos decidir isso hoje.
+Let’s align on the next steps. | Vamos alinhar os próximos passos.
+I’ll follow up after the meeting. | Vou retomar isso depois da reunião.
+I’ll send an update later today. | Vou enviar uma atualização mais tarde hoje.
+Let me know if you need anything from me. | Me avise se precisar de algo de mim.
+I’m aligned with this proposal. | Estou alinhado com essa proposta.
+From my perspective, this works. | Do meu ponto de vista, isso funciona.
+I don’t see any blockers right now. | Não vejo impedimentos no momento.
+We can move forward with this. | Podemos seguir com isso.
+This is manageable from our side. | Isso é administrável do nosso lado.
+We’re still validating the data. | Ainda estamos validando os dados.
+I need a bit more time to confirm. | Preciso de mais um tempo para confirmar.
+I’ll confirm this by the end of the day. | Confirmo isso até o fim do dia.
+I’m checking this with the team. | Estou validando isso com o time.
+I’ll come back with an answer soon. | Retorno com uma resposta em breve.
+This is already in progress. | Isso já está em andamento.
+We’ve already started working on it. | Já começamos a trabalhar nisso.
+This is part of our current scope. | Isso faz parte do nosso escopo atual.
+This is not in scope for now. | Isso não está no escopo no momento.
+We can revisit this later. | Podemos retomar isso depois.
+I agree in principle. | Concordo em princípio.
+I have a small concern here. | Tenho uma pequena preocupação aqui.
+We should be careful with this. | Devemos ter cuidado com isso.
+This might impact the timeline. | Isso pode impactar o cronograma.
+We need to assess the risk. | Precisamos avaliar o risco.
+Let’s park this for now. | Vamos deixar isso em espera por enquanto.
+Let’s take this offline. | Vamos tratar isso fora da reunião.
+We can discuss this after the call. | Podemos discutir isso depois da call.
+This doesn’t require discussion now. | Isso não precisa de discussão agora.
+We’ll address this separately. | Vamos tratar isso separadamente.
+Thanks for raising this point. | Obrigado por trazer esse ponto.
+That’s a good question. | Essa é uma boa pergunta.
+I don’t have that information yet. | Ainda não tenho essa informação.
+I’ll need to double-check that. | Vou precisar conferir isso.
+Let me get back to you on that. | Te retorno sobre isso.
+From an operational standpoint, this works. | Do ponto de vista operacional, isso funciona.
+This aligns with our process. | Isso está alinhado com nosso processo.
+This follows our standard approach. | Isso segue nossa abordagem padrão.
+We’re comfortable with this decision. | Estamos confortáveis com essa decisão.
+This is the best option for now. | Essa é a melhor opção no momento.
+I’m okay with this direction. | Estou de acordo com essa direção.
+We just need final confirmation. | Só precisamos da confirmação final.
+Once confirmed, we’re good to go. | Confirmando, estamos prontos para seguir.
+No action is needed from my side. | Do meu lado, não é necessária ação.
+I’ll support this as needed. | Vou dar suporte conforme necessário.
+I’m fine with this approach. | Estou de acordo com essa abordagem.
+This works for me. | Para mim, funciona.
+I don’t have any objections. | Não tenho objeções.
+From my side, we can proceed. | Do meu lado, podemos seguir.
+I’m comfortable with this plan. | Estou confortável com esse plano.
+We need to be realistic about timing. | Precisamos ser realistas com os prazos.
+This may take longer than expected. | Isso pode levar mais tempo do que o esperado.
+We should factor this in. | Devemos considerar isso.
+This could require extra effort. | Isso pode exigir esforço extra.
+We need to plan accordingly. | Precisamos planejar de acordo.
+I’ll take ownership of this. | Vou assumir isso.
+This is on my radar. | Isso está no meu radar.
+I’ll make sure this is handled. | Vou garantir que isso seja tratado.
+I’ll follow this closely. | Vou acompanhar isso de perto.
+I’ll flag any issues early. | Vou sinalizar qualquer problema cedo.
+We’re aligned with the business. | Estamos alinhados com o negócio.
+This supports our objectives. | Isso apoia nossos objetivos.
+This is the right direction. | Essa é a direção certa.
+I see the value in this. | Vejo valor nisso.
+This is a reasonable request. | É uma solicitação razoável.
+We can close this item. | Podemos encerrar esse item.
+Let’s move on to the next topic. | Vamos para o próximo assunto.
+That covers everything from my side. | Do meu lado, isso cobre tudo.
+No further comments from me. | Sem mais comentários da minha parte.
+I’m done here. | Por mim, está ok.
