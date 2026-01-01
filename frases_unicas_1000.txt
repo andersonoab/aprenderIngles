@@ -8,515 +8,103 @@ even though many of the stories took hours to complete. | mesmo que muitas hist�
 “There is only one fault with your story,” he often said, | “Há apenas uma falha na sua história,” ele frequentemente dizia,
 “it is too short.” | “ela é muito curta.”
 All the storytellers in the world were invited to his palace; | Todos os contadores de histórias do mundo eram convidados ao seu palácio;
-
-and some of them told stories that were very long indeed. | e alguns deles contavam histórias que eram de fato muito longas.
-Q001: Your resume shows several moves. What drove each move? | Your currículo shows several moves. What drove each move?
-A001: I focused on consistency in my story and messaging, and I backed it up with a consistent story. | Eu foquei em consistência na minha história e na minha mensagem, and I backed it up with a consistent story.
-Q002: How do you respond to concerns about job hopping? | Como você respondeu a preocupações sobre trocas frequentes de emprego (job hopping)?
-A002: I handled the question directly, explained the situation, and offered a portfolio of improvements as proof. | Eu tratei a pergunta diretamente, explained the situation, and propostaed a portfolio of improvements as proof.
-Q003: Why did you change jobs so often? | Por que você mudou de emprego com tanta frequência?
-A003: That raised a lot of eyebrows at first, but my references confirmed my story was consistent. | That levantou muitas sobrancelhas (causou estranhamento) at first, but my references confirmed my story was consistent.
-Q004: What did you do to reduce the risk of being seen as a flight risk? | O que você fez para reduzir o risco de ser visto como alguém que sairia rápido?
-A004: I handled the question directly, explained the situation, and offered a consistent story as proof. | Eu tratei a pergunta diretamente, explained the situation, and propostaed a consistent story as proof.
-Q005: How did you decide it was time to make a move? | Como você decidiu que era hora de fazer uma mudança?
-A005: I changed roles because the scope expanded and I was promoted. | Eu mudei de função porque the scope expanded and I was promoted.
-Q006: How did you keep consistency in your story and messaging during interviews? | Como você manteve consistência na sua história e na sua mensagem durante entrevistas?
-A006: That raised a lot of eyebrows at first, but my references confirmed my story was consistent. | That levantou muitas sobrancelhas (causou estranhamento) at first, but my references confirmed my story was consistent.
-Q007: Your resume shows several moves. What drove each move? | Your currículo shows several moves. What drove each move?
-A007: I avoided being labeled a job hopper by showing measurable outcomes and stable responsibilities. | Eu evitei ser rotulado como alguém que troca muito de emprego by showing measurable outcomes and stable responsibilities.
-Q008: Why did you change jobs so often? | Por que você mudou de emprego com tanta frequência?
-A008: Each move had a clear reason, and I can explain the why behind each one. | Cada mudança teve um motivo claro, and I can explain the why behind each one.
-Q009: What did you do to reduce the risk of being seen as a flight risk? | O que você fez para reduzir o risco de ser visto como alguém que sairia rápido?
-A009: I learned to adapt quickly, and I kept the payroll operation stable during transitions. | Eu aprendi a me adaptar rapidamente, and I kept the folha (payroll) operation stable during transitions.
-Q010: Your resume shows several moves. What drove each move? | Your currículo shows several moves. What drove each move?
-A010: That raised a lot of eyebrows at first, but my references confirmed my story was consistent. | That levantou muitas sobrancelhas (causou estranhamento) at first, but my references confirmed my story was consistent.
-Q011: What would you say to a manager if your job history raised a lot of eyebrows? | What would you say to a gestor if your job history levantou muitas sobrancelhas (causou estranhamento)?
-A011: I focused on consistency in my story and messaging, and I backed it up with a manager's recommendation. | Eu foquei em consistência na minha história e na minha mensagem, and I backed it up with a gestor's recommendation.
-Q012: How do you respond to concerns about gaps in employment? | Como você respondeu a preocupações sobre gaps in employment?
-A012: That raised a lot of eyebrows at first, but my references confirmed my story was consistent. | That levantou muitas sobrancelhas (causou estranhamento) at first, but my references confirmed my story was consistent.
-Q013: How did you build trust with recruiters when your timeline looked unusual? | How did you build trust with recrutadors when your timeline looked unusual?
-A013: That raised a lot of eyebrows at first, but my references confirmed my story was consistent. | That levantou muitas sobrancelhas (causou estranhamento) at first, but my references confirmed my story was consistent.
-Q014: What did you learn from moving between companies? | O que você aprendeu ao mudar entre empresas?
-A014: I handled the question directly, explained the situation, and offered a manager's recommendation as proof. | Eu tratei a pergunta diretamente, explained the situation, and propostaed a gestor's recommendation as proof.
-Q015: Why did you change jobs so often? | Por que você mudou de emprego com tanta frequência?
-A015: I avoided being labeled a job hopper by showing measurable outcomes and stable responsibilities. | Eu evitei ser rotulado como alguém que troca muito de emprego by showing measurable outcomes and stable responsibilities.
-Q016: Your resume shows several moves. What drove each move? | Your currículo shows several moves. What drove each move?
-A016: I avoided being labeled a job hopper by showing measurable outcomes and stable responsibilities. | Eu evitei ser rotulado como alguém que troca muito de emprego by showing measurable outcomes and stable responsibilities.
-Q017: What did you learn from moving between companies? | O que você aprendeu ao mudar entre empresas?
-A017: I focused on consistency in my story and messaging, and I backed it up with a consistent story. | Eu foquei em consistência na minha história e na minha mensagem, and I backed it up with a consistent story.
-Q018: What did you do to reduce the risk of being seen as a flight risk? | O que você fez para reduzir o risco de ser visto como alguém que sairia rápido?
-A018: I learned to adapt quickly, and I kept the payroll operation stable during transitions. | Eu aprendi a me adaptar rapidamente, and I kept the folha (payroll) operation stable during transitions.
-Q019: How did you keep consistency in your story and messaging during interviews? | Como você manteve consistência na sua história e na sua mensagem durante entrevistas?
-A019: I handled the question directly, explained the situation, and offered a documented handover as proof. | Eu tratei a pergunta diretamente, explained the situation, and propostaed a documented handover as proof.
-Q020: Why did you change jobs so often? | Por que você mudou de emprego com tanta frequência?
-A020: I addressed that concern by sharing a documented handover and being transparent about the context. | Eu tratei essa preocupação compartilhando a documented handover and being transparent about the context.
-Q021: What did you learn from moving between companies? | O que você aprendeu ao mudar entre empresas?
-A021: I kept my narrative consistent and highlighted what I improved in each payroll cycle. | Eu mantive minha narrativa consistente and highlighted what I improved in each folha (payroll) cycle.
-Q022: What did you do to reduce the risk of being seen as a flight risk? | O que você fez para reduzir o risco de ser visto como alguém que sairia rápido?
-A022: Each move had a clear reason, and I can explain the why behind each one. | Cada mudança teve um motivo claro, and I can explain the why behind each one.
-Q023: How did you keep consistency in your story and messaging during interviews? | Como você manteve consistência na sua história e na sua mensagem durante entrevistas?
-A023: I made moves when the business direction changed, and I documented the impact I delivered. | Eu fiz mudanças quando a direção do negócio mudou, and I documented the impact I delivered.
-Q024: Why did you change jobs so often? | Por que você mudou de emprego com tanta frequência?
-A024: I addressed that concern by sharing a documented handover and being transparent about the context. | Eu tratei essa preocupação compartilhando a documented handover and being transparent about the context.
-Q025: Can you summarize the reason behind each transition? | Você pode summarize o motivo por trás de cada transição?
-A025: That raised a lot of eyebrows at first, but my references confirmed my story was consistent. | That levantou muitas sobrancelhas (causou estranhamento) at first, but my references confirmed my story was consistent.
-Q026: How do you respond to concerns about frequent changes on the resume? | Como você respondeu a preocupações sobre frequent changes on the currículo?
-A026: I changed roles because I took a contract to cover a leave. | Eu mudei de função porque I took a contract to cover a leave.
-Q027: How did you decide it was time to make a move? | Como você decidiu que era hora de fazer uma mudança?
-A027: I avoided being labeled a job hopper by showing measurable outcomes and stable responsibilities. | Eu evitei ser rotulado como alguém que troca muito de emprego by showing measurable outcomes and stable responsibilities.
-Q028: Why did you change jobs so often? | Por que você mudou de emprego com tanta frequência?
-A028: Each move had a clear reason, and I can explain the why behind each one. | Cada mudança teve um motivo claro, and I can explain the why behind each one.
-Q029: Your resume shows several moves. What drove each move? | Your currículo shows several moves. What drove each move?
-A029: I addressed that concern by sharing clear performance metrics and being transparent about the context. | Eu tratei essa preocupação compartilhando clear performance metrics and being transparent about the context.
-Q030: Can you summarize the reason behind each transition? | Você pode summarize o motivo por trás de cada transição?
-A030: I made moves when the business direction changed, and I documented the impact I delivered. | Eu fiz mudanças quando a direção do negócio mudou, and I documented the impact I delivered.
-Q031: Can you outline the reason behind each transition? | Você pode outline o motivo por trás de cada transição?
-A031: I avoided being labeled a job hopper by showing measurable outcomes and stable responsibilities. | Eu evitei ser rotulado como alguém que troca muito de emprego by showing measurable outcomes and stable responsibilities.
-Q032: Your resume shows several moves. What drove each move? | Your currículo shows several moves. What drove each move?
-A032: Each move had a clear reason, and I can explain the why behind each one. | Cada mudança teve um motivo claro, and I can explain the why behind each one.
-Q033: How did you build trust with recruiters when your timeline looked unusual? | How did you build trust with recrutadors when your timeline looked unusual?
-A033: I learned to adapt quickly, and I kept the payroll operation stable during transitions. | Eu aprendi a me adaptar rapidamente, and I kept the folha (payroll) operation stable during transitions.
-Q034: Your resume shows several moves. What drove each move? | Your currículo shows several moves. What drove each move?
-A034: Each move had a clear reason, and I can explain the why behind each one. | Cada mudança teve um motivo claro, and I can explain the why behind each one.
-Q035: Your resume shows several moves. What drove each move? | Your currículo shows several moves. What drove each move?
-A035: I focused on consistency in my story and messaging, and I backed it up with a consistent story. | Eu foquei em consistência na minha história e na minha mensagem, and I backed it up with a consistent story.
-Q036: What did you do to reduce the risk of being seen as a flight risk? | O que você fez para reduzir o risco de ser visto como alguém que sairia rápido?
-A036: I learned to adapt quickly, and I kept the payroll operation stable during transitions. | Eu aprendi a me adaptar rapidamente, and I kept the folha (payroll) operation stable during transitions.
-Q037: What would you say to a manager if your job history raised a lot of eyebrows? | What would you say to a gestor if your job history levantou muitas sobrancelhas (causou estranhamento)?
-A037: That raised a lot of eyebrows at first, but my references confirmed my story was consistent. | That levantou muitas sobrancelhas (causou estranhamento) at first, but my references confirmed my story was consistent.
-Q038: What did you learn from moving between companies? | O que você aprendeu ao mudar entre empresas?
-A038: I made moves when the business direction changed, and I documented the impact I delivered. | Eu fiz mudanças quando a direção do negócio mudou, and I documented the impact I delivered.
-Q039: Your resume shows several moves. What drove each move? | Your currículo shows several moves. What drove each move?
-A039: I avoided being labeled a job hopper by showing measurable outcomes and stable responsibilities. | Eu evitei ser rotulado como alguém que troca muito de emprego by showing measurable outcomes and stable responsibilities.
-Q040: What would you say to a manager if your job history raised a lot of eyebrows? | What would you say to a gestor if your job history levantou muitas sobrancelhas (causou estranhamento)?
-A040: I kept my narrative consistent and highlighted what I improved in each payroll cycle. | Eu mantive minha narrativa consistente and highlighted what I improved in each folha (payroll) cycle.
-Q041: How do you respond to concerns about gaps in employment? | Como você respondeu a preocupações sobre gaps in employment?
-A041: That raised a lot of eyebrows at first, but my references confirmed my story was consistent. | That levantou muitas sobrancelhas (causou estranhamento) at first, but my references confirmed my story was consistent.
-Q042: What did you do to reduce the risk of being seen as a flight risk? | O que você fez para reduzir o risco de ser visto como alguém que sairia rápido?
-A042: I handled the question directly, explained the situation, and offered a documented handover as proof. | Eu tratei a pergunta diretamente, explained the situation, and propostaed a documented handover as proof.
-Q043: What would you say to a manager if your job history raised a lot of eyebrows? | What would you say to a gestor if your job history levantou muitas sobrancelhas (causou estranhamento)?
-A043: I kept my narrative consistent and highlighted what I improved in each payroll cycle. | Eu mantive minha narrativa consistente and highlighted what I improved in each folha (payroll) cycle.
-Q044: What did you learn from moving between companies? | O que você aprendeu ao mudar entre empresas?
-A044: I made moves when the business direction changed, and I documented the impact I delivered. | Eu fiz mudanças quando a direção do negócio mudou, and I documented the impact I delivered.
-Q045: Can you walk me through the reason behind each transition? | Você pode walk me through o motivo por trás de cada transição?
-A045: I made moves when the business direction changed, and I documented the impact I delivered. | Eu fiz mudanças quando a direção do negócio mudou, and I documented the impact I delivered.
-Q046: How do you respond to concerns about short tenures? | Como você respondeu a preocupações sobre short tenures?
-A046: That raised a lot of eyebrows at first, but my references confirmed my story was consistent. | That levantou muitas sobrancelhas (causou estranhamento) at first, but my references confirmed my story was consistent.
-Q047: How did you keep consistency in your story and messaging during interviews? | Como você manteve consistência na sua história e na sua mensagem durante entrevistas?
-A047: I learned to adapt quickly, and I kept the payroll operation stable during transitions. | Eu aprendi a me adaptar rapidamente, and I kept the folha (payroll) operation stable during transitions.
-Q048: Why did you change jobs so often? | Por que você mudou de emprego com tanta frequência?
-A048: I addressed that concern by sharing a documented handover and being transparent about the context. | Eu tratei essa preocupação compartilhando a documented handover and being transparent about the context.
-Q049: What would you say to a manager if your job history raised a lot of eyebrows? | What would you say to a gestor if your job history levantou muitas sobrancelhas (causou estranhamento)?
-A049: I learned to adapt quickly, and I kept the payroll operation stable during transitions. | Eu aprendi a me adaptar rapidamente, and I kept the folha (payroll) operation stable during transitions.
-Q050: How did you build trust with recruiters when your timeline looked unusual? | How did you build trust with recrutadors when your timeline looked unusual?
-A050: I learned to adapt quickly, and I kept the payroll operation stable during transitions. | Eu aprendi a me adaptar rapidamente, and I kept the folha (payroll) operation stable during transitions.
-Q051: Can you outline the reason behind each transition? | Você pode outline o motivo por trás de cada transição?
-A051: I avoided being labeled a job hopper by showing measurable outcomes and stable responsibilities. | Eu evitei ser rotulado como alguém que troca muito de emprego by showing measurable outcomes and stable responsibilities.
-Q052: What did you learn from moving between companies? | O que você aprendeu ao mudar entre empresas?
-A052: I focused on consistency in my story and messaging, and I backed it up with a manager's recommendation. | Eu foquei em consistência na minha história e na minha mensagem, and I backed it up with a gestor's recommendation.
-Q053: Your resume shows several moves. What drove each move? | Your currículo shows several moves. What drove each move?
-A053: I learned to adapt quickly, and I kept the payroll operation stable during transitions. | Eu aprendi a me adaptar rapidamente, and I kept the folha (payroll) operation stable during transitions.
-Q054: Your resume shows several moves. What drove each move? | Your currículo shows several moves. What drove each move?
-A054: I handled the question directly, explained the situation, and offered clear performance metrics as proof. | Eu tratei a pergunta diretamente, explained the situation, and propostaed clear performance metrics as proof.
-Q055: How did you keep consistency in your story and messaging during interviews? | Como você manteve consistência na sua história e na sua mensagem durante entrevistas?
-A055: I avoided being labeled a job hopper by showing measurable outcomes and stable responsibilities. | Eu evitei ser rotulado como alguém que troca muito de emprego by showing measurable outcomes and stable responsibilities.
-Q056: How did you decide it was time to make a move? | Como você decidiu que era hora de fazer uma mudança?
-A056: I focused on consistency in my story and messaging, and I backed it up with strong references. | Eu foquei em consistência na minha história e na minha mensagem, and I backed it up with strong references.
-Q057: What did you do to reduce the risk of being seen as a flight risk? | O que você fez para reduzir o risco de ser visto como alguém que sairia rápido?
-A057: Each move had a clear reason, and I can explain the why behind each one. | Cada mudança teve um motivo claro, and I can explain the why behind each one.
-Q058: Your resume shows several moves. What drove each move? | Your currículo shows several moves. What drove each move?
-A058: I handled the question directly, explained the situation, and offered transparent timelines as proof. | Eu tratei a pergunta diretamente, explained the situation, and propostaed transparent timelines as proof.
-Q059: Can you clarify the reason behind each transition? | Você pode clarify o motivo por trás de cada transição?
-A059: I avoided being labeled a job hopper by showing measurable outcomes and stable responsibilities. | Eu evitei ser rotulado como alguém que troca muito de emprego by showing measurable outcomes and stable responsibilities.
-Q060: What did you do to reduce the risk of being seen as a flight risk? | O que você fez para reduzir o risco de ser visto como alguém que sairia rápido?
-A060: I changed roles because the role changed after a reorganization. | Eu mudei de função porque the role changed after a reorganization.
-Q061: Can you explain the reason behind each transition? | Você pode explain o motivo por trás de cada transição?
-A061: I avoided being labeled a job hopper by showing measurable outcomes and stable responsibilities. | Eu evitei ser rotulado como alguém que troca muito de emprego by showing measurable outcomes and stable responsibilities.
-Q062: How do you respond to concerns about too many moves in a short period? | Como você respondeu a preocupações sobre too many moves in a short period?
-A062: I made moves when the business direction changed, and I documented the impact I delivered. | Eu fiz mudanças quando a direção do negócio mudou, and I documented the impact I delivered.
-Q063: Your resume shows several moves. What drove each move? | Your currículo shows several moves. What drove each move?
-A063: I addressed that concern by sharing strong references and being transparent about the context. | Eu tratei essa preocupação compartilhando strong references and being transparent about the context.
-Q064: How did you keep consistency in your story and messaging during interviews? | Como você manteve consistência na sua história e na sua mensagem durante entrevistas?
-A064: I addressed that concern by sharing clear performance metrics and being transparent about the context. | Eu tratei essa preocupação compartilhando clear performance metrics and being transparent about the context.
-Q065: Why did you change jobs so often? | Por que você mudou de emprego com tanta frequência?
-A065: I changed roles because the project ended. | Eu mudei de função porque the project ended.
-Q066: What would you say to a manager if your job history raised a lot of eyebrows? | What would you say to a gestor if your job history levantou muitas sobrancelhas (causou estranhamento)?
-A066: I handled the question directly, explained the situation, and offered clear performance metrics as proof. | Eu tratei a pergunta diretamente, explained the situation, and propostaed clear performance metrics as proof.
-Q067: What would you say to a manager if your job history raised a lot of eyebrows? | What would you say to a gestor if your job history levantou muitas sobrancelhas (causou estranhamento)?
-A067: I made moves when the business direction changed, and I documented the impact I delivered. | Eu fiz mudanças quando a direção do negócio mudou, and I documented the impact I delivered.
-Q068: How did you keep consistency in your story and messaging during interviews? | Como você manteve consistência na sua história e na sua mensagem durante entrevistas?
-A068: That raised a lot of eyebrows at first, but my references confirmed my story was consistent. | That levantou muitas sobrancelhas (causou estranhamento) at first, but my references confirmed my story was consistent.
-Q069: Your resume shows several moves. What drove each move? | Your currículo shows several moves. What drove each move?
-A069: I kept my narrative consistent and highlighted what I improved in each payroll cycle. | Eu mantive minha narrativa consistente and highlighted what I improved in each folha (payroll) cycle.
-Q070: How did you decide it was time to make a move? | Como você decidiu que era hora de fazer uma mudança?
-A070: That raised a lot of eyebrows at first, but my references confirmed my story was consistent. | That levantou muitas sobrancelhas (causou estranhamento) at first, but my references confirmed my story was consistent.
-Q071: What would you say to a manager if your job history raised a lot of eyebrows? | What would you say to a gestor if your job history levantou muitas sobrancelhas (causou estranhamento)?
-A071: I focused on consistency in my story and messaging, and I backed it up with transparent timelines. | Eu foquei em consistência na minha história e na minha mensagem, and I backed it up with transparent timelines.
-Q072: How did you keep consistency in your story and messaging during interviews? | Como você manteve consistência na sua história e na sua mensagem durante entrevistas?
-A072: I handled the question directly, explained the situation, and offered strong references as proof. | Eu tratei a pergunta diretamente, explained the situation, and propostaed strong references as proof.
-Q073: Your resume shows several moves. What drove each move? | Your currículo shows several moves. What drove each move?
-A073: I learned to adapt quickly, and I kept the payroll operation stable during transitions. | Eu aprendi a me adaptar rapidamente, and I kept the folha (payroll) operation stable during transitions.
-Q074: Your resume shows several moves. What drove each move? | Your currículo shows several moves. What drove each move?
-A074: I avoided being labeled a job hopper by showing measurable outcomes and stable responsibilities. | Eu evitei ser rotulado como alguém que troca muito de emprego by showing measurable outcomes and stable responsibilities.
-Q075: How did you build trust with recruiters when your timeline looked unusual? | How did you build trust with recrutadors when your timeline looked unusual?
-A075: I made moves when the business direction changed, and I documented the impact I delivered. | Eu fiz mudanças quando a direção do negócio mudou, and I documented the impact I delivered.
-Q076: Can you outline the reason behind each transition? | Você pode outline o motivo por trás de cada transição?
-A076: I made moves when the business direction changed, and I documented the impact I delivered. | Eu fiz mudanças quando a direção do negócio mudou, and I documented the impact I delivered.
-Q077: How did you keep consistency in your story and messaging during interviews? | Como você manteve consistência na sua história e na sua mensagem durante entrevistas?
-A077: I avoided being labeled a job hopper by showing measurable outcomes and stable responsibilities. | Eu evitei ser rotulado como alguém que troca muito de emprego by showing measurable outcomes and stable responsibilities.
-Q078: Your resume shows several moves. What drove each move? | Your currículo shows several moves. What drove each move?
-A078: I focused on consistency in my story and messaging, and I backed it up with a manager's recommendation. | Eu foquei em consistência na minha história e na minha mensagem, and I backed it up with a gestor's recommendation.
-Q079: What did you learn from moving between companies? | O que você aprendeu ao mudar entre empresas?
-A079: I addressed that concern by sharing a portfolio of improvements and being transparent about the context. | Eu tratei essa preocupação compartilhando a portfolio of improvements and being transparent about the context.
-Q080: What did you learn from moving between companies? | O que você aprendeu ao mudar entre empresas?
-A080: I learned to adapt quickly, and I kept the payroll operation stable during transitions. | Eu aprendi a me adaptar rapidamente, and I kept the folha (payroll) operation stable during transitions.
-Q081: What did you do to reduce the risk of being seen as a flight risk? | O que você fez para reduzir o risco de ser visto como alguém que sairia rápido?
-A081: I focused on consistency in my story and messaging, and I backed it up with a portfolio of improvements. | Eu foquei em consistência na minha história e na minha mensagem, and I backed it up with a portfolio of improvements.
-Q082: How did you build trust with recruiters when your timeline looked unusual? | How did you build trust with recrutadors when your timeline looked unusual?
-A082: I avoided being labeled a job hopper by showing measurable outcomes and stable responsibilities. | Eu evitei ser rotulado como alguém que troca muito de emprego by showing measurable outcomes and stable responsibilities.
-Q083: How did you decide it was time to make a move? | Como você decidiu que era hora de fazer uma mudança?
-A083: I kept my narrative consistent and highlighted what I improved in each payroll cycle. | Eu mantive minha narrativa consistente and highlighted what I improved in each folha (payroll) cycle.
-Q084: Can you outline the reason behind each transition? | Você pode outline o motivo por trás de cada transição?
-A084: I learned to adapt quickly, and I kept the payroll operation stable during transitions. | Eu aprendi a me adaptar rapidamente, and I kept the folha (payroll) operation stable during transitions.
-Q085: What would you say to a manager if your job history raised a lot of eyebrows? | What would you say to a gestor if your job history levantou muitas sobrancelhas (causou estranhamento)?
-A085: That raised a lot of eyebrows at first, but my references confirmed my story was consistent. | That levantou muitas sobrancelhas (causou estranhamento) at first, but my references confirmed my story was consistent.
-Q086: Why did you change jobs so often? | Por que você mudou de emprego com tanta frequência?
-A086: I learned to adapt quickly, and I kept the payroll operation stable during transitions. | Eu aprendi a me adaptar rapidamente, and I kept the folha (payroll) operation stable during transitions.
-Q087: What did you learn from moving between companies? | O que você aprendeu ao mudar entre empresas?
-A087: I made moves when the business direction changed, and I documented the impact I delivered. | Eu fiz mudanças quando a direção do negócio mudou, and I documented the impact I delivered.
-Q088: What would you say to a manager if your job history raised a lot of eyebrows? | What would you say to a gestor if your job history levantou muitas sobrancelhas (causou estranhamento)?
-A088: I changed roles because the role changed after a reorganization. | Eu mudei de função porque the role changed after a reorganization.
-Q089: What would you say to a manager if your job history raised a lot of eyebrows? | What would you say to a gestor if your job history levantou muitas sobrancelhas (causou estranhamento)?
-A089: I handled the question directly, explained the situation, and offered strong references as proof. | Eu tratei a pergunta diretamente, explained the situation, and propostaed strong references as proof.
-Q090: What did you do to reduce the risk of being seen as a flight risk? | O que você fez para reduzir o risco de ser visto como alguém que sairia rápido?
-A090: I kept my narrative consistent and highlighted what I improved in each payroll cycle. | Eu mantive minha narrativa consistente and highlighted what I improved in each folha (payroll) cycle.
-Q091: What did you do to reduce the risk of being seen as a flight risk? | O que você fez para reduzir o risco de ser visto como alguém que sairia rápido?
-A091: I avoided being labeled a job hopper by showing measurable outcomes and stable responsibilities. | Eu evitei ser rotulado como alguém que troca muito de emprego by showing measurable outcomes and stable responsibilities.
-Q092: What did you do to reduce the risk of being seen as a flight risk? | O que você fez para reduzir o risco de ser visto como alguém que sairia rápido?
-A092: I kept my narrative consistent and highlighted what I improved in each payroll cycle. | Eu mantive minha narrativa consistente and highlighted what I improved in each folha (payroll) cycle.
-Q093: What would you say to a manager if your job history raised a lot of eyebrows? | What would you say to a gestor if your job history levantou muitas sobrancelhas (causou estranhamento)?
-A093: I kept my narrative consistent and highlighted what I improved in each payroll cycle. | Eu mantive minha narrativa consistente and highlighted what I improved in each folha (payroll) cycle.
-Q094: How did you decide it was time to make a move? | Como você decidiu que era hora de fazer uma mudança?
-A094: I focused on consistency in my story and messaging, and I backed it up with transparent timelines. | Eu foquei em consistência na minha história e na minha mensagem, and I backed it up with transparent timelines.
-Q095: How did you keep consistency in your story and messaging during interviews? | Como você manteve consistência na sua história e na sua mensagem durante entrevistas?
-A095: Each move had a clear reason, and I can explain the why behind each one. | Cada mudança teve um motivo claro, and I can explain the why behind each one.
-Q096: What would you say to a manager if your job history raised a lot of eyebrows? | What would you say to a gestor if your job history levantou muitas sobrancelhas (causou estranhamento)?
-A096: I addressed that concern by sharing a documented handover and being transparent about the context. | Eu tratei essa preocupação compartilhando a documented handover and being transparent about the context.
-Q097: What did you learn from moving between companies? | O que você aprendeu ao mudar entre empresas?
-A097: I handled the question directly, explained the situation, and offered a portfolio of improvements as proof. | Eu tratei a pergunta diretamente, explained the situation, and propostaed a portfolio of improvements as proof.
-Q098: Why did you change jobs so often? | Por que você mudou de emprego com tanta frequência?
-A098: I made moves when the business direction changed, and I documented the impact I delivered. | Eu fiz mudanças quando a direção do negócio mudou, and I documented the impact I delivered.
-Q099: How did you build trust with recruiters when your timeline looked unusual? | How did you build trust with recrutadors when your timeline looked unusual?
-A099: I changed roles because the project ended. | Eu mudei de função porque the project ended.
-Q100: What did you learn from moving between companies? | O que você aprendeu ao mudar entre empresas?
-A100: I handled the question directly, explained the situation, and offered a consistent story as proof. | Eu tratei a pergunta diretamente, explained the situation, and propostaed a consistent story as proof.
-Q101: When would you ask for a sign-on bonus? | Quando would you ask for a bônus de contratação (sign-on bonus)?
-A101: I aligned my request with market data and asked for a training budget. | Eu alinhei meu pedido with market data and asked for a training budget.
-Q102: If the base salary was not ideal, what did you negotiate instead? | If the salário base was not ideal, what did you negotiate instead?
-A102: I proposed a higher target percentage within the bonus structure. | Eu propus a higher target percentage within the bonus structure.
-Q103: What is a practical way to bridge the gap without changing base pay? | What is a practical way to fechar a diferença (bridge the gap) without changing base pay?
-A103: I asked for flexibility and a review timeline instead of only discussing base pay. | Eu pedi flexibility and a review timeline instead of only discussing base pay.
-Q104: How did you justify your target compensation? | Como você justificou sua remuneração alvo?
-A104: I negotiated a training budget because the base pay could not move. | Eu negociei a training budget porque the base pay could not move.
-Q105: What did you ask for besides money? | O que você pediu além de dinheiro?
-A105: I negotiated a higher target percentage because the base pay could not move. | Eu negociei a higher target percentage porque the base pay could not move.
-Q106: What is a practical way to bridge the gap without changing base pay? | What is a practical way to fechar a diferença (bridge the gap) without changing base pay?
-A106: I asked for flexibility and a review timeline instead of only discussing base pay. | Eu pedi flexibility and a review timeline instead of only discussing base pay.
-Q107: How did you propose a 90-day review for a raise? | How did you propose a revisão em 90 dias para aumento?
-A107: I proposed a higher target percentage within the bonus structure. | Eu propus a higher target percentage within the bonus structure.
-Q108: Which benefits mattered most to you during negotiation? | Quais benefícios importaram mais para você durante a negociação?
-A108: I kept the tone professional and offered options like remote flexibility. | Eu mantive um tom profissional and propostaed options like remote flexibility.
-Q109: How did you propose a 90-day review for a raise? | How did you propose a revisão em 90 dias para aumento?
-A109: I proposed a higher target percentage within the bonus structure. | Eu propus a higher target percentage within the bonus structure.
-Q110: Which benefits mattered most to you during negotiation? | Quais benefícios importaram mais para você durante a negociação?
-A110: I negotiated a retention bonus because the base salary was firm. | Eu negociei a retention bonus porque the salário base was firm.
-Q111: What did you do if the offer was below your expectation? | What did you do if the proposta was below your expectation?
-A111: I focused on total compensation and proposed a higher target percentage to improve the overall package. | Eu foquei em remuneração total and proposed a higher target percentage to improve the overall package.
-Q112: If the base salary was not ideal, what did you negotiate instead? | If the salário base was not ideal, what did you negotiate instead?
-A112: I focused on total compensation and proposed an earlier salary review to improve the overall package. | Eu foquei em remuneração total and proposed an earlier salary review to improve the overall package.
-Q113: What did you ask for besides money? | O que você pediu além de dinheiro?
-A113: I asked for a 90-day review for a raise so performance could be evaluated earlier. | Eu pedi a revisão em 90 dias para aumento so performance could be evaluated earlier.
-Q114: Which benefits mattered most to you during negotiation? | Quais benefícios importaram mais para você durante a negociação?
-A114: I suggested a sign-on bonus to help bridge the gap while keeping base salary unchanged. | Eu sugeri a bônus de contratação (sign-on bonus) to help fechar a diferença (bridge the gap) while keeping salário base unchanged.
-Q115: Which benefits mattered most to you during negotiation? | Quais benefícios importaram mais para você durante a negociação?
-A115: I aligned my request with market data and asked for remote flexibility. | Eu alinhei meu pedido with market data and asked for remote flexibility.
-Q116: What did you ask for besides money? | O que você pediu além de dinheiro?
-A116: I negotiated benefits and timing to reach a fair total compensation. | Eu negociei benefits and timing to reach a fair remuneração total.
-Q117: How did you propose a 90-day review for a raise? | How did you propose a revisão em 90 dias para aumento?
-A117: I suggested a sign-on bonus to help bridge the gap while keeping base salary unchanged. | Eu sugeri a bônus de contratação (sign-on bonus) to help fechar a diferença (bridge the gap) while keeping salário base unchanged.
-Q118: How did you propose a 90-day review for a raise? | How did you propose a revisão em 90 dias para aumento?
-A118: I negotiated benefits and timing to reach a fair total compensation. | Eu negociei benefits and timing to reach a fair remuneração total.
-Q119: When would you ask for a sign-on bonus? | Quando would you ask for a bônus de contratação (sign-on bonus)?
-A119: I suggested a sign-on bonus to help bridge the gap while keeping base salary unchanged. | Eu sugeri a bônus de contratação (sign-on bonus) to help fechar a diferença (bridge the gap) while keeping salário base unchanged.
-Q120: How did you increase total compensation when the employer was touchy about the base number? | How did you increase remuneração total when the employer was touchy about the base number?
-A120: I aligned my request with market data and asked for a one-time stipend. | Eu alinhei meu pedido with market data and asked for a one-time stipend.
-Q121: What did you ask for besides money? | O que você pediu além de dinheiro?
-A121: I negotiated remote flexibility because the base salary was firm. | Eu negociei remote flexibility porque the salário base was firm.
-Q122: How did you discuss total comp without sounding aggressive? | Como você discutiu remuneração total sem soar agressivo?
-A122: I kept the tone professional and offered options like a higher target percentage. | Eu mantive um tom profissional and propostaed options like a higher target percentage.
-Q123: What did you do if the offer was below your expectation? | What did you do if the proposta was below your expectation?
-A123: I negotiated a training budget because the base pay could not move. | Eu negociei a training budget porque the base pay could not move.
-Q124: How did you increase total compensation when the budget was locked? | How did you increase remuneração total when the budget was locked?
-A124: I proposed a higher target percentage within the bonus structure. | Eu propus a higher target percentage within the bonus structure.
-Q125: What is a practical way to bridge the gap without changing base pay? | What is a practical way to fechar a diferença (bridge the gap) without changing base pay?
-A125: I proposed a higher target percentage within the bonus structure. | Eu propus a higher target percentage within the bonus structure.
-Q126: How did you propose a 90-day review for a raise? | How did you propose a revisão em 90 dias para aumento?
-A126: I negotiated benefits and timing to reach a fair total compensation. | Eu negociei benefits and timing to reach a fair remuneração total.
-Q127: Which benefits mattered most to you during negotiation? | Quais benefícios importaram mais para você durante a negociação?
-A127: I proposed a higher target percentage within the bonus structure. | Eu propus a higher target percentage within the bonus structure.
-Q128: What did you do if the offer was below your expectation? | What did you do if the proposta was below your expectation?
-A128: I focused on total compensation and proposed a higher target percentage to improve the overall package. | Eu foquei em remuneração total and proposed a higher target percentage to improve the overall package.
-Q129: Which benefits mattered most to you during negotiation? | Quais benefícios importaram mais para você durante a negociação?
-A129: I focused on total compensation and proposed a better healthcare plan to improve the overall package. | Eu foquei em remuneração total and proposed a better healthcare plan to improve the overall package.
-Q130: What did you ask for besides money? | O que você pediu além de dinheiro?
-A130: I proposed a higher target percentage within the bonus structure. | Eu propus a higher target percentage within the bonus structure.
-Q131: Which benefits mattered most to you during negotiation? | Quais benefícios importaram mais para você durante a negociação?
-A131: I kept the tone professional and offered options like a sign-on bonus. | Eu mantive um tom profissional and propostaed options like a bônus de contratação (sign-on bonus).
-Q132: When would you ask for a sign-on bonus? | Quando would you ask for a bônus de contratação (sign-on bonus)?
-A132: I kept the tone professional and offered options like additional PTO. | Eu mantive um tom profissional and propostaed options like additional PTO.
-Q133: How did you propose a 90-day review for a raise? | How did you propose a revisão em 90 dias para aumento?
-A133: I negotiated benefits and timing to reach a fair total compensation. | Eu negociei benefits and timing to reach a fair remuneração total.
-Q134: If the base salary was not ideal, what did you negotiate instead? | If the salário base was not ideal, what did you negotiate instead?
-A134: I framed the request as a win-win and suggested an earlier salary review. | Eu enquadrei o pedido como ganha-ganha and suggested an earlier salary review.
-Q135: When would you ask for a sign-on bonus? | Quando would you ask for a bônus de contratação (sign-on bonus)?
-A135: I proposed a higher target percentage within the bonus structure. | Eu propus a higher target percentage within the bonus structure.
-Q136: When would you ask for a sign-on bonus? | Quando would you ask for a bônus de contratação (sign-on bonus)?
-A136: I asked for flexibility and a review timeline instead of only discussing base pay. | Eu pedi flexibility and a review timeline instead of only discussing base pay.
-Q137: If the base salary was not ideal, what did you negotiate instead? | If the salário base was not ideal, what did you negotiate instead?
-A137: I suggested a sign-on bonus to help bridge the gap while keeping base salary unchanged. | Eu sugeri a bônus de contratação (sign-on bonus) to help fechar a diferença (bridge the gap) while keeping salário base unchanged.
-Q138: How did you discuss total comp without sounding aggressive? | Como você discutiu remuneração total sem soar agressivo?
-A138: I focused on total compensation and proposed additional PTO to improve the overall package. | Eu foquei em remuneração total and proposed additional PTO to improve the overall package.
-Q139: What did you do if the offer was below your expectation? | What did you do if the proposta was below your expectation?
-A139: I asked for flexibility and a review timeline instead of only discussing base pay. | Eu pedi flexibility and a review timeline instead of only discussing base pay.
-Q140: What did you do if the offer was below your expectation? | What did you do if the proposta was below your expectation?
-A140: I proposed a higher target percentage within the bonus structure. | Eu propus a higher target percentage within the bonus structure.
-Q141: What did you do if the offer was below your expectation? | What did you do if the proposta was below your expectation?
-A141: I asked for flexibility and a review timeline instead of only discussing base pay. | Eu pedi flexibility and a review timeline instead of only discussing base pay.
-Q142: How did you propose a 90-day review for a raise? | How did you propose a revisão em 90 dias para aumento?
-A142: I focused on total compensation and proposed a higher target percentage to improve the overall package. | Eu foquei em remuneração total and proposed a higher target percentage to improve the overall package.
-Q143: What did you do if the offer was below your expectation? | What did you do if the proposta was below your expectation?
-A143: I suggested a sign-on bonus to help bridge the gap while keeping base salary unchanged. | Eu sugeri a bônus de contratação (sign-on bonus) to help fechar a diferença (bridge the gap) while keeping salário base unchanged.
-Q144: When would you ask for a sign-on bonus? | Quando would you ask for a bônus de contratação (sign-on bonus)?
-A144: I focused on total compensation and proposed a better healthcare plan to improve the overall package. | Eu foquei em remuneração total and proposed a better healthcare plan to improve the overall package.
-Q145: What did you ask for besides money? | O que você pediu além de dinheiro?
-A145: I framed the request as a win-win and suggested a one-time stipend. | Eu enquadrei o pedido como ganha-ganha and suggested a one-time stipend.
-Q146: How did you increase total compensation when the salary band was limited? | How did you increase remuneração total when the salary band was limited?
-A146: I focused on total compensation and proposed additional PTO to improve the overall package. | Eu foquei em remuneração total and proposed additional PTO to improve the overall package.
-Q147: What did you do if the offer was below your expectation? | What did you do if the proposta was below your expectation?
-A147: I asked for a 90-day review for a raise so performance could be evaluated earlier. | Eu pedi a revisão em 90 dias para aumento so performance could be evaluated earlier.
-Q148: How did you justify your target compensation? | Como você justificou sua remuneração alvo?
-A148: I asked for a 90-day review for a raise so performance could be evaluated earlier. | Eu pedi a revisão em 90 dias para aumento so performance could be evaluated earlier.
-Q149: If the base salary was not ideal, what did you negotiate instead? | If the salário base was not ideal, what did you negotiate instead?
-A149: I framed the request as a win-win and suggested additional PTO. | Eu enquadrei o pedido como ganha-ganha and suggested additional PTO.
-Q150: Which benefits mattered most to you during negotiation? | Quais benefícios importaram mais para você durante a negociação?
-A150: I suggested a sign-on bonus to help bridge the gap while keeping base salary unchanged. | Eu sugeri a bônus de contratação (sign-on bonus) to help fechar a diferença (bridge the gap) while keeping salário base unchanged.
-Q151: How did you propose a 90-day review for a raise? | How did you propose a revisão em 90 dias para aumento?
-A151: I asked for flexibility and a review timeline instead of only discussing base pay. | Eu pedi flexibility and a review timeline instead of only discussing base pay.
-Q152: What did you do if the offer was below your expectation? | What did you do if the proposta was below your expectation?
-A152: I asked for a 90-day review for a raise so performance could be evaluated earlier. | Eu pedi a revisão em 90 dias para aumento so performance could be evaluated earlier.
-Q153: Which benefits mattered most to you during negotiation? | Quais benefícios importaram mais para você durante a negociação?
-A153: I suggested a sign-on bonus to help bridge the gap while keeping base salary unchanged. | Eu sugeri a bônus de contratação (sign-on bonus) to help fechar a diferença (bridge the gap) while keeping salário base unchanged.
-Q154: Which benefits mattered most to you during negotiation? | Quais benefícios importaram mais para você durante a negociação?
-A154: I suggested a sign-on bonus to help bridge the gap while keeping base salary unchanged. | Eu sugeri a bônus de contratação (sign-on bonus) to help fechar a diferença (bridge the gap) while keeping salário base unchanged.
-Q155: What is a practical way to bridge the gap without changing base pay? | What is a practical way to fechar a diferença (bridge the gap) without changing base pay?
-A155: I asked for a 90-day review for a raise so performance could be evaluated earlier. | Eu pedi a revisão em 90 dias para aumento so performance could be evaluated earlier.
-Q156: How did you increase total compensation when the salary band was limited? | How did you increase remuneração total when the salary band was limited?
-A156: I focused on total compensation and proposed a higher target percentage to improve the overall package. | Eu foquei em remuneração total and proposed a higher target percentage to improve the overall package.
-Q157: How did you discuss total comp without sounding aggressive? | Como você discutiu remuneração total sem soar agressivo?
-A157: I negotiated benefits and timing to reach a fair total compensation. | Eu negociei benefits and timing to reach a fair remuneração total.
-Q158: When would you ask for a sign-on bonus? | Quando would you ask for a bônus de contratação (sign-on bonus)?
-A158: I framed the request as a win-win and suggested a training budget. | Eu enquadrei o pedido como ganha-ganha and suggested a training budget.
-Q159: Which benefits mattered most to you during negotiation? | Quais benefícios importaram mais para você durante a negociação?
-A159: I aligned my request with market data and asked for a one-time stipend. | Eu alinhei meu pedido with market data and asked for a one-time stipend.
-Q160: How did you propose a 90-day review for a raise? | How did you propose a revisão em 90 dias para aumento?
-A160: I negotiated benefits and timing to reach a fair total compensation. | Eu negociei benefits and timing to reach a fair remuneração total.
-Q161: What did you ask for besides money? | O que você pediu além de dinheiro?
-A161: I suggested a sign-on bonus to help bridge the gap while keeping base salary unchanged. | Eu sugeri a bônus de contratação (sign-on bonus) to help fechar a diferença (bridge the gap) while keeping salário base unchanged.
-Q162: How did you propose a 90-day review for a raise? | How did you propose a revisão em 90 dias para aumento?
-A162: I suggested a sign-on bonus to help bridge the gap while keeping base salary unchanged. | Eu sugeri a bônus de contratação (sign-on bonus) to help fechar a diferença (bridge the gap) while keeping salário base unchanged.
-Q163: What is a practical way to bridge the gap without changing base pay? | What is a practical way to fechar a diferença (bridge the gap) without changing base pay?
-A163: I framed the request as a win-win and suggested a higher target percentage. | Eu enquadrei o pedido como ganha-ganha and suggested a higher target percentage.
-Q164: If the base salary was not ideal, what did you negotiate instead? | If the salário base was not ideal, what did you negotiate instead?
-A164: I proposed a higher target percentage within the bonus structure. | Eu propus a higher target percentage within the bonus structure.
-Q165: Which benefits mattered most to you during negotiation? | Quais benefícios importaram mais para você durante a negociação?
-A165: I aligned my request with market data and asked for a bonus structure. | Eu alinhei meu pedido with market data and asked for a bonus structure.
-Q166: How did you propose a 90-day review for a raise? | How did you propose a revisão em 90 dias para aumento?
-A166: I aligned my request with market data and asked for a better healthcare plan. | Eu alinhei meu pedido with market data and asked for a better healthcare plan.
-Q167: When would you ask for a sign-on bonus? | Quando would you ask for a bônus de contratação (sign-on bonus)?
-A167: I aligned my request with market data and asked for a one-time stipend. | Eu alinhei meu pedido with market data and asked for a one-time stipend.
-Q168: How did you discuss total comp without sounding aggressive? | Como você discutiu remuneração total sem soar agressivo?
-A168: I suggested a sign-on bonus to help bridge the gap while keeping base salary unchanged. | Eu sugeri a bônus de contratação (sign-on bonus) to help fechar a diferença (bridge the gap) while keeping salário base unchanged.
-Q169: What is a practical way to bridge the gap without changing base pay? | What is a practical way to fechar a diferença (bridge the gap) without changing base pay?
-A169: I aligned my request with market data and asked for a sign-on bonus. | Eu alinhei meu pedido with market data and asked for a bônus de contratação (sign-on bonus).
-Q170: If the base salary was not ideal, what did you negotiate instead? | If the salário base was not ideal, what did you negotiate instead?
-A170: I asked for a 90-day review for a raise so performance could be evaluated earlier. | Eu pedi a revisão em 90 dias para aumento so performance could be evaluated earlier.
-Q171: What did you ask for besides money? | O que você pediu além de dinheiro?
-A171: I aligned my request with market data and asked for a better healthcare plan. | Eu alinhei meu pedido with market data and asked for a better healthcare plan.
-Q172: Which benefits mattered most to you during negotiation? | Quais benefícios importaram mais para você durante a negociação?
-A172: I aligned my request with market data and asked for a training budget. | Eu alinhei meu pedido with market data and asked for a training budget.
-Q173: How did you justify your target compensation? | Como você justificou sua remuneração alvo?
-A173: I framed the request as a win-win and suggested a better healthcare plan. | Eu enquadrei o pedido como ganha-ganha and suggested a better healthcare plan.
-Q174: How did you increase total compensation when the budget was locked? | How did you increase remuneração total when the budget was locked?
-A174: I negotiated benefits and timing to reach a fair total compensation. | Eu negociei benefits and timing to reach a fair remuneração total.
-Q175: What did you do if the offer was below your expectation? | What did you do if the proposta was below your expectation?
-A175: I negotiated benefits and timing to reach a fair total compensation. | Eu negociei benefits and timing to reach a fair remuneração total.
-Q176: How did you increase total compensation when the base salary was firm? | How did you increase remuneração total when the salário base was firm?
-A176: I focused on total compensation and proposed a one-time stipend to improve the overall package. | Eu foquei em remuneração total and proposed a one-time stipend to improve the overall package.
-Q177: If the base salary was not ideal, what did you negotiate instead? | If the salário base was not ideal, what did you negotiate instead?
-A177: I aligned my request with market data and asked for a one-time stipend. | Eu alinhei meu pedido with market data and asked for a one-time stipend.
-Q178: What is a practical way to bridge the gap without changing base pay? | What is a practical way to fechar a diferença (bridge the gap) without changing base pay?
-A178: I asked for flexibility and a review timeline instead of only discussing base pay. | Eu pedi flexibility and a review timeline instead of only discussing base pay.
-Q179: How did you propose a 90-day review for a raise? | How did you propose a revisão em 90 dias para aumento?
-A179: I asked for a 90-day review for a raise so performance could be evaluated earlier. | Eu pedi a revisão em 90 dias para aumento so performance could be evaluated earlier.
-Q180: Which benefits mattered most to you during negotiation? | Quais benefícios importaram mais para você durante a negociação?
-A180: I suggested a sign-on bonus to help bridge the gap while keeping base salary unchanged. | Eu sugeri a bônus de contratação (sign-on bonus) to help fechar a diferença (bridge the gap) while keeping salário base unchanged.
-Q181: What technology did you use to improve payroll accuracy? | What technology did you use to improve folha (payroll) accuracy?
-A181: I used data analytics to identify patterns and prevent recurring payroll errors. | Eu usei análise de dados to identify patterns and prevent recurring folha (payroll) errors.
-Q182: How did you stay up to date with evolving regulations? | Como você se manteve atualizado com regulações em evolução?
-A182: I used data analytics to identify patterns and prevent recurring payroll errors. | Eu usei análise de dados to identify patterns and prevent recurring folha (payroll) errors.
-Q183: Tell me about a time when a compliance audit required evidence. What did you do? | Conte sobre uma vez em que a compliance audit required evidence. O que você fez?
-A183: I built dashboards and controls to interpret data, not just process it. | Eu construí dashboards and controls to interpretar dados, not just process it.
-Q184: How did you turn payroll data into insights? | How did you turn folha (payroll) data into insights?
-A184: I interpreted trends, checked variances, and translated findings into actions. | I interpreted trends, checked variação/diferenças, and translated findings into actions.
-Q185: How did you handle a difficult conversation with an employee about pay? | How did you handle a difficult conversation with an colaborador about pay?
-A185: I interpreted trends, checked variances, and translated findings into actions. | I interpreted trends, checked variação/diferenças, and translated findings into actions.
-Q186: What skills became most valuable for payroll professionals in the next few years? | What skills became most valuable for folha (payroll) professionals in the next few years?
-A186: I used clear communication and empathy to handle employee concerns professionally. | Eu usei clear communication and empathy to handle colaborador concerns professionally.
-Q187: What skills became most valuable for payroll professionals in the next few years? | What skills became most valuable for folha (payroll) professionals in the next few years?
-A187: I explained the situation in simple terms, confirmed understanding, and documented next steps. | Eu expliquei a situação in simple terms, confirmed understanding, and documented next steps.
-Q188: What soft skills helped you most in payroll? | What soft skills helped you most in folha (payroll)?
-A188: I combined compliance updates with process checklists to reduce risk. | Eu combinei compliance updates with process checklists to reduce risk.
-Q189: How did you communicate something complex clearly to a non-payroll audience? | How did you communicate something complex clearly to a non-folha (payroll) audience?
-A189: When an employee entered the wrong bank account information, I remained calm, verified data, and communicated a clear plan. | Quando an colaborador entered the wrong dados bancários, eu mantive a calma, verified data, and communicated a clear plan.
-Q190: Tell me about a time when a variable pay file had an error. What did you do? | Conte sobre uma vez em que a remuneração variável file had an error. O que você fez?
-A190: I combined compliance updates with process checklists to reduce risk. | Eu combinei compliance updates with process checklists to reduce risk.
-Q191: What skills became most valuable for payroll professionals in the next few years? | What skills became most valuable for folha (payroll) professionals in the next few years?
-A191: I automated repetitive checks and focused on exception handling and interpretation. | Eu automatizei repetitive checks and focused on exception handling and interpretation.
-Q192: Tell me about a time when a variable pay file had an error. What did you do? | Conte sobre uma vez em que a remuneração variável file had an error. O que você fez?
-A192: I used clear communication and empathy to handle employee concerns professionally. | Eu usei clear communication and empathy to handle colaborador concerns professionally.
-Q193: What technology did you use to improve payroll accuracy? | What technology did you use to improve folha (payroll) accuracy?
-A193: I interpreted trends, checked variances, and translated findings into actions. | I interpreted trends, checked variação/diferenças, and translated findings into actions.
-Q194: How did you turn payroll data into insights? | How did you turn folha (payroll) data into insights?
-A194: I interpreted trends, checked variances, and translated findings into actions. | I interpreted trends, checked variação/diferenças, and translated findings into actions.
-Q195: Tell me about a time when a compliance audit required evidence. What did you do? | Conte sobre uma vez em que a compliance audit required evidence. O que você fez?
-A195: I used clear communication and empathy to handle employee concerns professionally. | Eu usei clear communication and empathy to handle colaborador concerns professionally.
-Q196: How did you turn payroll data into insights? | How did you turn folha (payroll) data into insights?
-A196: I combined compliance updates with process checklists to reduce risk. | Eu combinei compliance updates with process checklists to reduce risk.
-Q197: How did you balance compliance and speed during payroll close? | How did you balance compliance and speed during folha (payroll) close?
-A197: I stayed up to date by monitoring changes, documenting impacts, and updating controls. | Eu me mantive atualizado by monitoring changes, documenting impacts, and updating controls.
-Q198: What soft skills helped you most in payroll? | What soft skills helped you most in folha (payroll)?
-A198: I used clear communication and empathy to handle employee concerns professionally. | Eu usei clear communication and empathy to handle colaborador concerns professionally.
-Q199: Tell me about a time when a payment was delayed due to a missing approval. What did you do? | Conte sobre uma vez em que a payment was delayed due to a missing approval. O que você fez?
-A199: I built dashboards and controls to interpret data, not just process it. | Eu construí dashboards and controls to interpretar dados, not just process it.
-Q200: Tell me about a time when a dispute required a clear explanation. What did you do? | Conte sobre uma vez em que a dispute required a clear explanation. O que você fez?
-A200: I focused on stakeholder communication and used it to deliver clearer decisions. | Eu foquei em stakeholder communication and used it to deliver clearer decisions.
-Q201: What soft skills helped you most in payroll? | What soft skills helped you most in folha (payroll)?
-A201: I automated repetitive checks and focused on exception handling and interpretation. | Eu automatizei repetitive checks and focused on exception handling and interpretation.
-Q202: How did you turn payroll data into insights? | How did you turn folha (payroll) data into insights?
-A202: I used clear communication and empathy to handle employee concerns professionally. | Eu usei clear communication and empathy to handle colaborador concerns professionally.
-Q203: How did you handle a difficult conversation with an employee about pay? | How did you handle a difficult conversation with an colaborador about pay?
-A203: I used clear communication and empathy to handle employee concerns professionally. | Eu usei clear communication and empathy to handle colaborador concerns professionally.
-Q204: How did you turn payroll data into insights? | How did you turn folha (payroll) data into insights?
-A204: I used data analytics to identify patterns and prevent recurring payroll errors. | Eu usei análise de dados to identify patterns and prevent recurring folha (payroll) errors.
-Q205: What soft skills helped you most in payroll? | What soft skills helped you most in folha (payroll)?
-A205: I built dashboards and controls to interpret data, not just process it. | Eu construí dashboards and controls to interpretar dados, not just process it.
-Q206: What skills became most valuable for payroll professionals in the next few years? | What skills became most valuable for folha (payroll) professionals in the next few years?
-A206: I used data analytics to identify patterns and prevent recurring payroll errors. | Eu usei análise de dados to identify patterns and prevent recurring folha (payroll) errors.
-Q207: What technology did you use to improve payroll accuracy? | What technology did you use to improve folha (payroll) accuracy?
-A207: I stayed up to date by monitoring changes, documenting impacts, and updating controls. | Eu me mantive atualizado by monitoring changes, documenting impacts, and updating controls.
-Q208: How did you stay up to date with evolving regulations? | Como você se manteve atualizado com regulações em evolução?
-A208: I used clear communication and empathy to handle employee concerns professionally. | Eu usei clear communication and empathy to handle colaborador concerns professionally.
-Q209: How did you interpret data instead of just processing it? | How did you interpretar dados instead of just processing it?
-A209: I combined compliance updates with process checklists to reduce risk. | Eu combinei compliance updates with process checklists to reduce risk.
-Q210: How did you turn payroll data into insights? | How did you turn folha (payroll) data into insights?
-A210: I focused on systems thinking and used it to deliver clearer decisions. | Eu foquei em systems thinking and used it to deliver clearer decisions.
-Q211: How did you stay up to date with evolving regulations? | Como você se manteve atualizado com regulações em evolução?
-A211: I interpreted trends, checked variances, and translated findings into actions. | I interpreted trends, checked variação/diferenças, and translated findings into actions.
-Q212: How did you handle a difficult conversation with an employee about pay? | How did you handle a difficult conversation with an colaborador about pay?
-A212: I automated repetitive checks and focused on exception handling and interpretation. | Eu automatizei repetitive checks and focused on exception handling and interpretation.
-Q213: How did you handle a difficult conversation with an employee about pay? | How did you handle a difficult conversation with an colaborador about pay?
-A213: I used clear communication and empathy to handle employee concerns professionally. | Eu usei clear communication and empathy to handle colaborador concerns professionally.
-Q214: How did you turn payroll data into insights? | How did you turn folha (payroll) data into insights?
-A214: I used clear communication and empathy to handle employee concerns professionally. | Eu usei clear communication and empathy to handle colaborador concerns professionally.
-Q215: How did you interpret data instead of just processing it? | How did you interpretar dados instead of just processing it?
-A215: I explained the situation in simple terms, confirmed understanding, and documented next steps. | Eu expliquei a situação in simple terms, confirmed understanding, and documented next steps.
-Q216: How did you interpret data instead of just processing it? | How did you interpretar dados instead of just processing it?
-A216: I built dashboards and controls to interpret data, not just process it. | Eu construí dashboards and controls to interpretar dados, not just process it.
-Q217: How did you turn payroll data into insights? | How did you turn folha (payroll) data into insights?
-A217: I stayed up to date by monitoring changes, documenting impacts, and updating controls. | Eu me mantive atualizado by monitoring changes, documenting impacts, and updating controls.
-Q218: What skills became most valuable for payroll professionals in the next few years? | What skills became most valuable for folha (payroll) professionals in the next few years?
-A218: I used data analytics to identify patterns and prevent recurring payroll errors. | Eu usei análise de dados to identify patterns and prevent recurring folha (payroll) errors.
-Q219: How did you handle a difficult conversation with an employee about pay? | How did you handle a difficult conversation with an colaborador about pay?
-A219: I used data analytics to identify patterns and prevent recurring payroll errors. | Eu usei análise de dados to identify patterns and prevent recurring folha (payroll) errors.
-Q220: How did you communicate something complex clearly to a non-payroll audience? | How did you communicate something complex clearly to a non-folha (payroll) audience?
-A220: I used clear communication and empathy to handle employee concerns professionally. | Eu usei clear communication and empathy to handle colaborador concerns professionally.
-Q221: How did you stay up to date with evolving regulations? | Como você se manteve atualizado com regulações em evolução?
-A221: I stayed up to date by monitoring changes, documenting impacts, and updating controls. | Eu me mantive atualizado by monitoring changes, documenting impacts, and updating controls.
-Q222: What soft skills helped you most in payroll? | What soft skills helped you most in folha (payroll)?
-A222: I built dashboards and controls to interpret data, not just process it. | Eu construí dashboards and controls to interpretar dados, not just process it.
-Q223: How did you turn payroll data into insights? | How did you turn folha (payroll) data into insights?
-A223: I automated repetitive checks and focused on exception handling and interpretation. | Eu automatizei repetitive checks and focused on exception handling and interpretation.
-Q224: How did you turn payroll data into insights? | How did you turn folha (payroll) data into insights?
-A224: When a payroll report showed an unexpected variance, I remained calm, verified data, and communicated a clear plan. | Quando a folha (payroll) report showed an unexpected variação/diferença, eu mantive a calma, verified data, and communicated a clear plan.
-Q225: What skills became most valuable for payroll professionals in the next few years? | What skills became most valuable for folha (payroll) professionals in the next few years?
-A225: I combined compliance updates with process checklists to reduce risk. | Eu combinei compliance updates with process checklists to reduce risk.
-Q226: How did you stay up to date with evolving regulations? | Como você se manteve atualizado com regulações em evolução?
-A226: I interpreted trends, checked variances, and translated findings into actions. | I interpreted trends, checked variação/diferenças, and translated findings into actions.
-Q227: What soft skills helped you most in payroll? | What soft skills helped you most in folha (payroll)?
-A227: When a manager asked for an urgent adjustment, I remained calm, verified data, and communicated a clear plan. | Quando a gestor asked for an urgent adjustment, eu mantive a calma, verified data, and communicated a clear plan.
-Q228: How did you turn payroll data into insights? | How did you turn folha (payroll) data into insights?
-A228: When a regulation changed close to payroll close, I remained calm, verified data, and communicated a clear plan. | Quando a regulation changed close to folha (payroll) close, eu mantive a calma, verified data, and communicated a clear plan.
-Q229: How did you turn payroll data into insights? | How did you turn folha (payroll) data into insights?
-A229: I interpreted trends, checked variances, and translated findings into actions. | I interpreted trends, checked variação/diferenças, and translated findings into actions.
-Q230: What soft skills helped you most in payroll? | What soft skills helped you most in folha (payroll)?
-A230: I used data analytics to identify patterns and prevent recurring payroll errors. | Eu usei análise de dados to identify patterns and prevent recurring folha (payroll) errors.
-Q231: Tell me about a time when a regulation changed close to payroll close. What did you do? | Conte sobre uma vez em que a regulation changed close to folha (payroll) close. O que você fez?
-A231: I focused on automation with spreadsheets and scripts and used it to deliver clearer decisions. | Eu foquei em automation with spreadsheets and scripts and used it to deliver clearer decisions.
-Q232: What skills became most valuable for payroll professionals in the next few years? | What skills became most valuable for folha (payroll) professionals in the next few years?
-A232: I automated repetitive checks and focused on exception handling and interpretation. | Eu automatizei repetitive checks and focused on exception handling and interpretation.
-Q233: How did you turn payroll data into insights? | How did you turn folha (payroll) data into insights?
-A233: When a timekeeping feed failed, I remained calm, verified data, and communicated a clear plan. | Quando a timekeeping feed failed, eu mantive a calma, verified data, and communicated a clear plan.
-Q234: How did you handle a difficult conversation with an employee about pay? | How did you handle a difficult conversation with an colaborador about pay?
-A234: I explained the situation in simple terms, confirmed understanding, and documented next steps. | Eu expliquei a situação in simple terms, confirmed understanding, and documented next steps.
-Q235: Tell me about a time when a timekeeping feed failed. What did you do? | Conte sobre uma vez em que a timekeeping feed failed. O que você fez?
-A235: I stayed up to date by monitoring changes, documenting impacts, and updating controls. | Eu me mantive atualizado by monitoring changes, documenting impacts, and updating controls.
-Q236: Tell me about a time when an employee entered the wrong bank account information. What did you do? | Conte sobre uma vez em que an colaborador entered the wrong dados bancários. O que você fez?
-A236: I combined compliance updates with process checklists to reduce risk. | Eu combinei compliance updates with process checklists to reduce risk.
-Q237: How did you handle a difficult conversation with an employee about pay? | How did you handle a difficult conversation with an colaborador about pay?
-A237: I stayed up to date by monitoring changes, documenting impacts, and updating controls. | Eu me mantive atualizado by monitoring changes, documenting impacts, and updating controls.
-Q238: How did you handle a difficult conversation with an employee about pay? | How did you handle a difficult conversation with an colaborador about pay?
-A238: I built dashboards and controls to interpret data, not just process it. | Eu construí dashboards and controls to interpretar dados, not just process it.
-Q239: How did you stay up to date with evolving regulations? | Como você se manteve atualizado com regulações em evolução?
-A239: I used clear communication and empathy to handle employee concerns professionally. | Eu usei clear communication and empathy to handle colaborador concerns professionally.
-Q240: How did you balance compliance and speed during payroll close? | How did you balance compliance and speed during folha (payroll) close?
-A240: When a dispute required a clear explanation, I remained calm, verified data, and communicated a clear plan. | Quando a dispute required a clear explanation, eu mantive a calma, verified data, and communicated a clear plan.
-Q241: How did you turn payroll data into insights? | How did you turn folha (payroll) data into insights?
-A241: When a regulation changed close to payroll close, I remained calm, verified data, and communicated a clear plan. | Quando a regulation changed close to folha (payroll) close, eu mantive a calma, verified data, and communicated a clear plan.
-Q242: How did you turn payroll data into insights? | How did you turn folha (payroll) data into insights?
-A242: I interpreted trends, checked variances, and translated findings into actions. | I interpreted trends, checked variação/diferenças, and translated findings into actions.
-Q243: What technology did you use to improve payroll accuracy? | What technology did you use to improve folha (payroll) accuracy?
-A243: I used clear communication and empathy to handle employee concerns professionally. | Eu usei clear communication and empathy to handle colaborador concerns professionally.
-Q244: What technology did you use to improve payroll accuracy? | What technology did you use to improve folha (payroll) accuracy?
-A244: I focused on stakeholder communication and used it to deliver clearer decisions. | Eu foquei em stakeholder communication and used it to deliver clearer decisions.
-Q245: How did you interpret data instead of just processing it? | How did you interpretar dados instead of just processing it?
-A245: I combined compliance updates with process checklists to reduce risk. | Eu combinei compliance updates with process checklists to reduce risk.
-Q246: What soft skills helped you most in payroll? | What soft skills helped you most in folha (payroll)?
-A246: I built dashboards and controls to interpret data, not just process it. | Eu construí dashboards and controls to interpretar dados, not just process it.
-Q247: How did you communicate something complex clearly to a non-payroll audience? | How did you communicate something complex clearly to a non-folha (payroll) audience?
-A247: I combined compliance updates with process checklists to reduce risk. | Eu combinei compliance updates with process checklists to reduce risk.
-Q248: How did you balance compliance and speed during payroll close? | How did you balance compliance and speed during folha (payroll) close?
-A248: I used data analytics to identify patterns and prevent recurring payroll errors. | Eu usei análise de dados to identify patterns and prevent recurring folha (payroll) errors.
-Q249: How did you interpret data instead of just processing it? | How did you interpretar dados instead of just processing it?
-A249: I combined compliance updates with process checklists to reduce risk. | Eu combinei compliance updates with process checklists to reduce risk.
-Q250: How did you interpret data instead of just processing it? | How did you interpretar dados instead of just processing it?
-A250: I stayed up to date by monitoring changes, documenting impacts, and updating controls. | Eu me mantive atualizado by monitoring changes, documenting impacts, and updating controls.
-Q251: Tell me about a time when an employee entered the wrong bank account information. What did you do? | Conte sobre uma vez em que an colaborador entered the wrong dados bancários. O que você fez?
-A251: I combined compliance updates with process checklists to reduce risk. | Eu combinei compliance updates with process checklists to reduce risk.
-Q252: How did you communicate something complex clearly to a non-payroll audience? | How did you communicate something complex clearly to a non-folha (payroll) audience?
-A252: I used clear communication and empathy to handle employee concerns professionally. | Eu usei clear communication and empathy to handle colaborador concerns professionally.
-Q253: How did you turn payroll data into insights? | How did you turn folha (payroll) data into insights?
-A253: I used data analytics to identify patterns and prevent recurring payroll errors. | Eu usei análise de dados to identify patterns and prevent recurring folha (payroll) errors.
-Q254: What soft skills helped you most in payroll? | What soft skills helped you most in folha (payroll)?
-A254: I stayed up to date by monitoring changes, documenting impacts, and updating controls. | Eu me mantive atualizado by monitoring changes, documenting impacts, and updating controls.
-Q255: How did you turn payroll data into insights? | How did you turn folha (payroll) data into insights?
-A255: I automated repetitive checks and focused on exception handling and interpretation. | Eu automatizei repetitive checks and focused on exception handling and interpretation.
+and some of them told stories that were very long indeed. | e alguns deles contavam histórias que eram de fato muito longas end.
+In the podcast, you'll hear from industry experts on key issues impacting payroll, from human capital management to compliance and benefits. | No podcast, você vai ouvir especialistas do setor sobre temas-chave que impactam a folha de pagamento, de gestão de capital humano a compliance e benefícios.
+I'm your host, Abby Thompson. | Eu sou sua anfitriã, Abby Thompson.
+In each episode, I'm speaking with global industry leaders who provide their unique insights to help listeners better understand the challenges and opportunities shaping the future of payroll. | Em cada episódio, converso com líderes globais do setor, que compartilham insights únicos para ajudar os ouvintes a entender melhor os desafios e as oportunidades que estão moldando o futuro da folha de pagamento.
+In this episode, we're tackling talent shortages and hiring trends. | Neste episódio, vamos abordar a escassez de talentos e as tendências de contratação.
+We'll cover challenges related to in-house versus remote teams. | Vamos falar sobre os desafios relacionados a equipes internas versus equipes remotas.
+We'll also discuss skills-based hiring and why more employers are ditching the four-year degree requirement. | Também vamos discutir contratação baseada em competências e por que mais empregadores estão deixando de exigir graduação de quatro anos.
+You'll hear about the evolution of AI and the role it plays in navigating these topics. | Você vai ouvir sobre a evolução da IA e o papel que ela desempenha para navegar por esses temas.
+I'm joined by my colleague at Paychex, Nina Talley. | Estou acompanhada pela minha colega na Paychex, Nina Talley.
+Nina is a talent enablement partner. | A Nina é parceira de habilitação de talentos.
+She leads an HR team that supports recruiting efforts for the entire organization. | Ela lidera uma equipe de RH que apoia os esforços de recrutamento para toda a organização.
+Nina, welcome to PayTalk. | Nina, bem-vinda ao PayTalk.
+Thanks, Abby, for having me. | Obrigada, Abby, por me receber.
+Let's start by painting a picture of how employers are feeling in 2025. | Vamos começar traçando um panorama de como os empregadores estão se sentindo em 2025.
+We've had a bit of a tumultuous few years, and some key trends have emerged. | Tivemos alguns anos um pouco turbulentos, e algumas tendências-chave surgiram.
+What are you seeing in the market and how are employers approaching hiring right now? | O que você está vendo no mercado e como os empregadores estão encarando as contratações neste momento?
+So one interesting thing about 2025 compared to what we have experienced in past years is we're seeing the labor market continue to cool. | Uma coisa interessante sobre 2025, em comparação com o que vivemos nos anos anteriores, é que estamos vendo o mercado de trabalho continuar esfriando.
+And what I mean by cooling is that we are seeing less overall hiring as well as less overall turnover. | E, ao dizer esfriando, quero dizer que estamos vendo menos contratações no geral e também menos rotatividade no geral.
+So overall, this seems like a good thing, because in other years we've been in kind of an environment where we need people, we need people. | No geral, isso parece algo positivo, porque em outros anos ficamos num ambiente de “precisamos de gente, precisamos de gente”.
+Right now, we're kind of starting to stabilize a little bit, which in some ways can make it a little bit easier to hire because you're not competing with as many people in the market. | Agora, estamos começando a estabilizar um pouco, o que em alguns aspectos pode facilitar a contratação, porque você não está competindo com tanta gente no mercado.
+However, we are still in a market where talent shortages exist, and so that can make it difficult. | Porém, ainda estamos em um mercado em que existe escassez de talentos, e isso pode dificultar.
+The other key trend that I would say is still happening in 2025 is that we are seeing that there are still industries that are harder hit by talent shortages, and that's really driving a lot of difficulty for employers. | Outra tendência-chave que eu diria que ainda está acontecendo em 2025 é que ainda há setores mais afetados pela escassez de talentos, e isso está gerando muita dificuldade para os empregadores.
+And the final trend I would say is that remote work is still a pretty contentious issue. | E a última tendência que eu diria é que o trabalho remoto ainda é um tema bem controverso.
+And even in 2025, it seems to still be going strong. | E, mesmo em 2025, parece que isso continua forte.
+Definitely. | Com certeza.
+Let's dig in a little bit more on those talent shortages. | Vamos aprofundar um pouco mais nessa escassez de talentos.
+Are there any industries you see that are hit particularly hard? | Há algum setor que você veja sendo particularmente afetado?
+And if so, why do you think that is, or what are they doing to try to alleviate the shortage? | E, se sim, por que você acha que isso acontece, ou o que eles estão fazendo para tentar aliviar a escassez?
+We are seeing the industry that is being hit hardest right now is healthcare, and it's the industry that continues to see the most labor shortage. | O setor mais impactado no momento é o de saúde, e é o setor que continua vendo a maior escassez de mão de obra.
+That is for a variety of reasons, but it's really around, historically, the healthcare industry tends to have a more aged workforce. | Isso acontece por vários motivos, mas tem muito a ver com o fato de que, historicamente, o setor de saúde tende a ter uma força de trabalho mais envelhecida.
+And so the talent that is aging out that is retiring isn't being replaced by talent that is coming in. | Então, os profissionais que estão saindo por idade e se aposentando não estão sendo substituídos por novos profissionais que estão entrando.
+And what makes it particularly difficult for healthcare is healthcare is a really interesting field where that replacement talent needs to be really, really skilled. | E o que torna isso particularmente difícil na área da saúde é que ela é um campo em que esse talento de reposição precisa ser muito, muito qualificado.
+So you can't just bring in anyone from any background. | Então, você não pode simplesmente trazer qualquer pessoa de qualquer histórico.
+You need individuals who have the proper training, the proper education, and that makes the pool smaller. | Você precisa de pessoas com o treinamento adequado, a formação adequada, e isso torna o grupo de candidatos menor.
+So those organizations are really kind of having to flex their muscles and come at hiring in different ways. | Por isso, essas organizações estão tendo que se reinventar e abordar a contratação de formas diferentes.
+So the ways that we've seen them doing that is first by increasing the compensation. | E as formas que temos visto para isso começam por aumentar a remuneração.
+So being really, really competitive with your pay and your benefits. | Ou seja, ser muito competitivo em salário e benefícios.
+Another thing is meeting the needs of your talent. | Outra coisa é atender às necessidades do seu talento.
+So if you have some talent that is looking for more flexibility, then maybe offering flexible schedules, offering maybe more part-time work, things like that. | Então, se você tem profissionais buscando mais flexibilidade, talvez oferecer escalas flexíveis, talvez mais trabalho em tempo parcial, coisas assim.
+Another thing is also looking at maybe those early talent populations and bringing in and building a pipeline. | Outra iniciativa é olhar para talentos mais no início da carreira e trazer essas pessoas, construindo um pipeline.
+So if you're able to bring in talent earlier, you can really build that talent and really develop those skills. | Ou seja, se você consegue trazer talentos mais cedo, pode realmente desenvolver essas pessoas e construir essas competências.
+So healthcare is a field where that pipeline is so important. | Então, na área da saúde, esse pipeline é muito importante.
+You really need to build a strong foundation for the future. | Você realmente precisa construir uma base forte para o futuro.
+Is there any conversation about, say, people from other industries coming in and then going through extensive training to enter healthcare roles? | Existe alguma discussão sobre, por exemplo, pessoas de outros setores entrarem e passarem por um treinamento extenso para assumir funções na área da saúde?
+And that's such a good point, and that is what AI is always going to miss as advanced as it gets. | E esse é um ponto muito bom, e é isso que a IA sempre vai deixar passar, por mais avançada que ela fique.
+There is something intangible to humanity that is about culture, is about the sense of a person, is about their willingness to learn and flex and be adaptable. | Existe algo intangível no ser humano que tem a ver com cultura, com o senso da pessoa, com a disposição de aprender, se ajustar e ser adaptável.
+And I think that's always an important thing to remember when we talk about AI and it encroaching in these spaces. | E eu acho que isso é sempre importante lembrar quando falamos de IA e dela avançando nesses espaços.
+So there's a lot of conventional wisdom about what employers view as red flags, things like job hopping or gaps in employment history. | Existe muita “sabedoria convencional” sobre o que os empregadores veem como sinais de alerta, coisas como trocar muito de emprego ou ter lacunas no histórico profissional.
+How much of that is still true today and how has the employer perspective changed in recent years about those sort of conventional ideas of red flags? | Quanto disso ainda é verdade hoje, e como a perspectiva dos empregadores mudou nos últimos anos em relação a essas ideias tradicionais de sinais de alerta?
+Yeah, I think people are getting a little bit more flexible. | Sim, acho que as pessoas estão ficando um pouco mais flexíveis.
+that's not going to be a remote employee. | isso não vai ser um colaborador remoto.
+Nina Talley: With that, I know that there are a lot of recruiters and a lot of employers now who are using AI tools for | Nina Talley: Com isso, eu sei que há muitos recrutadores e muitos empregadores agora usando ferramentas de IA para
+the first round of screening. With us talking about looking for the right person who maybe doesn't have | a primeira rodada de triagem. E, como estamos falando de buscar a pessoa certa que talvez não tenha
+100% of the skill sets, do you have any advice for our listeners on how to position themselves in their | 100% das competências, você tem algum conselho para nossos ouvintes sobre como se posicionar no
+resume to get through those AI screeners should they not have 100% of the skills that they're looking for? | currículo para passar por esses filtros de IA, caso não tenham 100% das habilidades que estão buscando?
+Abby Thompson: I think a lot of it comes down to how you can think about some of your past experience and if you don't | Abby Thompson: Acho que muito disso depende de como você apresenta parte da sua experiência passada e, se você não
+have exactly what they're looking for, how can you demonstrate your ability to have a really high | tem exatamente o que eles procuram, como você pode demonstrar sua capacidade de ter uma
+accuracy for payroll, or learning a new software, or learning a new compliance standard? So the more that | alta precisão em payroll, ou aprender um novo software, ou aprender um novo padrão de compliance? Então, quanto mais
+you can demonstrate kind of the ability to adapt and learn and grow quickly, those are the types of things | você conseguir demonstrar a capacidade de se adaptar, aprender e evoluir rapidamente, esse é o tipo de coisa
+that I think that people look for when they are being a little bit more flexible. But outside of the AI, | que eu acho que as pessoas procuram quando estão sendo um pouco mais flexíveis. Mas, além da IA,
+because a lot of candidates do get lost in applicant tracking systems, I would also say think about who do | como muitos candidatos acabam se perdendo nos sistemas de rastreamento de candidatos, eu também diria: pense em quem
+you know at that particular company to maybe have them refer you or are you reaching out specifically to | você conhece naquela empresa para talvez pedir uma indicação, ou se você está entrando em contato diretamente com
+the manager or the HR professional that's posting the position and making sure that your resume isn't | o gestor ou o profissional de RH que publicou a vaga, garantindo que seu currículo não
+getting lost in the shuffle. | se perca no meio do volume.
+Because I think on the flip side, there's so many people that don't have any relevant payroll skills that are | Porque, por outro lado, eu acho que há muita gente que não tem nenhuma habilidade relevante de payroll e está
+submitting for these types of roles. | se candidatando para esse tipo de vaga.
+And so, I think as a job seeker, how can you be a little bit more proactive and not rely on just submitting your | Então, como candidato, como você pode ser um pouco mais proativo e não depender apenas de enviar o seu
+resume and hoping that it works out for you and the AI filters do their thing? | currículo e torcer para dar certo, enquanto os filtros de IA fazem o trabalho deles?
+Nina Talley: It goes back to the human component as well, networking and being proactive. | Nina Talley: Isso volta também para o lado humano: networking e proatividade.
+Abby Thompson: Absolutely. | Abby Thompson: Com certeza.
+Yeah, and I think that's the best advice for any type of job seeker in today's market. | Sim, e acho que esse é o melhor conselho para qualquer candidato no mercado de hoje.
+There's too many layoffs and too many people applying for jobs. | Há muitas demissões e muita gente se candidatando.
+And the more proactive you can be, I think the better. | E quanto mais proativo você for, melhor.
+And then you're not as dependent on having, you know, the AI make the decision on whether you are a right fit or not. | E você não fica tão dependente de, sabe, a IA decidir se você é ou não um bom fit.
+And that's such a good point, and that is what AI is always going to miss as advanced as it gets. | E esse é um ponto muito bom: é isso que a IA sempre vai deixar passar, por mais avançada que fique.
+There is something intangible to humanity that is about culture, is about their willingness to learn and flex and be | Existe algo intangível no ser humano: a cultura, a disposição de aprender, de ser flexível e de
+adaptable. | se adaptar.
+And I think that's always an important thing to remember when we talk about AI and it encroaching in these spaces. | E acho que é sempre importante lembrar disso quando falamos de IA ocupando esses espaços.
+Abby Thompson: Absolutely. | Abby Thompson: Com certeza.
+Nina Talley: So there's a lot of conventional wisdom about what are red flags, things like job hopping or gaps in | Nina Talley: Existe muita “sabedoria convencional” sobre quais são os sinais de alerta, coisas como trocar muito de emprego ou ter gaps
+employment history. | no histórico profissional.
+How much of that is still true today and how has the employer perspective changed in recent years about those sort of | Quanto disso ainda é verdade hoje e como a visão dos empregadores mudou nos últimos anos sobre esse tipo de
+conventional ideas of red flags? | ideia convencional de sinais de alerta?
+Abby Thompson: Yeah, I think people are getting a little bit more flexible. | Abby Thompson: Sim, acho que as pessoas estão ficando um pouco mais flexíveis.
+I think five years ago, multiple moves really raised a lot of eyebrows, but now it's more about being able to | Acho que, cinco anos atrás, muitas mudanças chamavam muita atenção, mas agora é mais sobre conseguir
+communicate why you made each move and for there to be consistency in the story and messaging. | comunicar por que você fez cada mudança e ter consistência na história e na mensagem.
+I think if we look back at what the average tenure was for payroll, it used to be around five to seven years with | Se olharmos para trás, a permanência média em payroll costumava ser em torno de cinco a sete anos para
+someone with 10 plus years of experience. | alguém com mais de 10 anos de experiência.
+And now today we're looking at with someone with 10 plus years of experience, they're going to have kind of an | E hoje, para alguém com mais de 10 anos de experiência, estamos vendo uma
+average of four years of tenure. | média de cerca de quatro anos de permanência.
+And then when we drop that down to maybe looking at someone that has three to five years of experience, the average | E quando baixamos isso para alguém com três a cinco anos de experiência, em média
+person already has had three jobs. | essa pessoa já teve três empregos.
+So if you're looking for someone with three to five years of experience, you're likely hiring someone that has three | Então, se você procura alguém com três a cinco anos de experiência, é bem provável que esteja contratando alguém que teve três
+to four jobs. | a quatro empregos.
+And people just have to understand, again, just because someone has moved around a lot doesn't necessarily mean that | E as pessoas precisam entender, de novo: só porque alguém mudou muito, isso não significa necessariamente que
+they are a job hopper or they're a flight risk or not a good employee. | seja “job hopper”, um risco de sair rápido, ou um mau colaborador.
+We actually had an example of one of our recruiters in the Houston market who had a candidate that on paper was great. | Na verdade, tivemos um exemplo: uma das nossas recrutadoras no mercado de Houston tinha um candidato que, no papel, era ótimo.
+They had some of the best references, they had good experience, but the recruiter could not get behind and support the | Ele tinha algumas das melhores referências, tinha boa experiência, mas a recrutadora não conseguiu endossar e apoiar o
+candidate because they didn't understand the story or feel like it was consistent. | candidato porque não entendeu a história ou não sentiu que ela era consistente.
+So I think it's always important to be able to show your track record of why you've made changes and to be able to | Então, acho que é sempre importante conseguir mostrar seu histórico de por que você fez mudanças e conseguir
