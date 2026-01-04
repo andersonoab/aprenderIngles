@@ -87,3 +87,53 @@ Who is responsible for this? | Quem é o responsável por isso?
 I see the problem now. | Eu vejo o problema agora.
 That looks correct. | Isso parece correto.
 Everything is fine now. | Está tudo certo agora.
+I’m ready now | Eu estou pronto agora
+I’m ready to go | Eu estou pronto pra ir
+I need to know | Eu preciso saber
+I need to go | Eu preciso ir
+I’m on my way | Eu estou a caminho
+I’m here to stay | Eu estou aqui pra ficar
+Let me see | Deixa eu ver
+Let me be | Deixa eu ficar
+I’ll do it today | Eu faço isso hoje
+I’ll do it my way | Eu faço do meu jeito
+I can stay | Eu posso ficar
+I can wait | Eu posso esperar
+I feel good | Eu me sinto bem
+I feel fine | Eu me sinto bem
+I’ll be there | Eu estarei lá
+I’ll be fair | Eu serei justo
+Take your time | Leva o seu tempo
+I’m in no rush | Não estou com pressa
+I see you now | Eu te vejo agora
+I see it clear | Eu vejo claro
+I’ll say yes | Eu vou dizer sim
+I’ll say no | Eu vou dizer não
+We move on | A gente segue
+We stay strong | A gente fica firme
+I’m still here | Eu ainda estou aqui
+I’m still in | Eu ainda estou dentro
+I’ll check it soon | Eu vou checar já já
+I’ll check it now | Eu vou checar agora
+I’ll send it today | Eu vou enviar hoje
+I’ll send it your way | Eu vou mandar pra você
+I need one thing | Eu preciso de uma coisa
+I need one more | Eu preciso de mais uma
+Let’s start today | Vamos começar hoje
+Let’s start right now | Vamos começar agora
+We can do it | A gente consegue
+We will do it | A gente vai fazer
+I’m on it | Eu tô nisso
+I’m on time | Eu tô no horário
+It’s all good | Tá tudo bem
+It’s going well | Tá indo bem
+I’m not sure | Eu não tenho certeza
+I’m sure now | Agora eu tenho certeza
+Just one minute | Só um minuto
+Just a second | Só um segundo
+We need to talk | A gente precisa conversar
+We need to walk | A gente precisa ir andando
+I’ll be back | Eu já volto
+I’ll be right back | Eu volto rapidinho
+Let’s move on | Vamos seguir
+Let’s keep going | Vamos continuar
