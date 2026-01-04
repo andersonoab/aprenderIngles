@@ -1,400 +1,50 @@
-In the Far East there was a Great King | No Extremo Oriente havia um Grande Rei
-who had no work to do. | que não tinha nenhum trabalho para fazer.
-Every day, and all day long, | Todos os dias, e o dia todo,
-he sat on soft cushions and listened to stories. | ele se sentava em almofadas macias e escutava histórias.
-And no matter what the story was about, | E não importava sobre o que era a história,
-he never grew tired of hearing it, | ele nunca se cansava de escutá-la,
-even though many of the stories took hours to complete. | mesmo que muitas histórias levassem horas para acabar.
-“There is only one fault with your story,” he often said, | “Há apenas uma falha na sua história,” ele frequentemente dizia,
-“it is too short.” | “ela é muito curta.”
-All the storytellers in the world were invited to his palace; | Todos os contadores de histórias do mundo eram convidados ao seu palácio;
-and some of them told stories that were very long indeed. | e alguns deles contavam histórias que eram de fato muito longas end.
-In the podcast, you'll hear from industry experts on key issues impacting payroll, from human capital management to compliance and benefits. | No podcast, você vai ouvir especialistas do setor sobre temas-chave que impactam a folha de pagamento, de gestão de capital humano a compliance e benefícios.
-I'm your host, Abby Thompson. | Eu sou sua anfitriã, Abby Thompson.
-In each episode, I'm speaking with global industry leaders who provide their unique insights to help listeners better understand the challenges and opportunities shaping the future of payroll. | Em cada episódio, converso com líderes globais do setor, que compartilham insights únicos para ajudar os ouvintes a entender melhor os desafios e as oportunidades que estão moldando o futuro da folha de pagamento.
-In this episode, we're tackling talent shortages and hiring trends. | Neste episódio, vamos abordar a escassez de talentos e as tendências de contratação.
-We'll cover challenges related to in-house versus remote teams. | Vamos falar sobre os desafios relacionados a equipes internas versus equipes remotas.
-We'll also discuss skills-based hiring and why more employers are ditching the four-year degree requirement. | Também vamos discutir contratação baseada em competências e por que mais empregadores estão deixando de exigir graduação de quatro anos.
-You'll hear about the evolution of AI and the role it plays in navigating these topics. | Você vai ouvir sobre a evolução da IA e o papel que ela desempenha para navegar por esses temas.
-I'm joined by my colleague at Paychex, Nina Talley. | Estou acompanhada pela minha colega na Paychex, Nina Talley.
-Nina is a talent enablement partner. | A Nina é parceira de habilitação de talentos.
-She leads an HR team that supports recruiting efforts for the entire organization. | Ela lidera uma equipe de RH que apoia os esforços de recrutamento para toda a organização.
-Nina, welcome to PayTalk. | Nina, bem-vinda ao PayTalk.
-Thanks, Abby, for having me. | Obrigada, Abby, por me receber.
-Let's start by painting a picture of how employers are feeling in 2025. | Vamos começar traçando um panorama de como os empregadores estão se sentindo em 2025.
-We've had a bit of a tumultuous few years, and some key trends have emerged. | Tivemos alguns anos um pouco turbulentos, e algumas tendências-chave surgiram.
-What are you seeing in the market and how are employers approaching hiring right now? | O que você está vendo no mercado e como os empregadores estão encarando as contratações neste momento?
-So one interesting thing about 2025 compared to what we have experienced in past years is we're seeing the labor market continue to cool. | Uma coisa interessante sobre 2025, em comparação com o que vivemos nos anos anteriores, é que estamos vendo o mercado de trabalho continuar esfriando.
-And what I mean by cooling is that we are seeing less overall hiring as well as less overall turnover. | E, ao dizer esfriando, quero dizer que estamos vendo menos contratações no geral e também menos rotatividade no geral.
-So overall, this seems like a good thing, because in other years we've been in kind of an environment where we need people, we need people. | No geral, isso parece algo positivo, porque em outros anos ficamos num ambiente de “precisamos de gente, precisamos de gente”.
-Right now, we're kind of starting to stabilize a little bit, which in some ways can make it a little bit easier to hire because you're not competing with as many people in the market. | Agora, estamos começando a estabilizar um pouco, o que em alguns aspectos pode facilitar a contratação, porque você não está competindo com tanta gente no mercado.
-However, we are still in a market where talent shortages exist, and so that can make it difficult. | Porém, ainda estamos em um mercado em que existe escassez de talentos, e isso pode dificultar.
-The other key trend that I would say is still happening in 2025 is that we are seeing that there are still industries that are harder hit by talent shortages, and that's really driving a lot of difficulty for employers. | Outra tendência-chave que eu diria que ainda está acontecendo em 2025 é que ainda há setores mais afetados pela escassez de talentos, e isso está gerando muita dificuldade para os empregadores.
-And the final trend I would say is that remote work is still a pretty contentious issue. | E a última tendência que eu diria é que o trabalho remoto ainda é um tema bem controverso.
-And even in 2025, it seems to still be going strong. | E, mesmo em 2025, parece que isso continua forte.
-Definitely. | Com certeza.
-Let's dig in a little bit more on those talent shortages. | Vamos aprofundar um pouco mais nessa escassez de talentos.
-Are there any industries you see that are hit particularly hard? | Há algum setor que você veja sendo particularmente afetado?
-And if so, why do you think that is, or what are they doing to try to alleviate the shortage? | E, se sim, por que você acha que isso acontece, ou o que eles estão fazendo para tentar aliviar a escassez?
-We are seeing the industry that is being hit hardest right now is healthcare, and it's the industry that continues to see the most labor shortage. | O setor mais impactado no momento é o de saúde, e é o setor que continua vendo a maior escassez de mão de obra.
-That is for a variety of reasons, but it's really around, historically, the healthcare industry tends to have a more aged workforce. | Isso acontece por vários motivos, mas tem muito a ver com o fato de que, historicamente, o setor de saúde tende a ter uma força de trabalho mais envelhecida.
-And so the talent that is aging out that is retiring isn't being replaced by talent that is coming in. | Então, os profissionais que estão saindo por idade e se aposentando não estão sendo substituídos por novos profissionais que estão entrando.
-And what makes it particularly difficult for healthcare is healthcare is a really interesting field where that replacement talent needs to be really, really skilled. | E o que torna isso particularmente difícil na área da saúde é que ela é um campo em que esse talento de reposição precisa ser muito, muito qualificado.
-So you can't just bring in anyone from any background. | Então, você não pode simplesmente trazer qualquer pessoa de qualquer histórico.
-You need individuals who have the proper training, the proper education, and that makes the pool smaller. | Você precisa de pessoas com o treinamento adequado, a formação adequada, e isso torna o grupo de candidatos menor.
-So those organizations are really kind of having to flex their muscles and come at hiring in different ways. | Por isso, essas organizações estão tendo que se reinventar e abordar a contratação de formas diferentes.
-So the ways that we've seen them doing that is first by increasing the compensation. | E as formas que temos visto para isso começam por aumentar a remuneração.
-So being really, really competitive with your pay and your benefits. | Ou seja, ser muito competitivo em salário e benefícios.
-Another thing is meeting the needs of your talent. | Outra coisa é atender às necessidades do seu talento.
-So if you have some talent that is looking for more flexibility, then maybe offering flexible schedules, offering maybe more part-time work, things like that. | Então, se você tem profissionais buscando mais flexibilidade, talvez oferecer escalas flexíveis, talvez mais trabalho em tempo parcial, coisas assim.
-Another thing is also looking at maybe those early talent populations and bringing in and building a pipeline. | Outra iniciativa é olhar para talentos mais no início da carreira e trazer essas pessoas, construindo um pipeline.
-So if you're able to bring in talent earlier, you can really build that talent and really develop those skills. | Ou seja, se você consegue trazer talentos mais cedo, pode realmente desenvolver essas pessoas e construir essas competências.
-So healthcare is a field where that pipeline is so important. | Então, na área da saúde, esse pipeline é muito importante.
-You really need to build a strong foundation for the future. | Você realmente precisa construir uma base forte para o futuro.
-Is there any conversation about, say, people from other industries coming in and then going through extensive training to enter healthcare roles? | Existe alguma discussão sobre, por exemplo, pessoas de outros setores entrarem e passarem por um treinamento extenso para assumir funções na área da saúde?
-And that's such a good point, and that is what AI is always going to miss as advanced as it gets. | E esse é um ponto muito bom, e é isso que a IA sempre vai deixar passar, por mais avançada que ela fique.
-There is something intangible to humanity that is about culture, is about the sense of a person, is about their willingness to learn and flex and be adaptable. | Existe algo intangível no ser humano que tem a ver com cultura, com o senso da pessoa, com a disposição de aprender, se ajustar e ser adaptável.
-And I think that's always an important thing to remember when we talk about AI and it encroaching in these spaces. | E eu acho que isso é sempre importante lembrar quando falamos de IA e dela avançando nesses espaços.
-So there's a lot of conventional wisdom about what employers view as red flags, things like job hopping or gaps in employment history. | Existe muita “sabedoria convencional” sobre o que os empregadores veem como sinais de alerta, coisas como trocar muito de emprego ou ter lacunas no histórico profissional.
-How much of that is still true today and how has the employer perspective changed in recent years about those sort of conventional ideas of red flags? | Quanto disso ainda é verdade hoje, e como a perspectiva dos empregadores mudou nos últimos anos em relação a essas ideias tradicionais de sinais de alerta?
-Yeah, I think people are getting a little bit more flexible. | Sim, acho que as pessoas estão ficando um pouco mais flexíveis.
-that's not going to be a remote employee. | isso não vai ser um colaborador remoto.
-Nina Talley: With that, I know that there are a lot of recruiters and a lot of employers now who are using AI tools for | Nina Talley: Com isso, eu sei que há muitos recrutadores e muitos empregadores agora usando ferramentas de IA para
-the first round of screening. With us talking about looking for the right person who maybe doesn't have | a primeira rodada de triagem. E, como estamos falando de buscar a pessoa certa que talvez não tenha
-100% of the skill sets, do you have any advice for our listeners on how to position themselves in their | 100% das competências, você tem algum conselho para nossos ouvintes sobre como se posicionar no
-resume to get through those AI screeners should they not have 100% of the skills that they're looking for? | currículo para passar por esses filtros de IA, caso não tenham 100% das habilidades que estão buscando?
-Abby Thompson: I think a lot of it comes down to how you can think about some of your past experience and if you don't | Abby Thompson: Acho que muito disso depende de como você apresenta parte da sua experiência passada e, se você não
-have exactly what they're looking for, how can you demonstrate your ability to have a really high | tem exatamente o que eles procuram, como você pode demonstrar sua capacidade de ter uma
-accuracy for payroll, or learning a new software, or learning a new compliance standard? So the more that | alta precisão em payroll, ou aprender um novo software, ou aprender um novo padrão de compliance? Então, quanto mais
-you can demonstrate kind of the ability to adapt and learn and grow quickly, those are the types of things | você conseguir demonstrar a capacidade de se adaptar, aprender e evoluir rapidamente, esse é o tipo de coisa
-that I think that people look for when they are being a little bit more flexible. But outside of the AI, | que eu acho que as pessoas procuram quando estão sendo um pouco mais flexíveis. Mas, além da IA,
-because a lot of candidates do get lost in applicant tracking systems, I would also say think about who do | como muitos candidatos acabam se perdendo nos sistemas de rastreamento de candidatos, eu também diria: pense em quem
-you know at that particular company to maybe have them refer you or are you reaching out specifically to | você conhece naquela empresa para talvez pedir uma indicação, ou se você está entrando em contato diretamente com
-the manager or the HR professional that's posting the position and making sure that your resume isn't | o gestor ou o profissional de RH que publicou a vaga, garantindo que seu currículo não
-getting lost in the shuffle. | se perca no meio do volume.
-Because I think on the flip side, there's so many people that don't have any relevant payroll skills that are | Porque, por outro lado, eu acho que há muita gente que não tem nenhuma habilidade relevante de payroll e está
-submitting for these types of roles. | se candidatando para esse tipo de vaga.
-And so, I think as a job seeker, how can you be a little bit more proactive and not rely on just submitting your | Então, como candidato, como você pode ser um pouco mais proativo e não depender apenas de enviar o seu
-resume and hoping that it works out for you and the AI filters do their thing? | currículo e torcer para dar certo, enquanto os filtros de IA fazem o trabalho deles?
-Nina Talley: It goes back to the human component as well, networking and being proactive. | Nina Talley: Isso volta também para o lado humano: networking e proatividade.
-Abby Thompson: Absolutely. | Abby Thompson: Com certeza.
-Yeah, and I think that's the best advice for any type of job seeker in today's market. | Sim, e acho que esse é o melhor conselho para qualquer candidato no mercado de hoje.
-There's too many layoffs and too many people applying for jobs. | Há muitas demissões e muita gente se candidatando.
-And the more proactive you can be, I think the better. | E quanto mais proativo você for, melhor.
-And then you're not as dependent on having, you know, the AI make the decision on whether you are a right fit or not. | E você não fica tão dependente de, sabe, a IA decidir se você é ou não um bom fit.
-And that's such a good point, and that is what AI is always going to miss as advanced as it gets. | E esse é um ponto muito bom: é isso que a IA sempre vai deixar passar, por mais avançada que fique.
-There is something intangible to humanity that is about culture, is about their willingness to learn and flex and be | Existe algo intangível no ser humano: a cultura, a disposição de aprender, de ser flexível e de
-adaptable. | se adaptar.
-And I think that's always an important thing to remember when we talk about AI and it encroaching in these spaces. | E acho que é sempre importante lembrar disso quando falamos de IA ocupando esses espaços.
-Abby Thompson: Absolutely. | Abby Thompson: Com certeza.
-Nina Talley: So there's a lot of conventional wisdom about what are red flags, things like job hopping or gaps in | Nina Talley: Existe muita “sabedoria convencional” sobre quais são os sinais de alerta, coisas como trocar muito de emprego ou ter gaps
-employment history. | no histórico profissional.
-How much of that is still true today and how has the employer perspective changed in recent years about those sort of | Quanto disso ainda é verdade hoje e como a visão dos empregadores mudou nos últimos anos sobre esse tipo de
-conventional ideas of red flags? | ideia convencional de sinais de alerta?
-Abby Thompson: Yeah, I think people are getting a little bit more flexible. | Abby Thompson: Sim, acho que as pessoas estão ficando um pouco mais flexíveis.
-I think five years ago, multiple moves really raised a lot of eyebrows, but now it's more about being able to | Acho que, cinco anos atrás, muitas mudanças chamavam muita atenção, mas agora é mais sobre conseguir
-communicate why you made each move and for there to be consistency in the story and messaging. | comunicar por que você fez cada mudança e ter consistência na história e na mensagem.
-I think if we look back at what the average tenure was for payroll, it used to be around five to seven years with | Se olharmos para trás, a permanência média em payroll costumava ser em torno de cinco a sete anos para
-someone with 10 plus years of experience. | alguém com mais de 10 anos de experiência.
-And now today we're looking at with someone with 10 plus years of experience, they're going to have kind of an | E hoje, para alguém com mais de 10 anos de experiência, estamos vendo uma
-average of four years of tenure. | média de cerca de quatro anos de permanência.
-And then when we drop that down to maybe looking at someone that has three to five years of experience, the average | E quando baixamos isso para alguém com três a cinco anos de experiência, em média
-person already has had three jobs. | essa pessoa já teve três empregos.
-So if you're looking for someone with three to five years of experience, you're likely hiring someone that has three | Então, se você procura alguém com três a cinco anos de experiência, é bem provável que esteja contratando alguém que teve três
-to four jobs. | a quatro empregos.
-And people just have to understand, again, just because someone has moved around a lot doesn't necessarily mean that | E as pessoas precisam entender, de novo: só porque alguém mudou muito, isso não significa necessariamente que
-they are a job hopper or they're a flight risk or not a good employee. | seja “job hopper”, um risco de sair rápido, ou um mau colaborador.
-We actually had an example of one of our recruiters in the Houston market who had a candidate that on paper was great. | Na verdade, tivemos um exemplo: uma das nossas recrutadoras no mercado de Houston tinha um candidato que, no papel, era ótimo.
-They had some of the best references, they had good experience, but the recruiter could not get behind and support the | Ele tinha algumas das melhores referências, tinha boa experiência, mas a recrutadora não conseguiu endossar e apoiar o
-candidate because they didn't understand the story or feel like it was consistent. | candidato porque não entendeu a história ou não sentiu que ela era consistente.
-So I think it's always important to be able to show your track record of why you've made changes and to be able to | Então, acho que é sempre importante conseguir mostrar seu histórico de por que você fez mudanças e conseguir
-Good morning. How are you? | Bom dia. Como você está?
-I’m online now. | Estou online agora.
-I’m working on payroll today. | Hoje eu estou cuidando da folha.
-Can we talk for five minutes? | Podemos falar cinco minutos?
-I’ll get back to you today. | Eu te retorno hoje.
-Here’s my plan for today. | Aqui está meu plano de hoje.
-I’m starting with the priority items. | Vou começar pelo que é prioridade.
-I’ll finish this before lunch. | Vou finalizar isso antes do almoço.
-Let’s start the meeting. | Vamos começar a reunião.
-Can you share your screen? | Você pode compartilhar sua tela?
-Just to confirm, what’s the deadline? | Só para confirmar, qual é o prazo?
-I’ll send the notes after the meeting. | Vou mandar o resumo depois da reunião.
-We found an issue in the file. | Encontramos um problema no arquivo.
-The numbers don’t match. | Os números não batem.
-I’ll double-check and fix it. | Vou conferir de novo e corrigir.
-We need to rerun the report. | Precisamos rodar o relatório de novo.
-Let’s decide the next step. | Vamos decidir o próximo passo.
-Here’s what happened. | Aqui está o que aconteceu.
-The goal is to pay everyone on time. | O objetivo é pagar todo mundo em dia.
-I can interpret the data, not just process it. | Eu consigo interpretar os dados, não só processar.
-Just to confirm, what’s the deadline? | Só para confirmar, qual é o prazo?
-What’s the deadline for this? | Qual é o prazo disso?
-When do you need this? | Para quando você precisa disso?
-I’ll double-check and fix it. | Vou conferir de novo e corrigir.
-I’ll review it and fix it. | Vou revisar e corrigir.
-Let me check again and fix it. | Deixa eu checar de novo e corrigir.
-I’ll get back to you today. | Eu te retorno hoje.
-I’ll reply later today. | Respondo mais tarde hoje.
-I’ll send an update today. | Vou mandar uma atualização hoje.
-What are you working on today? | No que você está trabalhando hoje?
-What’s the deadline? | Qual é o prazo?
-Do the numbers match? | Os números batem?
-What happened? | O que aconteceu?
-What’s the next step? | Qual é o próximo passo?
-Can we talk for five minutes? | Podemos falar cinco minutos?
-I’m working on payroll today. | Hoje eu estou cuidando da folha.
-Here’s my plan for today. | Aqui está meu plano de hoje.
-Just to confirm, what’s the deadline? | Só para confirmar, qual é o prazo?
-We found an issue in the file. | Encontramos um problema no arquivo.
-The numbers don’t match. | Os números não batem.
-I’ll double-check and fix it. | Vou conferir de novo e corrigir.
-We need to rerun the report. | Precisamos rodar o relatório de novo.
-Let’s decide the next step. | Vamos decidir o próximo passo.
-I’ll get back to you today. | Eu te retorno hoje.
-The goal is to pay everyone on time. | O objetivo é pagar todo mundo em dia.
-I’m following up on this. | Estou retomando esse assunto.
-Just checking if you had a chance to review. | Só checando se você conseguiu revisar.
-Do you need anything from me? | Você precisa de algo de mim?
-We’re waiting for your approval. | Estamos aguardando sua aprovação.
-Once approved, we’ll proceed. | Assim que for aprovado, seguimos.
-I sent the file yesterday. | Enviei o arquivo ontem.
-Could you please confirm receipt? | Você pode confirmar o recebimento?
-This is blocking the process. | Isso está travando o processo.
-We need this to move forward. | Precisamos disso para avançar.
-Let me know if you have questions. | Me avise se tiver dúvidas.
-Can we align on the next steps? | Podemos alinhar os próximos passos?
-I’ll keep you posted. | Te mantenho informado.
-We’re on track with the deadline. | Estamos no prazo.
-There’s a small delay. | Há um pequeno atraso.
-We’re working to resolve it. | Estamos trabalhando para resolver.
-There was a mistake in the data. | Houve um erro nos dados.
-The issue came from the input file. | O problema veio do arquivo de entrada.
-We already fixed the issue. | Já corrigimos o problema.
-The values are correct now. | Os valores estão corretos agora.
-Thanks for flagging this. | Obrigado por sinalizar isso.
-This was not expected. | Isso não era esperado.
-We’re investigating the root cause. | Estamos investigando a causa.
-We want to avoid this next time. | Queremos evitar isso da próxima vez.
-We’re adding an extra check. | Estamos adicionando uma conferência extra.
-This should not happen again. | Isso não deve acontecer novamente.
-I take responsibility for this. | Eu assumo a responsabilidade por isso.
-Thanks for your patience. | Obrigado pela paciência.
-We appreciate your understanding. | Agradecemos a compreensão.
-Please let us know if you see anything else. | Avise se notar mais alguma coisa.
-We’re here to support. | Estamos aqui para apoiar.
-Let me explain the situation. | Deixa eu explicar a situação.
-Here’s the full context. | Aqui está o contexto completo.
-This happened due to a system issue. | Isso aconteceu por causa de um problema no sistema.
-We followed the standard process. | Seguimos o processo padrão.
-The calculation was done correctly. | O cálculo foi feito corretamente.
-The impact was limited. | O impacto foi limitado.
-No employees were affected. | Nenhum colaborador foi impactado.
-Payment will be made on time. | O pagamento será feito em dia.
-There’s no action needed from your side. | Não é necessária nenhuma ação da sua parte.
-We’ll monitor this closely. | Vamos acompanhar isso de perto.
-If anything changes, we’ll inform you. | Se algo mudar, avisamos.
-This is already under control. | Isso já está sob controle.
-We’re aligned with Finance. | Estamos alinhados com o Financeiro.
-We have management approval. | Temos aprovação da gestão.
-We’re good to proceed. | Podemos seguir.
-This is my role today. | Esse é o meu papel hoje.
-I work closely with different teams. | Trabalho de perto com times diferentes.
-I focus on accuracy and deadlines. | Tenho foco em precisão e prazos.
-I support payroll and reporting. | Dou suporte à folha e relatórios.
-I help prevent issues before payment. | Ajudo a evitar problemas antes do pagamento.
-I’m used to tight deadlines. | Estou acostumado com prazos apertados.
-I stay calm under pressure. | Mantenho a calma sob pressão.
-I communicate clearly with stakeholders. | Me comunico de forma clara com as partes envolvidas.
-I escalate issues when needed. | Escalo problemas quando necessário.
-I make sure everyone is paid correctly. | Garanto que todos sejam pagos corretamente.
-This is how I add value. | É assim que eu gero valor.
-I’m always improving the process. | Estou sempre melhorando o processo.
-I learn from past issues. | Aprendo com problemas passados.
-I’m comfortable working in English. | Fico à vontade trabalhando em inglês.
-I’m ready for the next challenge. | Estou pronto para o próximo desafio.
-This is my role today. | Esse é o meu papel hoje.
-I work closely with different teams. | Trabalho de perto com times diferentes.
-I focus on accuracy and deadlines. | Tenho foco em precisão e prazos.
-I support payroll and reporting. | Dou suporte à folha e relatórios.
-I help prevent issues before payment. | Ajudo a evitar problemas antes do pagamento.
-I’m used to tight deadlines. | Estou acostumado com prazos apertados.
-I stay calm under pressure. | Mantenho a calma sob pressão.
-I communicate clearly with stakeholders. | Me comunico de forma clara com as partes envolvidas.
-I escalate issues when needed. | Escalo problemas quando necessário.
-I make sure everyone is paid correctly. | Garanto que todos sejam pagos corretamente.
-This is how I add value. | É assim que eu gero valor.
-I’m always improving the process. | Estou sempre melhorando o processo.
-I learn from past issues. | Aprendo com problemas passados.
-I’m comfortable working in English. | Fico à vontade trabalhando em inglês.
-I’m ready for the next challenge. | Estou pronto para o próximo desafio.
-I need to align this with Finance. | Preciso alinhar isso com o Financeiro.
-We’re waiting for final confirmation. | Estamos aguardando a confirmação final.
-Once confirmed, we can proceed. | Assim que confirmar, podemos seguir.
-This depends on your approval. | Isso depende da sua aprovação.
-We need to make a decision today. | Precisamos tomar uma decisão hoje.
-Let’s keep this simple. | Vamos manter isso simples.
-We’re aligned on the approach. | Estamos alinhados quanto à abordagem.
-This makes sense to me. | Isso faz sentido para mim.
-I agree with this plan. | Concordo com esse plano.
-Let’s move forward with this. | Vamos seguir com isso.
-I’ll document the decision. | Vou documentar a decisão.
-This is the agreed action. | Essa é a ação acordada.
-We’re all on the same page. | Estamos todos alinhados.
-No further action is needed. | Não é necessária mais nenhuma ação.
-We can close this topic. | Podemos encerrar esse assunto.
-There was a delay in the process. | Houve um atraso no processo.
-The delay was due to missing data. | O atraso foi por falta de dados.
-We received the information late. | Recebemos a informação tarde.
-This impacted the timeline. | Isso impactou o cronograma.
-We adjusted the schedule. | Ajustamos o cronograma.
-We’re back on track now. | Agora voltamos ao normal.
-This won’t affect the payment. | Isso não vai afetar o pagamento.
-We communicated the delay. | Comunicamos o atraso.
-Thanks for the update. | Obrigado pela atualização.
-Please keep me informed. | Por favor, me mantenha informado.
-I’ll share an update soon. | Vou compartilhar uma atualização em breve.
-We’re monitoring the situation. | Estamos monitorando a situação.
-This is being handled. | Isso está sendo tratado.
-We expect no further delays. | Não esperamos mais atrasos.
-Everything is under control. | Está tudo sob controle.
-Let me clarify this point. | Deixa eu esclarecer esse ponto.
-There seems to be some confusion. | Parece haver uma confusão.
-This is how the process works. | É assim que o processo funciona.
-I’ll walk you through it. | Vou te explicar passo a passo.
-Here’s a simple example. | Aqui está um exemplo simples.
-This is based on the policy. | Isso é baseado na política.
-This follows the standard rule. | Isso segue a regra padrão.
-There’s no exception here. | Não há exceção aqui.
-This applies to everyone. | Isso se aplica a todos.
-That’s why the value changed. | Por isso o valor mudou.
-I hope this clarifies it. | Espero que isso esclareça.
-Let me know if it’s clear now. | Me avise se agora ficou claro.
-I’m happy to explain again. | Fico à disposição para explicar de novo.
-We want full transparency. | Queremos total transparência.
-Clarity is important here. | Clareza é importante aqui.
-I’m reviewing this profile. | Estou revisando esse perfil.
-This candidate has relevant experience. | Esse candidato tem experiência relevante.
-They worked with payroll systems. | Já trabalharam com sistemas de folha.
-They understand deadlines and controls. | Entendem prazos e controles.
-Communication skills are strong. | As habilidades de comunicação são fortes.
-They handle pressure well. | Lidam bem com pressão.
-They ask the right questions. | Fazem as perguntas certas.
-They focus on accuracy. | Têm foco em precisão.
-They understand the business impact. | Entendem o impacto no negócio.
-This matches our expectations. | Isso atende às nossas expectativas.
-They would add value to the team. | Agregariam valor ao time.
-This is a good fit. | É um bom encaixe.
-I recommend moving forward. | Recomendo seguir adiante.
-Let’s proceed with the next step. | Vamos seguir para o próximo passo.
-I’m available for questions. | Fico à disposição para perguntas.
-In my current role, I support payroll operations. | Na minha função atual, dou suporte às operações de folha.
-I work with monthly and off-cycle payroll. | Trabalho com folha mensal e complementar.
-I ensure data accuracy before processing. | Garanto a precisão dos dados antes do processamento.
-I work closely with HR and Finance. | Trabalho próximo ao RH e Financeiro.
-I handle adjustments and corrections. | Trato ajustes e correções.
-I help resolve payroll issues. | Ajudo a resolver problemas de folha.
-I communicate clearly with stakeholders. | Me comunico claramente com as partes envolvidas.
-I’m used to global environments. | Estou acostumado a ambientes globais.
-I meet strict deadlines. | Cumpro prazos rigorosos.
-I focus on continuous improvement. | Tenho foco em melhoria contínua.
-I document processes and controls. | Documento processos e controles.
-I support audits when needed. | Dou suporte a auditorias quando necessário.
-I’m proactive in identifying risks. | Sou proativo em identificar riscos.
-I bring structure to the process. | Trago estrutura ao processo.
-I’m ready to contribute from day one. | Estou pronto para contribuir desde o primeiro dia.
-I’m working on this now. | Estou trabalhando nisso agora.
-This is my main priority today. | Isso é minha principal prioridade hoje.
-Let me check this and get back to you. | Deixa eu verificar isso e te retorno.
-Just to confirm the details. | Só para confirmar os detalhes.
-We’re aligned on this. | Estamos alinhados sobre isso.
-There’s an issue we need to fix. | Há um problema que precisamos corrigir.
-The numbers don’t look right. | Os números não parecem corretos.
-We’re reviewing this carefully. | Estamos revisando isso com cuidado.
-This needs an adjustment. | Isso precisa de um ajuste.
-It’s under control now. | Agora está sob controle.
-We need your approval to proceed. | Precisamos da sua aprovação para seguir.
-Once approved, we’ll move forward. | Assim que aprovado, vamos avançar.
-I’ll keep you updated. | Vou te manter atualizado.
-Please let me know if you have questions. | Por favor, me avise se tiver dúvidas.
-Thanks for the support. | Obrigado pelo apoio.
-I’m working on that right now. | Estou trabalhando nisso agora.
-We’re on track with this. | Estamos no prazo com isso.
-There’s a small delay, but it’s under control. | Há um pequeno atraso, mas está sob controle.
-We’re waiting for confirmation. | Estamos aguardando confirmação.
-Once we get approval, we’ll proceed. | Assim que tivermos aprovação, seguimos.
-Let me clarify this point. | Deixa eu esclarecer esse ponto.
-From my side, everything looks fine. | Do meu lado, está tudo certo.
-I agree with this approach. | Concordo com essa abordagem.
-That makes sense to me. | Isso faz sentido para mim.
-I don’t see any major issues. | Não vejo nenhum problema relevante.
-We need to decide this today. | Precisamos decidir isso hoje.
-Let’s align on the next steps. | Vamos alinhar os próximos passos.
-I’ll follow up after the meeting. | Vou retomar isso depois da reunião.
-I’ll send an update later today. | Vou enviar uma atualização mais tarde hoje.
-Let me know if you need anything from me. | Me avise se precisar de algo de mim.
-I’m aligned with this proposal. | Estou alinhado com essa proposta.
-From my perspective, this works. | Do meu ponto de vista, isso funciona.
-I don’t see any blockers right now. | Não vejo impedimentos no momento.
-We can move forward with this. | Podemos seguir com isso.
-This is manageable from our side. | Isso é administrável do nosso lado.
-We’re still validating the data. | Ainda estamos validando os dados.
-I need a bit more time to confirm. | Preciso de mais um tempo para confirmar.
-I’ll confirm this by the end of the day. | Confirmo isso até o fim do dia.
-I’m checking this with the team. | Estou validando isso com o time.
-I’ll come back with an answer soon. | Retorno com uma resposta em breve.
-This is already in progress. | Isso já está em andamento.
-We’ve already started working on it. | Já começamos a trabalhar nisso.
-This is part of our current scope. | Isso faz parte do nosso escopo atual.
-This is not in scope for now. | Isso não está no escopo no momento.
-We can revisit this later. | Podemos retomar isso depois.
-I agree in principle. | Concordo em princípio.
-I have a small concern here. | Tenho uma pequena preocupação aqui.
-We should be careful with this. | Devemos ter cuidado com isso.
-This might impact the timeline. | Isso pode impactar o cronograma.
-We need to assess the risk. | Precisamos avaliar o risco.
-Let’s park this for now. | Vamos deixar isso em espera por enquanto.
-Let’s take this offline. | Vamos tratar isso fora da reunião.
-We can discuss this after the call. | Podemos discutir isso depois da call.
-This doesn’t require discussion now. | Isso não precisa de discussão agora.
-We’ll address this separately. | Vamos tratar isso separadamente.
-Thanks for raising this point. | Obrigado por trazer esse ponto.
-That’s a good question. | Essa é uma boa pergunta.
-I don’t have that information yet. | Ainda não tenho essa informação.
-I’ll need to double-check that. | Vou precisar conferir isso.
-Let me get back to you on that. | Te retorno sobre isso.
-From an operational standpoint, this works. | Do ponto de vista operacional, isso funciona.
-This aligns with our process. | Isso está alinhado com nosso processo.
-This follows our standard approach. | Isso segue nossa abordagem padrão.
-We’re comfortable with this decision. | Estamos confortáveis com essa decisão.
-This is the best option for now. | Essa é a melhor opção no momento.
-I’m okay with this direction. | Estou de acordo com essa direção.
-We just need final confirmation. | Só precisamos da confirmação final.
-Once confirmed, we’re good to go. | Confirmando, estamos prontos para seguir.
-No action is needed from my side. | Do meu lado, não é necessária ação.
-I’ll support this as needed. | Vou dar suporte conforme necessário.
-I’m fine with this approach. | Estou de acordo com essa abordagem.
-This works for me. | Para mim, funciona.
-I don’t have any objections. | Não tenho objeções.
-From my side, we can proceed. | Do meu lado, podemos seguir.
-I’m comfortable with this plan. | Estou confortável com esse plano.
-We need to be realistic about timing. | Precisamos ser realistas com os prazos.
-This may take longer than expected. | Isso pode levar mais tempo do que o esperado.
-We should factor this in. | Devemos considerar isso.
-This could require extra effort. | Isso pode exigir esforço extra.
-We need to plan accordingly. | Precisamos planejar de acordo.
-I’ll take ownership of this. | Vou assumir isso.
-This is on my radar. | Isso está no meu radar.
-I’ll make sure this is handled. | Vou garantir que isso seja tratado.
-I’ll follow this closely. | Vou acompanhar isso de perto.
-I’ll flag any issues early. | Vou sinalizar qualquer problema cedo.
-We’re aligned with the business. | Estamos alinhados com o negócio.
-This supports our objectives. | Isso apoia nossos objetivos.
-This is the right direction. | Essa é a direção certa.
-I see the value in this. | Vejo valor nisso.
-This is a reasonable request. | É uma solicitação razoável.
-We can close this item. | Podemos encerrar esse item.
-Let’s move on to the next topic. | Vamos para o próximo assunto.
-That covers everything from my side. | Do meu lado, isso cobre tudo.
-No further comments from me. | Sem mais comentários da minha parte.
-I’m done here. | Por mim, está ok.
+I like to start early. | Eu gosto de começar cedo.
+I like to check my email. | Eu gosto de checar meu e-mail.
+I like to plan my day. | Eu gosto de planejar meu dia.
+I need to finish this today. | Eu preciso finalizar isso hoje.
+I need to review this file. | Eu preciso revisar esse arquivo.
+I need to update the report. | Eu preciso atualizar o relatório.
+I need help with this. | Eu preciso de ajuda com isso.
+I have to join a meeting. | Eu tenho que entrar em uma reunião.
+I have to call a client. | Eu tenho que ligar para um cliente.
+I have to send an update. | Eu tenho que enviar uma atualização.
+I want to confirm the date. | Eu quero confirmar a data.
+I want to confirm the amount. | Eu quero confirmar o valor.
+I want to make sure it’s correct. | Eu quero ter certeza de que está correto.
+I’m here to help. | Eu estou aqui para ajudar.
+I’m available now. | Eu estou disponível agora.
+I’m not available now. | Eu não estou disponível agora.
+I’m in a meeting. | Eu estou em reunião.
+I’m working on it. | Eu estou cuidando disso.
+I’m almost done. | Eu estou quase terminando.
+I’m ready to send it. | Eu estou pronto para enviar.
+I’m going to send it today. | Eu vou enviar isso hoje.
+I’m going to check it now. | Eu vou checar isso agora.
+I’m going to fix it. | Eu vou corrigir isso.
+I’ll send it in a minute. | Eu envio em um minuto.
+I’ll send it by end of day. | Eu envio até o fim do dia.
+I’ll call you later. | Eu te ligo mais tarde.
+I’ll get back to you soon. | Eu te retorno em breve.
+Can you send me the file? | Você pode me enviar o arquivo?
+Can you confirm the number? | Você pode confirmar o número?
+Can you repeat that, please? | Você pode repetir, por favor?
+Can you share the link? | Você pode compartilhar o link?
+Could you help me with this? | Você pode me ajudar com isso?
+Could you check this for me? | Você pode checar isso para mim?
+Could you resend it? | Você pode reenviar?
+Please give me a moment. | Me dá um momento, por favor.
+Please send it again. | Por favor, envie de novo.
+Please let me know. | Por favor, me avise.
+Let’s align on this. | Vamos alinhar isso.
+Let’s check this together. | Vamos checar isso juntos.
+Let’s decide today. | Vamos decidir hoje.
+What is the priority today? | Qual é a prioridade de hoje?
+What is the deadline? | Qual é o prazo?
+What is the next step? | Qual é o próximo passo?
+Do you have a minute? | Você tem um minuto?
+Do you have the latest version? | Você tem a versão mais recente?
+Is this correct? | Isso está correto?
+Is everything okay? | Está tudo certo?
+There is an issue. | Tem um problema.
+There was a mistake. | Teve um erro.
+I fixed it. | Eu corrigi.
