@@ -317,3 +317,241 @@ A moment later, the employee sent the document. | Um momento depois, o colaborad
 A moment later, the system was back online. | Um momento depois, o sistema voltou.
 A moment later, the updated file appeared in the folder. | Um momento depois, o arquivo atualizado apareceu na pasta.
 A moment later, the issue was confirmed by the vendor. | Um momento depois, o fornecedor confirmou o problema.
+Hi, how are you? | Oi, tudo bem?
+Good morning. | Bom dia.
+Good afternoon. | Boa tarde.
+Good evening. | Boa noite.
+Nice to meet you. | Prazer em conhecer você.
+I’m from Brazil. | Eu sou do Brasil.
+I’m here for work. | Eu estou aqui a trabalho.
+I’m here on vacation. | Eu estou aqui de férias.
+Here is my passport. | Aqui está meu passaporte.
+Where is immigration? | Onde fica a imigração?
+Where is baggage claim? | Onde fica a retirada de bagagem?
+I lost my luggage. | Eu perdi minha bagagem.
+Can you help me, please? | Você pode me ajudar, por favor?
+Where is the restroom? | Onde fica o banheiro?
+Where can I get a taxi? | Onde eu pego um táxi?
+Where is the rideshare pickup? | Onde fica o local de embarque do aplicativo?
+I need to go to this address. | Eu preciso ir para este endereço.
+How much is it to downtown? | Quanto custa até o centro?
+Can you take me to this hotel? | Você pode me levar a este hotel?
+Please stop here. | Por favor, pare aqui.
+How long does it take? | Quanto tempo leva?
+I’m looking for the subway. | Eu estou procurando o metrô.
+Which line do I take? | Qual linha eu pego?
+Where is this stop? | Onde é essa parada?
+I have a reservation. | Eu tenho uma reserva.
+I’d like to check in. | Eu gostaria de fazer check-in.
+I’d like to check out. | Eu gostaria de fazer check-out.
+Can I get the room key? | Posso pegar a chave do quarto?
+What time is breakfast? | Que horas é o café da manhã?
+Is Wi-Fi included? | O Wi-Fi está incluso?
+Can you write it down? | Você pode escrever, por favor?
+The air conditioner isn’t working. | O ar-condicionado não está funcionando.
+I need clean towels. | Eu preciso de toalhas limpas.
+Can I have a receipt, please? | Você pode me dar um recibo, por favor?
+I’m hungry. | Eu estou com fome.
+I’m thirsty. | Eu estou com sede.
+Do you have a menu? | Você tem um cardápio?
+Can I get a table for one? | Posso pegar uma mesa para uma pessoa?
+Can I get a table for two? | Posso pegar uma mesa para duas pessoas?
+Can I see the specials? | Posso ver as opções do dia?
+I’ll have this one. | Eu vou querer este.
+I’d like a coffee, please. | Eu gostaria de um café, por favor.
+I’d like water, please. | Eu gostaria de água, por favor.
+Still or sparkling? | Sem gás ou com gás?
+No ice, please. | Sem gelo, por favor.
+Can I get the bill, please? | Posso pegar a conta, por favor?
+Can I pay by card? | Posso pagar no cartão?
+Do you take cash? | Você aceita dinheiro?
+Could you make it to go? | Você pode fazer para viagem?
+I’m allergic to nuts. | Eu tenho alergia a castanhas/amendoim.
+No dairy, please. | Sem lactose/leite, por favor.
+No spicy, please. | Sem pimenta, por favor.
+That’s all, thank you. | É só isso, obrigado.
+Where is the nearest grocery store? | Onde fica o mercado mais perto?
+I’m just looking. | Eu só estou olhando.
+How much is this? | Quanto custa isto?
+Do you have a smaller size? | Você tem um tamanho menor?
+Do you have a larger size? | Você tem um tamanho maior?
+Can I try it on? | Posso experimentar?
+Where is the fitting room? | Onde fica o provador?
+Can I get a refund? | Posso pedir reembolso?
+Can I exchange this? | Posso trocar isto?
+I need a SIM card. | Eu preciso de um chip.
+I need an eSIM. | Eu preciso de um eSIM.
+Do you have a charger? | Você tem carregador?
+What’s the Wi-Fi password? | Qual é a senha do Wi-Fi?
+My phone has no signal. | Meu celular está sem sinal.
+Can you call me an Uber? | Você pode chamar um Uber para mim?
+I need help right now. | Eu preciso de ajuda agora.
+It’s an emergency. | É uma emergência.
+Call the police, please. | Chame a polícia, por favor.
+Call an ambulance, please. | Chame uma ambulância, por favor.
+I don’t feel well. | Eu não estou me sentindo bem.
+Where is the nearest pharmacy? | Onde fica a farmácia mais perto?
+I need a doctor. | Eu preciso de um médico.
+I’m lost. | Eu estou perdido.
+Can you show me on the map? | Você pode me mostrar no mapa?
+Could you speak more slowly? | Você pode falar mais devagar?
+Sorry, I don’t understand. | Desculpa, eu não entendi.
+Can you repeat that? | Você pode repetir?
+Can you say that again? | Você pode dizer de novo?
+That’s perfect. | Perfeito.
+That works for me. | Para mim, está ótimo.
+See you later. | Até mais.
+Have a nice day. | Tenha um bom dia.
+I’m looking for a job. | Eu estou procurando um emprego.
+Are you hiring? | Vocês estão contratando?
+Do you have any openings? | Vocês têm alguma vaga?
+Can I schedule an interview? | Posso agendar uma entrevista?
+I can work full-time. | Eu posso trabalhar em tempo integral.
+I can work part-time. | Eu posso trabalhar meio período.
+I have experience in payroll. | Eu tenho experiência em folha de pagamento.
+I can start immediately. | Eu posso começar imediatamente.
+Here is my resume. | Aqui está meu currículo.
+Can I speak with the manager? | Posso falar com o gerente?
+I’d like to apply for this position. | Eu gostaria de me candidatar para essa vaga.
+What are the working hours? | Quais são os horários de trabalho?
+What is the pay rate? | Qual é o valor do pagamento por hora/salário?
+Thank you for your time. | Obrigado pelo seu tempo.
+Be (ser/estar)
+I’ll be there in 5 minutes. | Eu chego em 5 minutos.
+I’m not sure, but I’ll check. | Eu não tenho certeza, mas vou verificar.
+It’s been a busy week. | Foi uma semana corrida.
+Let’s be clear about the goal. | Vamos deixar claro o objetivo.
+I’ll be honest with you. | Vou ser sincero com você.
+
+Have (ter)
+Do you have a minute? | Você tem um minuto?
+I have a quick question. | Eu tenho uma pergunta rápida.
+I don’t have the latest version. | Eu não tenho a versão mais recente.
+We have a deadline today. | A gente tem um prazo hoje.
+I have everything I need. | Eu tenho tudo o que preciso.
+
+Do (fazer)
+I’ll do it right now. | Eu faço agora.
+What should we do next? | O que a gente faz agora?
+I did a quick check. | Eu fiz uma conferência rápida.
+Let’s do a quick review. | Vamos fazer uma revisão rápida.
+I can do that for you. | Eu posso fazer isso pra você.
+
+Say (dizer)
+Just say the word. | É só dizer.
+What did you say about the date? | O que você disse sobre a data?
+Let me say it again. | Deixa eu falar de novo.
+I’m just saying. | Só estou dizendo.
+Say it one more time, please. | Diga mais uma vez, por favor.
+
+Get (pegar/obter/receber)
+I’ll get back to you today. | Eu te retorno hoje.
+Did you get my email? | Você recebeu meu e-mail?
+Let’s get this done. | Vamos resolver isso.
+I need to get approval first. | Eu preciso da aprovação primeiro.
+Can you get me the file? | Você consegue pegar o arquivo pra mim?
+
+Make (fazer/criar)
+Let’s make a decision. | Vamos tomar uma decisão.
+Can you make a small change? | Você pode fazer uma pequena alteração?
+I want to make sure it’s correct. | Eu quero ter certeza de que está correto.
+That makes sense. | Isso faz sentido.
+Let’s make it simple. | Vamos deixar isso simples.
+
+Go (ir)
+I have to go now. | Eu tenho que ir agora.
+Let’s go over the details. | Vamos passar pelos detalhes.
+Where should this go? | Para onde isso deve ir?
+I’ll go check. | Eu vou checar.
+Let’s go with option A. | Vamos com a opção A.
+
+Know (saber)
+Let me know when you can. | Me avisa quando você puder.
+Do you know the status? | Você sabe o status?
+I don’t know yet. | Eu ainda não sei.
+Just so you know… | Só para você saber…
+I want you to know I’m on it. | Quero que você saiba que estou cuidando.
+
+Take (pegar/levar)
+Please take a look. | Por favor, dê uma olhada.
+I’ll take care of it. | Eu vou cuidar disso.
+Can you take this call? | Você pode atender essa ligação?
+Let’s take a quick break. | Vamos fazer uma pausa rápida.
+I’ll take the lead on this. | Eu vou liderar isso.
+
+See (ver)
+I see the issue now. | Eu vejo o problema agora.
+Let me see what I can do. | Deixa eu ver o que eu posso fazer.
+See you tomorrow. | Te vejo amanhã.
+I’ll see if it’s possible. | Eu vou ver se é possível.
+I didn’t see your message. | Eu não vi sua mensagem.
+
+Come (vir)
+Can you come to the meeting? | Você pode entrar na reunião?
+I’ll come back with an answer. | Eu volto com uma resposta.
+This comes from Finance. | Isso vem do Financeiro.
+It came up in the review. | Isso apareceu na revisão.
+Come with me on this. | Vai comigo nessa.
+
+Think (pensar/achar)
+I think this is correct. | Eu acho que isso está correto.
+What do you think? | O que você acha?
+I don’t think it will work. | Eu não acho que vai funcionar.
+Let me think for a second. | Deixa eu pensar um segundo.
+I think we should confirm first. | Eu acho que a gente deve confirmar antes.
+
+Look (olhar/verificar)
+I’ll look into it. | Eu vou verificar isso.
+Can you look at this? | Você pode olhar isso?
+It looks good to me. | Pra mim, parece bom.
+Look at the last line. | Olha a última linha.
+I’m looking for the file. | Eu estou procurando o arquivo.
+
+Want (querer)
+I want to be clear. | Eu quero ser claro.
+I want to confirm the value. | Eu quero confirmar o valor.
+I want to avoid mistakes. | Eu quero evitar erros.
+Do you want me to send it? | Você quer que eu envie?
+I want to align on the plan. | Eu quero alinhar o plano.
+
+Give (dar)
+Can you give me a minute? | Você pode me dar um minuto?
+Give me a quick update. | Me dá uma atualização rápida.
+I’ll give you a call. | Eu te ligo.
+Can you give me access? | Você pode me dar acesso?
+I’ll give you the final version. | Eu te envio a versão final.
+
+Use (usar)
+We can use this template. | A gente pode usar esse modelo.
+I usually use this report. | Eu geralmente uso esse relatório.
+Use the latest file. | Use o arquivo mais recente.
+How do you use this tool? | Como você usa essa ferramenta?
+Let’s use a simple approach. | Vamos usar uma abordagem simples.
+
+Find (encontrar)
+I found the issue. | Eu encontrei o problema.
+Can you find the email? | Você consegue achar o e-mail?
+I can’t find the file. | Eu não consigo achar o arquivo.
+Let’s find a solution. | Vamos achar uma solução.
+We found a better way. | A gente encontrou um jeito melhor.
+
+Tell (dizer/contar)
+Tell me the deadline. | Me diga o prazo.
+I’ll tell you what I know. | Eu te digo o que eu sei.
+Can you tell me the status? | Você pode me dizer o status?
+Just tell me when. | Só me diga quando.
+Tell me if you need help. | Me avise se precisar de ajuda.
+
+Ask (perguntar/pedir)
+Can I ask a quick question? | Posso fazer uma pergunta rápida?
+Ask Finance to confirm. | Peça para o Financeiro confirmar.
+I’ll ask the vendor. | Eu vou perguntar para o fornecedor.
+Don’t be afraid to ask. | Não tenha medo de perguntar.
+Should I ask now or later? | Eu pergunto agora ou depois?
+
+Work (trabalhar/funcionar)
+I’m working on it. | Eu estou cuidando disso.
+It’s not working. | Não está funcionando.
+This works for me. | Para mim, funciona.
+We need to work together. | A gente precisa trabalhar junto.
+What time works for you? | Que horário funciona para você?
