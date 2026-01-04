@@ -48,3 +48,42 @@ Is everything okay? | Está tudo certo?
 There is an issue. | Tem um problema.
 There was a mistake. | Teve um erro.
 I fixed it. | Eu corrigi.
+I usually start early. | Eu geralmente começo cedo.
+I just checked my email. | Eu acabei de checar meu e-mail.
+I’m planning my day now. | Estou planejando meu dia agora.
+I still need to finish this. | Eu ainda preciso terminar isso.
+I need to double-check this. | Eu preciso conferir isso de novo.
+I need to make an adjustment. | Eu preciso fazer um ajuste.
+I have a meeting now. | Eu tenho uma reunião agora.
+I have another task first. | Eu tenho outra tarefa antes.
+I have something to review. | Eu tenho algo para revisar.
+I want to be sure. | Eu quero ter certeza.
+I want to avoid mistakes. | Eu quero evitar erros.
+I want to keep this simple. | Eu quero manter isso simples.
+I’m checking this now. | Eu estou checando isso agora.
+I’m reviewing the file. | Eu estou revisando o arquivo.
+I’m preparing an update. | Eu estou preparando uma atualização.
+I’m almost finished here. | Eu estou quase finalizando aqui.
+I’m ready when you are. | Eu estou pronto quando você estiver.
+I’m free in a minute. | Eu fico livre em um minuto.
+I’ll send it shortly. | Eu envio em instantes.
+I’ll take a look at it. | Eu vou dar uma olhada nisso.
+I’ll handle it today. | Eu resolvo isso hoje.
+I’ll follow up later. | Eu acompanho isso mais tarde.
+I’ll keep you posted. | Eu te mantenho informado.
+I’ll update you today. | Eu te atualizo hoje.
+Can we talk later? | Podemos falar mais tarde?
+Can we review this together? | Podemos revisar isso juntos?
+Can you take a look? | Você pode dar uma olhada?
+Please wait a moment. | Por favor, aguarde um momento.
+Please check this. | Por favor, cheque isso.
+Please confirm when ready. | Por favor, confirme quando estiver pronto.
+Let’s review this. | Vamos revisar isso.
+Let’s keep moving. | Vamos seguir.
+Let’s finalize this today. | Vamos finalizar isso hoje.
+What do you think? | O que você acha?
+When can we talk? | Quando podemos falar?
+Who is responsible for this? | Quem é o responsável por isso?
+I see the problem now. | Eu vejo o problema agora.
+That looks correct. | Isso parece correto.
+Everything is fine now. | Está tudo certo agora.
