@@ -217,3 +217,103 @@ The wife answered | A esposa respondeu
 She looked him up and down | Ela olhou ele de cima a baixo
 Quite surprised | Bem surpresa
 “Where did you come from?” | “De onde você veio?”
+There was once a new project at work. | Era uma vez um novo projeto no trabalho.
+There was once a deadline we could not miss. | Era uma vez um prazo que não podíamos perder.
+There was once a report that needed a fix. | Era uma vez um relatório que precisava de correção.
+There was once a client who needed help. | Era uma vez um cliente que precisava de ajuda.
+There was once a small mistake in payroll. | Era uma vez um pequeno erro na folha.
+In those days, we did everything by email. | Naqueles dias, a gente fazia tudo por e-mail.
+In those days, the process was manual. | Naqueles dias, o processo era manual.
+In those days, I worked with a small team. | Naqueles dias, eu trabalhava com um time pequeno.
+In those days, meetings were longer. | Naqueles dias, as reuniões eram mais longas.
+In those days, the system was slower. | Naqueles dias, o sistema era mais lento.
+After some time, the issue came back. | Depois de um tempo, o problema voltou.
+After some time, we found the root cause. | Depois de um tempo, a gente achou a causa.
+After some time, the client replied. | Depois de um tempo, o cliente respondeu.
+After some time, the report was ready. | Depois de um tempo, o relatório ficou pronto.
+After some time, we moved on. | Depois de um tempo, a gente seguiu em frente.
+When I left the meeting, I sent the notes. | Quando eu saí da reunião, eu enviei as notas.
+When she left the office, she called me. | Quando ela saiu do escritório, ela me ligou.
+When we left the call, we were aligned. | Quando a gente saiu da call, a gente estava alinhado.
+When he left the team, we updated the plan. | Quando ele saiu do time, a gente atualizou o plano.
+When I left the task, it was still open. | Quando eu deixei a tarefa, ela ainda estava aberta.
+I walked all around the office looking for you. | Eu andei pelo escritório todo procurando você.
+I checked all around the system for the file. | Eu procurei no sistema todo pelo arquivo.
+We looked all around the folder for the latest version. | A gente procurou na pasta toda pela versão mais recente.
+I searched all around the emails for that message. | Eu procurei nos e-mails todos por aquela mensagem.
+I looked all around the report for that number. | Eu procurei no relatório todo por aquele número.
+I’m looking for ways to solve this. | Eu estou procurando maneiras de resolver isso.
+We’re looking for ways to speed this up. | A gente está procurando maneiras de acelerar isso.
+I’m looking for ways to avoid this mistake. | Eu estou procurando maneiras de evitar esse erro.
+We’re looking for ways to simplify the process. | A gente está procurando maneiras de simplificar o processo.
+I’m looking for ways to improve the report. | Eu estou procurando maneiras de melhorar o relatório.
+I came across your email just now. | Eu vi seu e-mail agora.
+I came across the same issue again. | Eu encontrei o mesmo problema de novo.
+We came across a missing document. | A gente encontrou um documento faltando.
+I came across a wrong value in the file. | Eu encontrei um valor errado no arquivo.
+We came across a better option. | A gente encontrou uma opção melhor.
+This task belongs to our team. | Essa tarefa é do nosso time.
+This folder belongs to Finance. | Essa pasta é do Financeiro.
+This request belongs to Payroll. | Essa solicitação é do Payroll.
+This report belongs to this month. | Esse relatório é deste mês.
+This decision belongs to the manager. | Essa decisão é do gestor.
+I knocked on your door to talk. | Eu bati na sua porta para falar.
+I knocked on your chat for a quick answer. | Eu te chamei no chat para uma resposta rápida.
+We knocked on IT’s door for support. | A gente chamou o TI para suporte.
+I knocked on the door of the HR office. | Eu bati na porta do RH.
+I knocked on the door of the meeting room. | Eu bati na porta da sala de reunião.
+A moment later, I got your reply. | Um momento depois, eu recebi sua resposta.
+A moment later, the system came back. | Um momento depois, o sistema voltou.
+A moment later, the value was corrected. | Um momento depois, o valor foi corrigido.
+A moment later, we were on the call. | Um momento depois, a gente estava na call.
+A moment later, the meeting started. | Um momento depois, a reunião começou.
+There was once a payroll close that went late. | Teve uma vez um fechamento de folha que atrasou.
+There was once a file we couldn’t find. | Teve uma vez um arquivo que a gente não achava.
+There was once a wrong value in the report. | Teve uma vez um valor errado no relatório.
+There was once an approval that didn’t come in time. | Teve uma vez uma aprovação que não veio a tempo.
+There was once a payment that needed adjustment. | Teve uma vez um pagamento que precisou de ajuste.
+In those days, we tracked everything in spreadsheets. | Naquela época, a gente controlava tudo em planilhas.
+In those days, every change was done by email. | Naquela época, toda mudança era por e-mail.
+In those days, we had to reconcile everything manually. | Naquela época, a gente precisava conciliar tudo na mão.
+In those days, support took longer to reply. | Naquela época, o suporte demorava mais para responder.
+In those days, the process was slower than today. | Naquela época, o processo era mais lento que hoje.
+After some time, the employee replied with the missing info. | Depois de um tempo, o colaborador respondeu com a informação que faltava.
+After some time, we found the root cause of the issue. | Depois de um tempo, a gente encontrou a causa do problema.
+After some time, the numbers finally matched. | Depois de um tempo, os números finalmente bateram.
+After some time, the ticket was updated by the vendor. | Depois de um tempo, o chamado foi atualizado pelo fornecedor.
+After some time, we aligned with Finance on the impact. | Depois de um tempo, a gente alinhou com o Financeiro sobre o impacto.
+When I left the meeting, I sent the summary. | Quando eu saí da reunião, eu enviei o resumo.
+When I left the call, I updated the action items. | Quando eu saí da call, eu atualizei os próximos passos.
+When I left the office, the file was still uploading. | Quando eu saí do escritório, o arquivo ainda estava subindo.
+When I left the task, it was waiting for approval. | Quando eu deixei a tarefa, ela estava aguardando aprovação.
+When I left the review, I flagged the issue. | Quando eu terminei a revisão, eu sinalizei o problema.
+I walked all around the folder looking for the latest version. | Eu procurei a pasta inteira atrás da versão mais recente.
+I walked all around the emails to find the approval. | Eu procurei nos e-mails todos para achar a aprovação.
+I walked all around the report to find that number. | Eu procurei o relatório todo para achar aquele número.
+I walked all around the system to locate the employee record. | Eu procurei no sistema todo para achar o cadastro do colaborador.
+I walked all around the attachments to find the right file. | Eu procurei em todos os anexos para achar o arquivo certo.
+I’m looking for a quick way to confirm this value. | Eu estou buscando um jeito rápido de confirmar esse valor.
+I’m looking for the source of this difference. | Eu estou buscando a origem dessa diferença.
+I’m looking for the correct version of the file. | Eu estou procurando a versão correta do arquivo.
+I’m looking for the approval status. | Eu estou procurando o status da aprovação.
+I’m looking for the deadline for this request. | Eu estou procurando o prazo dessa solicitação.
+I came across a missing field in the form. | Eu encontrei um campo faltando no formulário.
+I came across a duplicate entry in the sheet. | Eu encontrei um lançamento duplicado na planilha.
+I came across the same issue in another company. | Eu encontrei o mesmo problema em outra empresa.
+I came across a value that doesn’t match the total. | Eu encontrei um valor que não bate com o total.
+I came across an email that changes the scope. | Eu vi um e-mail que muda o escopo.
+This request belongs to Payroll. | Essa solicitação é do time de Folha.
+This approval belongs to the manager. | Essa aprovação é do gestor.
+This report belongs to this month’s close. | Esse relatório é do fechamento deste mês.
+This file belongs to the Finance folder. | Esse arquivo é da pasta do Financeiro.
+This decision belongs to the project owner. | Essa decisão é do dono do projeto.
+I knocked on HR’s door to confirm the employee data. | Eu chamei o RH para confirmar os dados do colaborador.
+I knocked on Finance to validate the numbers. | Eu acionei o Financeiro para validar os números.
+I knocked on IT to check system access. | Eu acionei o TI para checar o acesso ao sistema.
+I knocked on the vendor to get an update. | Eu acionei o fornecedor para ter uma atualização.
+I knocked on my manager to unblock the approval. | Eu falei com meu gestor para destravar a aprovação.
+A moment later, I received the approval email. | Um momento depois, eu recebi o e-mail de aprovação.
+A moment later, the employee sent the document. | Um momento depois, o colaborador enviou o documento.
+A moment later, the system was back online. | Um momento depois, o sistema voltou.
+A moment later, the updated file appeared in the folder. | Um momento depois, o arquivo atualizado apareceu na pasta.
+A moment later, the issue was confirmed by the vendor. | Um momento depois, o fornecedor confirmou o problema.
