@@ -555,3 +555,157 @@ It’s not working. | Não está funcionando.
 This works for me. | Para mim, funciona.
 We need to work together. | A gente precisa trabalhar junto.
 What time works for you? | Que horário funciona para você?
+
+Can we talk later? | Podemos falar depois?
+Can you help me? | Você pode me ajudar?
+Can you repeat, please? | Pode repetir, por favor?
+Could you explain that? | Você pode me explicar isso?
+How does it work? | Como isso funciona?
+I agree with you. | Eu concordo com você.
+I appreciate it. | Eu agradeço / Agradeço isso.
+I don’t agree with that. | Eu não concordo com isso.
+I don’t have time right now. | Não tenho tempo agora.
+I don’t understand. | Eu não entendi.
+I just wanted to check. | Eu só queria confirmar/verificar.
+I need to talk to you. | Eu preciso falar com você.
+I’ll call you back. | Te ligo de volta.
+I’ll get back to you. | Te dou um retorno.
+I’ll handle it. | Eu resolvo isso.
+I’ll let you know. | Te aviso.
+I’ll send you an email. | Vou te mandar um e-mail.
+I’ll take care of it. | Eu cuido disso.
+I’m in a meeting. | Estou em reunião.
+I’m not sure. | Não tenho certeza.
+I’m running late. | Estou atrasado.
+I’m working on it. | Estou trabalhando nisso.
+It depends. | Depende.
+It’s almost done. | Está quase pronto.
+It’s done. | Está feito.
+It’s ready. | Está pronto.
+Just a moment, please. | Só um momento, por favor.
+Let me check. | Deixa eu verificar.
+Let me think about it. | Deixa eu pensar sobre isso.
+Let’s do it. | Vamos fazer isso.
+Let’s move forward. | Vamos seguir em frente.
+Let’s see. | Vamos ver.
+No problem at all. | Sem problema nenhum.
+Sorry for the delay. | Desculpa pela demora.
+Thanks for letting me know. | Obrigado por me avisar.
+That makes sense. | Faz sentido.
+That’s a good idea. | Essa é uma boa ideia.
+That’s not a good idea. | Essa não é uma boa ideia.
+That’s not my responsibility. | Isso não é responsabilidade minha.
+This can wait. | Isso pode esperar.
+This is urgent. | Isso é urgente.
+We need to decide. | Precisamos decidir.
+We need to fix this. | Precisamos corrigir isso.
+We’re on the same page. | Estamos alinhados.
+What do you mean? | O que você quer dizer?
+What do you need? | O que você precisa?
+What’s going on? | O que está acontecendo?
+What’s the deadline? | Qual é o prazo?
+What’s the plan? | Qual é o plano?
+What’s the problem? | Qual é o problema?
+Can we talk later? | Podemos falar depois?
+Can you explain this? | Você pode me explicar isso?
+Can you repeat, please? | Pode repetir, por favor?
+Could you send me this by email? | Você pode me mandar isso por e-mail?
+Everything is fine. | Está tudo certo.
+How does it work? | Como isso funciona?
+I agree with you. | Eu concordo com você.
+I appreciate it. | Eu agradeço.
+I don’t agree with that. | Eu não concordo com isso.
+I don’t have time right now. | Não tenho tempo agora.
+I don’t understand. | Eu não entendi.
+I just wanted to check. | Eu só queria confirmar.
+I need your help. | Eu preciso da sua ajuda.
+I’ll call you back. | Te ligo de volta.
+I’ll get back to you. | Te dou um retorno.
+I’ll handle it. | Eu resolvo isso.
+I’ll let you know. | Te aviso.
+I’ll send it to you. | Vou te enviar isso.
+I’ll take care of it. | Eu cuido disso.
+I’m in a meeting. | Estou em reunião.
+I’m not sure. | Não tenho certeza.
+I’m working on it. | Estou trabalhando nisso.
+It depends. | Depende.
+It’s almost done. | Está quase pronto.
+It’s done. | Está feito.
+It’s not a big deal. | Não é nada demais.
+It’s ready. | Está pronto.
+Just a moment, please. | Só um momento, por favor.
+Let me check. | Deixa eu verificar.
+Let me think about it. | Deixa eu pensar sobre isso.
+Let’s do it. | Vamos fazer isso.
+Let’s move forward. | Vamos seguir em frente.
+Let’s see. | Vamos ver.
+No problem at all. | Sem problema nenhum.
+See you later. | Te vejo depois.
+Sorry for the delay. | Desculpa pela demora.
+Thanks for letting me know. | Obrigado por me avisar.
+That makes sense. | Faz sentido.
+That’s a good idea. | Essa é uma boa ideia.
+That’s not a good idea. | Essa não é uma boa ideia.
+This can wait. | Isso pode esperar.
+This is urgent. | Isso é urgente.
+We need to decide. | Precisamos decidir.
+We need to fix this. | Precisamos corrigir isso.
+We’re on the same page. | Estamos alinhados.
+What do you mean? | O que você quer dizer?
+What do you need? | O que você precisa?
+What’s the deadline? | Qual é o prazo?
+What’s the plan? | Qual é o plano?
+What’s the problem? | Qual é o problema?
+
+I already opened a ticket. | Eu já abri um chamado.
+I need to check this case. | Preciso verificar esse caso.
+I’ll check this in ADP. | Vou verificar isso no ADP.
+I’ll send you the report. | Vou te enviar o relatório.
+I’ll update the employee’s record. | Vou atualizar o cadastro do colaborador.
+IT is working on it. | O time de TI está trabalhando nisso.
+Payroll is already closed. | A folha já está fechada.
+The calculation is wrong. | O cálculo está errado.
+The employee can see it in the portal. | O colaborador pode ver no portal.
+The employee was hired this month. | O colaborador foi admitido este mês.
+The employee was terminated. | O colaborador foi desligado.
+The numbers look correct. | Os números parecem corretos.
+The payment date is tomorrow. | A data de pagamento é amanhã.
+The payment will be made today. | O pagamento será feito hoje.
+The payslip is available. | O holerite já está disponível.
+The salary is incorrect. | O salário está incorreto.
+The termination is under review. | A rescisão está em revisão.
+There is a difference here. | Tem uma diferença aqui.
+There is an issue with this employee. | Tem um problema com este colaborador.
+This amount is missing. | Está faltando esse valor.
+This case is on hold. | Esse caso está em espera.
+This change will apply next payroll. | Essa mudança vai entrar na próxima folha.
+This is a benefits issue. | Isso é um problema de benefícios.
+This is a one-time payment. | Isso é um pagamento pontual.
+This is a recurring payment. | Isso é um pagamento recorrente.
+This is a system issue. | Isso é um problema de sistema.
+This is already in the system. | Isso já está no sistema.
+This is compliant. | Isso está em conformidade.
+This is not a payroll issue. | Isso não é um problema de folha.
+This is not compliant. | Isso não está em conformidade.
+This is not in the system yet. | Isso ainda não está no sistema.
+This is out of scope. | Isso está fora do escopo.
+This is pending approval. | Isso está pendente de aprovação.
+This needs to be adjusted. | Isso precisa ser ajustado.
+This was not included in payroll. | Isso não entrou na folha.
+This will be paid next month. | Isso será pago no próximo mês.
+This will be processed next cycle. | Isso será processado no próximo ciclo.
+We can’t change this after closing. | Não podemos mudar isso depois do fechamento.
+We need approval for this. | Precisamos de aprovação para isso.
+We need to align this with HR. | Precisamos alinhar isso com o RH.
+We need to check with Finance. | Precisamos ver com o Financeiro.
+We need to double-check this. | Precisamos conferir isso novamente.
+We need to fix this in the system. | Precisamos corrigir isso no sistema.
+We need to follow up on this. | Precisamos fazer follow-up disso.
+We need to open a ticket. | Precisamos abrir um chamado.
+We need to recalculate this. | Precisamos recalcular isso.
+We’re closing payroll. | Estamos fechando a folha.
+We’re processing the termination. | Estamos processando a rescisão.
+We’re reviewing the numbers. | Estamos revisando os números.
+We’re waiting for documents. | Estamos aguardando documentos.
+
+
