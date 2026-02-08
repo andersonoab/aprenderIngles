@@ -707,5 +707,6 @@ We’re closing payroll. | Estamos fechando a folha.
 We’re processing the termination. | Estamos processando a rescisão.
 We’re reviewing the numbers. | Estamos revisando os números.
 We’re waiting for documents. | Estamos aguardando documentos.
-
+What’s the plan for our flight? | Qual é o plano para o nosso voo?
+What was the plan for our flight? | Qual era o plano para o nosso voo?
 
