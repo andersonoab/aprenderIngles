@@ -35,6 +35,23 @@
     .btn-soft { background:#fff; color:var(--blue-1); border:2px solid var(--blue-1); }
     .btn-soft:hover { background:rgba(0,123,255,0.06); }
 
+.toggle {
+  display:flex;
+  align-items:center;
+  gap:8px;
+  padding:8px 12px;
+  border-radius:6px;
+  border:1px solid rgba(0,0,0,0.10);
+  background:#fff;
+  color:#333;
+  font-size:0.95rem;
+  font-weight:500;
+  flex:1 1 auto;
+  min-width:260px;
+  justify-content:center;
+}
+.toggle input { width:18px; height:18px; }
+
     .feedback { display:none; margin-top:24px; text-align:left; background:#fff; border-left:6px solid var(--orange); padding:18px; border-radius:8px; }
     .feedback div { font-weight:700; font-size:1.1rem; color:var(--blue-1); margin:6px 0; }
 
@@ -140,6 +157,7 @@
         <button id="reviewNowBtn" class="btn btn-soft" style="display:none;">Revisar Agora</button>
         <button id="trainWorstBtn" class="btn btn-soft" style="display:none;">Treinar minhas piores frases</button>
         <button id="clearBtn" class="btn btn-primary" style="display:none;">Limpar Histórico</button>
+        <label class="toggle" id="newOnlyToggleWrap" style="display:none;"><input type="checkbox" id="newOnlyToggle" />Modo novas frases (ignorar dívida do dia)</label>
       </div>
 
       <div class="board">
@@ -273,6 +291,152 @@
         btn.textContent = "Treinar minhas piores frases";
       }
     }
+
+    
+
+// =========================
+// MODO NOVAS FRASES (IGNORAR DÍVIDA) + AUTO-PULO
+// =========================
+const NEW_ONLY_KEY = "newOnlyMode_v1";     // "1" | "0"
+const SEQ_PTR_KEY  = "seqPointer_v1";      // índice atual no array sentences
+
+// Ajustes solicitados
+const SKIP_FORWARD_N = 25;                // pular 25 frases para frente quando errar
+const AUTO_SKIP_AFTER_ERRORS = 8;         // se travar (muitos drops errados), auto-pula
+const AUTO_ADVANCE_DELAY_MS = 2500;       // após concluir com erro, auto-avança (se não revelar)
+
+let newOnlyMode = false;
+let seqPointer = 0;
+
+let currentCardIndex = -1;
+let lastAttemptWasIncorrect = false;
+let revealClickedThisCard = false;
+
+let isAutoSkipping = false;
+let autoAdvanceToken = 0;
+
+function loadNewOnlyMode() {
+  const v = localStorage.getItem(NEW_ONLY_KEY);
+  newOnlyMode = (v === "1");
+  const p = localStorage.getItem(SEQ_PTR_KEY);
+  seqPointer = p ? parseInt(p, 10) : 0;
+  if (Number.isNaN(seqPointer) || seqPointer < 0) seqPointer = 0;
+}
+
+function saveNewOnlyMode() {
+  localStorage.setItem(NEW_ONLY_KEY, newOnlyMode ? "1" : "0");
+  localStorage.setItem(SEQ_PTR_KEY, String(seqPointer));
+}
+
+function applyNewOnlyToggleUI() {
+  const wrap = document.getElementById("newOnlyToggleWrap");
+  const cb = document.getElementById("newOnlyToggle");
+  if (!wrap || !cb) return;
+
+  if (sentences && sentences.length) {
+    wrap.style.display = "flex";
+    cb.checked = !!newOnlyMode;
+  } else {
+    wrap.style.display = "none";
+  }
+}
+
+function setNewOnlyMode(enabled) {
+  newOnlyMode = !!enabled;
+  saveNewOnlyMode();
+  applyNewOnlyToggleUI();
+  renderSrsStats();
+  renderStatusLine(textEn);
+}
+
+function pickNewOnlyCard(step = 1) {
+  if (!sentences.length) return null;
+  const len = sentences.length;
+
+  // base: índice atual (se conhecido) ou ponteiro salvo
+  const start = (currentCardIndex >= 0) ? currentCardIndex : (seqPointer || 0);
+
+  // próximo alvo (com step) e busca até achar uma frase "nova"
+  let idx = ((start + step) % len + len) % len;
+
+  for (let k = 0; k < len; k++) {
+    const j = (idx + k) % len;
+    const en = sentences[j].en;
+    const seen = (srs[en]?.seen || 0);
+    if (seen === 0) {
+      seqPointer = j;
+      saveNewOnlyMode();
+      return sentences[j];
+    }
+  }
+
+  // sem novas: volta ao comportamento normal
+  return null;
+}
+
+function pickCardForNavigation(forceReviewOnly = false, step = 1) {
+  if (trainMode === "worst") {
+    return pickWorstCard(!!forceReviewOnly);
+  }
+
+  if (forceReviewOnly) {
+    return pickNextCard(true);
+  }
+
+  if (newOnlyMode) {
+    const c = pickNewOnlyCard(step);
+    if (c) return c;
+  }
+
+  return pickNextCard(false);
+}
+
+function advanceToNext(step = 1, forceReviewOnly = false) {
+  if (!sentences.length) return;
+  const card = pickCardForNavigation(forceReviewOnly, step);
+  lastAttemptWasIncorrect = false;
+  window.speechSynthesis.cancel();
+  loadSentence(card);
+}
+
+function triggerAutoSkip() {
+  if (isAutoSkipping) return;
+  isAutoSkipping = true;
+
+  // registra como erro (sem exigir completar os slots)
+  lastAttemptWasIncorrect = true;
+  applyResult(textEn, false);
+  saveAttemptRecord(false);
+
+  // feedback mínimo
+  document.getElementById("sentenceEn").innerHTML = `
+    <span id="copyEnText" style="color: var(--blue-1); font-weight: bold;">EN: ${textEn}</span>
+    <button class="copy-btn" onclick="copyText('copyEnText')" title="Copiar">Copiar</button>
+    <span class="pill">Pulado</span>
+  `;
+  document.getElementById("sentencePt").textContent = "";
+  document.getElementById("feedback").style.display = "block";
+
+  renderStatusLine(textEn);
+  refreshErrorAnalysis();
+
+  // auto-avança (25 para frente quando modo novas estiver ligado)
+  const token = ++autoAdvanceToken;
+  setTimeout(() => {
+    if (token !== autoAdvanceToken) return;
+    const step = (newOnlyMode && trainMode !== "worst") ? SKIP_FORWARD_N : 1;
+    advanceToNext(step, false);
+  }, 600);
+}
+
+function maybeAutoSkipOnStuck() {
+  if (trainMode === "worst") return;
+  if (!newOnlyMode) return;
+  if (isAutoSkipping) return;
+  if (attemptErrorEvents.length >= AUTO_SKIP_AFTER_ERRORS) {
+    triggerAutoSkip();
+  }
+}
 
     // =========================
     // LOGS DE ERRO / ESTATÍSTICA
@@ -798,11 +962,15 @@
         repEl.innerHTML = "";
       }
 
-      if (trainMode === "worst") {
-        modeEl.innerHTML = ` <span class="pill">Modo piores frases</span>`;
-      } else {
-        modeEl.innerHTML = "";
-      }
+      
+const pills = [];
+if (trainMode === "worst") {
+  pills.push(`<span class="pill">Modo piores frases</span>`);
+}
+if (newOnlyMode && trainMode !== "worst") {
+  pills.push(`<span class="pill">Modo novas (ignora dívida)</span>`);
+}
+modeEl.innerHTML = pills.length ? (" " + pills.join(" ")) : "";
     }
 
     function renderSrsStats() {
@@ -830,8 +998,14 @@
         `Em estudo: <b>${learningCount}</b><br>` +
         `Devidas agora: <b>${dueCount}</b><br>` +
         `Repetição rápida: <b>${repeatPending}</b>` +
-        (repeatReady ? ` (prontas: <b>${repeatReady}</b>)` : "");
-    }
+        
+    (repeatReady ? ` (prontas: <b>${repeatReady}</b>)` : "");
+
+  if (newOnlyMode && trainMode !== "worst") {
+    document.getElementById("srsStats").innerHTML +=
+      "<br><span style='color: var(--grey-txt); font-weight: 600;'>Modo novas ativo: o botão Próxima Frase ignora revisões devidas (dívida do dia/acumulada).</span>";
+  }
+}
 
     // =========================
     // ANÁLISE DE ERROS (PAINEL)
@@ -921,8 +1095,22 @@
     function loadSentence(card) {
       if (!card) return;
 
+      window.speechSynthesis.cancel();
+
       currentCard = card;
       textEn = card.en;
+
+      // ponteiro de navegação (para pulo +25 em modo novas)
+      currentCardIndex = sentences.findIndex(s => s.en === card.en);
+      if (currentCardIndex < 0) currentCardIndex = 0;
+      seqPointer = currentCardIndex;
+      saveNewOnlyMode();
+
+      // controle de auto-avanço / auto-pulo
+      revealClickedThisCard = false;
+      isAutoSkipping = false;
+      autoAdvanceToken += 1;
+
       textPt = (card.pt || "");
       currentWords = textEn.split(" ").filter(Boolean);
 
@@ -982,6 +1170,8 @@
 
             dragged.classList.add("incorrect");
             setTimeout(() => dragged.classList.remove("incorrect"), 500);
+
+            maybeAutoSkipOnStuck();
           }
         };
 
@@ -1007,6 +1197,7 @@
       incrementMadeCount();
 
       const isCorrect = !cardHadError;
+      lastAttemptWasIncorrect = !isCorrect;
       applyResult(textEn, isCorrect);
 
       saveAttemptRecord(isCorrect);
@@ -1020,6 +1211,9 @@
       document.getElementById("feedback").style.display = "block";
 
       document.getElementById("revealBtn").onclick = async () => {
+        revealClickedThisCard = true;
+        autoAdvanceToken += 1; // cancela auto-avanco pendente
+
         document.getElementById("revealBtn").disabled = true;
 
         const pt = await getPtTranslationForCurrentCard();
@@ -1038,12 +1232,23 @@
       refreshErrorAnalysis();
 
       // Atualiza a lista de piores frases dinamicamente (se estiver no modo worst)
-      if (trainMode === "worst") {
-        refreshWorstListIfNeeded();
-      }
-    }
+  if (trainMode === "worst") {
+    refreshWorstListIfNeeded();
+  }
 
-    // =========================
+  // Se terminou com erro: não trava o aprendiz.
+// Em modo novas, avança automaticamente e posiciona +25 frases à frente (a menos que ele revele a tradução).
+if (!isCorrect && newOnlyMode && trainMode !== "worst") {
+  const token = ++autoAdvanceToken;
+  setTimeout(() => {
+    if (token !== autoAdvanceToken) return;
+    if (revealClickedThisCard) return;
+    advanceToNext(SKIP_FORWARD_N, false);
+  }, AUTO_ADVANCE_DELAY_MS);
+}
+}
+
+// =========================
     // BOOT / RESTORE
     // =========================
     document.addEventListener('DOMContentLoaded', () => {
@@ -1070,6 +1275,14 @@
       loadTrainMode();
       updateTrainButtonUI();
 
+      // Modo novas frases (ignorar dívida) - persistente
+      loadNewOnlyMode();
+      applyNewOnlyToggleUI();
+      const newOnlyCb = document.getElementById("newOnlyToggle");
+      if (newOnlyCb) {
+        newOnlyCb.onchange = (e) => setNewOnlyMode(e.target.checked);
+      }
+
       const persisted = loadPersistedSentences();
       if (persisted && persisted.length) {
         sentences = persisted;
@@ -1089,7 +1302,7 @@
 
         let startCard = lastCard || null;
         if (!startCard) {
-          startCard = (trainMode === "worst") ? pickWorstCard(false) : pickNextCard(false);
+          startCard = pickCardForNavigation(false, 1);
         }
 
         loadSentence(startCard);
@@ -1098,6 +1311,7 @@
         document.getElementById("reviewNowBtn").style.display = 'inline-block';
         document.getElementById("trainWorstBtn").style.display = 'inline-block';
         document.getElementById("clearBtn").style.display = 'inline-block';
+        applyNewOnlyToggleUI();
       } else {
         renderSrsStats();
       }
@@ -1125,7 +1339,7 @@
           loadSentence(card);
         } else {
           setTrainMode("normal");
-          const card = pickNextCard(false);
+          const card = pickCardForNavigation(false, 1);
           loadSentence(card);
         }
       };
@@ -1155,13 +1369,14 @@
             refreshWorstListIfNeeded();
           }
 
-          const next = (trainMode === "worst") ? pickWorstCard(false) : pickNextCard(false);
+          const next = pickCardForNavigation(false, 1);
           loadSentence(next);
 
           document.getElementById("nextBtn").style.display = "inline-block";
           document.getElementById("reviewNowBtn").style.display = "inline-block";
           document.getElementById("trainWorstBtn").style.display = "inline-block";
           document.getElementById("clearBtn").style.display = "inline-block";
+        applyNewOnlyToggleUI();
         });
     };
 
@@ -1184,13 +1399,14 @@
           refreshWorstListIfNeeded();
         }
 
-        const next = (trainMode === "worst") ? pickWorstCard(false) : pickNextCard(false);
+        const next = pickCardForNavigation(false, 1);
         loadSentence(next);
 
         document.getElementById("nextBtn").style.display = 'inline-block';
         document.getElementById("reviewNowBtn").style.display = 'inline-block';
         document.getElementById("trainWorstBtn").style.display = 'inline-block';
         document.getElementById("clearBtn").style.display = 'inline-block';
+        applyNewOnlyToggleUI();
 
         document.getElementById("fileInput").value = "";
       };
@@ -1201,21 +1417,16 @@
     document.getElementById("nextBtn").onclick = () => {
       if (!sentences.length) return;
 
-      const next = (trainMode === "worst")
-        ? pickWorstCard(false)
-        : pickNextCard(false);
-
-      loadSentence(next);
+      autoAdvanceToken += 1; // cancela auto-avanco pendente
+      const step = (lastAttemptWasIncorrect && newOnlyMode && trainMode !== "worst") ? SKIP_FORWARD_N : 1;
+      advanceToNext(step, false);
     };
 
     document.getElementById("reviewNowBtn").onclick = () => {
       if (!sentences.length) return;
 
-      const next = (trainMode === "worst")
-        ? pickWorstCard(true)   // tenta due, se não tiver cai para piores frases
-        : pickNextCard(true);
-
-      loadSentence(next);
+      autoAdvanceToken += 1; // cancela auto-avanco pendente
+      advanceToNext(1, true);
     };
 
     document.getElementById("clearBtn").onclick = () => {
