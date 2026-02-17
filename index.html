@@ -419,14 +419,7 @@ function triggerAutoSkip() {
 
   renderStatusLine(textEn);
   refreshErrorAnalysis();
-
-  // auto-avança (25 para frente quando modo novas estiver ligado)
-  const token = ++autoAdvanceToken;
-  setTimeout(() => {
-    if (token !== autoAdvanceToken) return;
-    const step = (newOnlyMode && trainMode !== "worst") ? SKIP_FORWARD_N : 1;
-    advanceToNext(step, false);
-  }, 600);
+  // Sem auto-avançar no auto-pulo: use o botão "Próxima Frase".
 }
 
 function maybeAutoSkipOnStuck() {
@@ -1235,17 +1228,7 @@ modeEl.innerHTML = pills.length ? (" " + pills.join(" ")) : "";
   if (trainMode === "worst") {
     refreshWorstListIfNeeded();
   }
-
-  // Se terminou com erro: não trava o aprendiz.
-// Em modo novas, avança automaticamente e posiciona +25 frases à frente (a menos que ele revele a tradução).
-if (!isCorrect && newOnlyMode && trainMode !== "worst") {
-  const token = ++autoAdvanceToken;
-  setTimeout(() => {
-    if (token !== autoAdvanceToken) return;
-    if (revealClickedThisCard) return;
-    advanceToNext(SKIP_FORWARD_N, false);
-  }, AUTO_ADVANCE_DELAY_MS);
-}
+  // Sem auto-avançar ao errar: avance manualmente no botão "Próxima Frase".
 }
 
 // =========================
