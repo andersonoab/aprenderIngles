@@ -854,5 +854,102 @@ I didn’t expect that. | Eu não esperava isso.
 That surprised me. | Isso me surpreendeu.
 Let’s see what happens. | Nós vimos o que aconteceu.
 It was nice talking to you. | Foi bom conversar com você.
+Hey, what’s up? | Ei, o que estava acontecendo?
+Not much, how about you? | Nada demais, e você?
+I’m just checking in. | Eu estava apenas dando uma passada.
+That’s cool. | Isso foi legal.
+Sounds good. | Isso soou bom.
+I get what you’re saying. | Eu entendi o que você estava dizendo.
+That makes total sense. | Isso fez total sentido.
+I’m with you on that. | Eu concordei com você nisso.
+Fair enough. | Foi justo.
+I didn’t think about that. | Eu não tinha pensado nisso.
+That’s a good point. | Esse foi um bom ponto.
+I’m not gonna lie. | Eu não ia mentir.
+To be honest… | Para ser honesto…
+That’s kind of interesting. | Isso foi meio interessante.
+I’m kinda tired today. | Eu estava meio cansado hoje.
+I’m just saying. | Eu só estava dizendo.
+It is what it is. | Foi o que foi.
+No big deal. | Não foi grande coisa.
+That’s on me. | A culpa foi minha.
+My bad. | Foi erro meu.
+Give me a second. | Me deu um segundo.
+Hold on a minute. | Espereu um minuto.
+Let me check. | Eu verifiquei.
+I’ll take a look. | Eu dei uma olhada.
+That works for me. | Isso funcionou para mim.
+I’m good with that. | Eu fiquei bem com isso.
+Sounds like a plan. | Isso pareceu um plano.
+I’m down for that. | Eu aceitei isso.
+Why not? | Por que não?
+Let’s do it. | Nós fizemos isso.
+I’m just curious. | Eu estava apenas curioso.
+I was wondering… | Eu estava me perguntando…
+That caught my attention. | Isso chamou minha atenção.
+I see your point. | Eu vi seu ponto.
+I hadn’t thought of that. | Eu não tinha pensado nisso.
+That’s interesting actually. | Isso foi interessante na verdade.
+I get it now. | Eu entendi agora.
+Makes sense now. | Fez sentido agora.
+I’m still figuring that out. | Eu ainda estava entendendo isso.
+I’m working on it. | Eu estava trabalhando nisso.
+That’s a good question actually. | Essa foi uma boa pergunta na verdade.
+I appreciate that. | Eu apreciei isso.
+I’m glad you said that. | Eu fiquei feliz que você disse isso.
+I totally agree. | Eu concordei totalmente.
+I’m not sure yet. | Eu ainda não tinha certeza.
+We’ll see. | Nós vimos.
+Let’s see how it goes. | Nós vimos como foi.
+I’m open to that. | Eu estive aberto a isso.
+That’s interesting to know. | Foi interessante saber disso.
+Good to know. | Foi bom saber.
+Hi, this is Anderson speaking. | Oi, aqui foi o Anderson falando.
+I’m calling regarding the payroll update. | Eu liguei sobre a atualização da folha.
+Is this a good time to talk? | Foi um bom momento para conversar?
+Can you hear me clearly? | Você conseguiu me ouvir claramente?
+Sorry, the line is a bit unclear. | Desculpe, a linha esteve um pouco ruim.
+Could you repeat that, please? | Você repetiu isso, por favor?
+I didn’t catch that. | Eu não entendi isso.
+Can you speak a little slower? | Você falou um pouco mais devagar?
+Let me clarify something. | Eu esclareci algo.
+I just wanted to confirm the details. | Eu só quis confirmar os detalhes.
+I’m following up on our previous conversation. | Eu retornei sobre nossa conversa anterior.
+I’m calling to schedule a meeting. | Eu liguei para agendar uma reunião.
+Are you available tomorrow? | Você esteve disponível amanhã?
+Let me check my calendar. | Eu verifiquei minha agenda.
+I’ll get back to you shortly. | Eu retornei para você em breve.
+I’ll send you an email after this call. | Eu enviei um e-mail após essa ligação.
+Can you send me the updated file? | Você me enviou o arquivo atualizado?
+Let me explain the situation. | Eu expliquei a situação.
+Here’s what happened. | Foi isso que aconteceu.
+We need to align on this issue. | Nós precisávamos alinhar esse ponto.
+I understand your concern. | Eu entendi sua preocupação.
+That makes sense. | Isso fez sentido.
+Let’s review the numbers together. | Nós revisamos os números juntos.
+There seems to be a discrepancy. | Pareceu haver uma divergência.
+I’ll double-check that information. | Eu conferi novamente essa informação.
+Thank you for your time. | Eu agradeci pelo seu tempo.
+I appreciate your support. | Eu agradeci seu apoio.
+Before we finish, one last question. | Antes de encerrarmos, eu fiz uma última pergunta.
+Is there anything else we should discuss? | Houve algo mais que deveríamos discutir?
+Let’s confirm the next steps. | Nós confirmamos os próximos passos.
+Could you hold for a moment? | Você aguardou um momento?
+I’ll transfer you to the right person. | Eu transferi você para a pessoa correta.
+Please hold the line. | Você aguardou na linha.
+I’ll call you back in five minutes. | Eu retornei em cinco minutos.
+Sorry, I missed your call. | Desculpe, eu perdi sua ligação.
+I was in another meeting. | Eu estava em outra reunião.
+Can we reschedule? | Nós reagendamos?
+What time works best for you? | Que horário funcionou melhor para você?
+Let’s keep this brief. | Nós mantivemos isso breve.
+I just need a quick update. | Eu só precisei de uma atualização rápida.
+We are on the same page. | Nós estivemos alinhados.
+That’s exactly what I needed. | Foi exatamente o que eu precisei.
+Thanks for calling. | Eu agradeci por ligar.
+Talk to you soon. | Eu falei com você em breve.
+Have a great day. | Eu tive um ótimo dia.
+Goodbye for now. | Eu me despedi por enquanto.
+
 
 
