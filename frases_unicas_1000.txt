@@ -366,8 +366,8 @@ Can I get the bill, please? | Posso pegar a conta, por favor?
 Can I pay by card? | Posso pagar no cartão?
 Do you take cash? | Você aceita dinheiro?
 Could you make it to go? | Você pode fazer para viagem?
-I’m allergic to nuts. | Eu tenho alergia a castanhas/amendoim.
-No dairy, please. | Sem lactose/leite, por favor.
+I’m allergic to nuts. | Eu tenho alergia a castanhas - amendoim.
+No dairy, please. | Sem lactose - leite, por favor.
 No spicy, please. | Sem pimenta, por favor.
 That’s all, thank you. | É só isso, obrigado.
 Where is the nearest grocery store? | Onde fica o mercado mais perto?
@@ -414,159 +414,155 @@ Here is my resume. | Aqui está meu currículo.
 Can I speak with the manager? | Posso falar com o gerente?
 I’d like to apply for this position. | Eu gostaria de me candidatar para essa vaga.
 What are the working hours? | Quais são os horários de trabalho?
-What is the pay rate? | Qual é o valor do pagamento por hora/salário?
+What is the pay rate? | Qual é o valor do pagamento por hora - salário?
 Thank you for your time. | Obrigado pelo seu tempo.
-Be (ser/estar)
+Be |ser - estar.
 I’ll be there in 5 minutes. | Eu chego em 5 minutos.
 I’m not sure, but I’ll check. | Eu não tenho certeza, mas vou verificar.
 It’s been a busy week. | Foi uma semana corrida.
 Let’s be clear about the goal. | Vamos deixar claro o objetivo.
 I’ll be honest with you. | Vou ser sincero com você.
 
-Have (ter)
+Have |ter.
 Do you have a minute? | Você tem um minuto?
 I have a quick question. | Eu tenho uma pergunta rápida.
 I don’t have the latest version. | Eu não tenho a versão mais recente.
 We have a deadline today. | A gente tem um prazo hoje.
 I have everything I need. | Eu tenho tudo o que preciso.
 
-Do (fazer)
+Do (fazer.
 I’ll do it right now. | Eu faço agora.
 What should we do next? | O que a gente faz agora?
 I did a quick check. | Eu fiz uma conferência rápida.
 Let’s do a quick review. | Vamos fazer uma revisão rápida.
 I can do that for you. | Eu posso fazer isso pra você.
 
-Say (dizer)
+Say |dizer.
 Just say the word. | É só dizer.
 What did you say about the date? | O que você disse sobre a data?
 Let me say it again. | Deixa eu falar de novo.
 I’m just saying. | Só estou dizendo.
 Say it one more time, please. | Diga mais uma vez, por favor.
 
-Get (pegar/obter/receber)
+Get (pegar - obter - receber.
 I’ll get back to you today. | Eu te retorno hoje.
 Did you get my email? | Você recebeu meu e-mail?
 Let’s get this done. | Vamos resolver isso.
 I need to get approval first. | Eu preciso da aprovação primeiro.
 Can you get me the file? | Você consegue pegar o arquivo pra mim?
 
-Make (fazer/criar)
+Make (fazer - criar.
 Let’s make a decision. | Vamos tomar uma decisão.
 Can you make a small change? | Você pode fazer uma pequena alteração?
 I want to make sure it’s correct. | Eu quero ter certeza de que está correto.
 That makes sense. | Isso faz sentido.
 Let’s make it simple. | Vamos deixar isso simples.
 
-Go (ir)
+Go (ir.
 I have to go now. | Eu tenho que ir agora.
 Let’s go over the details. | Vamos passar pelos detalhes.
 Where should this go? | Para onde isso deve ir?
 I’ll go check. | Eu vou checar.
 Let’s go with option A. | Vamos com a opção A.
 
-Know (saber)
+Know (saber.
 Let me know when you can. | Me avisa quando você puder.
 Do you know the status? | Você sabe o status?
 I don’t know yet. | Eu ainda não sei.
 Just so you know… | Só para você saber…
 I want you to know I’m on it. | Quero que você saiba que estou cuidando.
 
-Take (pegar/levar)
+Take (pegar - levar.
 Please take a look. | Por favor, dê uma olhada.
 I’ll take care of it. | Eu vou cuidar disso.
 Can you take this call? | Você pode atender essa ligação?
 Let’s take a quick break. | Vamos fazer uma pausa rápida.
 I’ll take the lead on this. | Eu vou liderar isso.
 
-See (ver)
+See |ver.
 I see the issue now. | Eu vejo o problema agora.
 Let me see what I can do. | Deixa eu ver o que eu posso fazer.
 See you tomorrow. | Te vejo amanhã.
 I’ll see if it’s possible. | Eu vou ver se é possível.
 I didn’t see your message. | Eu não vi sua mensagem.
 
-Come (vir)
+Come |vir.
 Can you come to the meeting? | Você pode entrar na reunião?
 I’ll come back with an answer. | Eu volto com uma resposta.
 This comes from Finance. | Isso vem do Financeiro.
 It came up in the review. | Isso apareceu na revisão.
 Come with me on this. | Vai comigo nessa.
 
-Think (pensar/achar)
+Think |pensar - achar.
 I think this is correct. | Eu acho que isso está correto.
 What do you think? | O que você acha?
 I don’t think it will work. | Eu não acho que vai funcionar.
 Let me think for a second. | Deixa eu pensar um segundo.
 I think we should confirm first. | Eu acho que a gente deve confirmar antes.
 
-Look (olhar/verificar)
+Look |olhar - verificar.
 I’ll look into it. | Eu vou verificar isso.
 Can you look at this? | Você pode olhar isso?
 It looks good to me. | Pra mim, parece bom.
 Look at the last line. | Olha a última linha.
 I’m looking for the file. | Eu estou procurando o arquivo.
 
-Want (querer)
+Want |querer.
 I want to be clear. | Eu quero ser claro.
 I want to confirm the value. | Eu quero confirmar o valor.
 I want to avoid mistakes. | Eu quero evitar erros.
 Do you want me to send it? | Você quer que eu envie?
 I want to align on the plan. | Eu quero alinhar o plano.
 
-Give (dar)
+Give |dar.
 Can you give me a minute? | Você pode me dar um minuto?
 Give me a quick update. | Me dá uma atualização rápida.
 I’ll give you a call. | Eu te ligo.
 Can you give me access? | Você pode me dar acesso?
 I’ll give you the final version. | Eu te envio a versão final.
 
-Use (usar)
+Use |usar.
 We can use this template. | A gente pode usar esse modelo.
 I usually use this report. | Eu geralmente uso esse relatório.
 Use the latest file. | Use o arquivo mais recente.
 How do you use this tool? | Como você usa essa ferramenta?
 Let’s use a simple approach. | Vamos usar uma abordagem simples.
 
-Find (encontrar)
+Find |encontrar.
 I found the issue. | Eu encontrei o problema.
 Can you find the email? | Você consegue achar o e-mail?
 I can’t find the file. | Eu não consigo achar o arquivo.
 Let’s find a solution. | Vamos achar uma solução.
 We found a better way. | A gente encontrou um jeito melhor.
-
-Tell (dizer/contar)
+Tell |dizer - contar.
 Tell me the deadline. | Me diga o prazo.
 I’ll tell you what I know. | Eu te digo o que eu sei.
 Can you tell me the status? | Você pode me dizer o status?
 Just tell me when. | Só me diga quando.
 Tell me if you need help. | Me avise se precisar de ajuda.
-
-Ask (perguntar/pedir)
+Ask |perguntar
 Can I ask a quick question? | Posso fazer uma pergunta rápida?
 Ask Finance to confirm. | Peça para o Financeiro confirmar.
 I’ll ask the vendor. | Eu vou perguntar para o fornecedor.
 Don’t be afraid to ask. | Não tenha medo de perguntar.
 Should I ask now or later? | Eu pergunto agora ou depois?
-
-Work (trabalhar/funcionar)
+Work |trabalhar - funcionar.
 I’m working on it. | Eu estou cuidando disso.
 It’s not working. | Não está funcionando.
 This works for me. | Para mim, funciona.
 We need to work together. | A gente precisa trabalhar junto.
 What time works for you? | Que horário funciona para você?
-
 Can we talk later? | Podemos falar depois?
 Can you help me? | Você pode me ajudar?
 Can you repeat, please? | Pode repetir, por favor?
 Could you explain that? | Você pode me explicar isso?
 How does it work? | Como isso funciona?
 I agree with you. | Eu concordo com você.
-I appreciate it. | Eu agradeço / Agradeço isso.
+I appreciate it. | Eu agradeço  -  Agradeço isso.
 I don’t agree with that. | Eu não concordo com isso.
 I don’t have time right now. | Não tenho tempo agora.
 I don’t understand. | Eu não entendi.
-I just wanted to check. | Eu só queria confirmar/verificar.
+I just wanted to check. | Eu só queria confirmar - verificar.
 I need to talk to you. | Eu preciso falar com você.
 I’ll call you back. | Te ligo de volta.
 I’ll get back to you. | Te dou um retorno.
@@ -656,7 +652,6 @@ What do you need? | O que você precisa?
 What’s the deadline? | Qual é o prazo?
 What’s the plan? | Qual é o plano?
 What’s the problem? | Qual é o problema?
-
 I already opened a ticket. | Eu já abri um chamado.
 I need to check this case. | Preciso verificar esse caso.
 I’ll check this in ADP. | Vou verificar isso no ADP.
@@ -709,4 +704,155 @@ We’re reviewing the numbers. | Estamos revisando os números.
 We’re waiting for documents. | Estamos aguardando documentos.
 What’s the plan for our flight? | Qual é o plano para o nosso voo?
 What was the plan for our flight? | Qual era o plano para o nosso voo?
+I introduced myself confidently. | Eu me apresentei com confiança.
+I had solid experience in HR operations. | Eu tive sólida experiência em operações de RH.
+I specialized in payroll management. | Eu me especializei em gestão de folha.
+I focused on process improvement. | Eu foquei em melhoria de processos.
+I worked with compliance and labor laws. | Eu trabalhei com compliance e legislação trabalhista.
+I led payroll operations end-to-end. | Eu liderei operações de folha ponta a ponta.
+I implemented system improvements. | Eu implementei melhorias no sistema.
+I optimized internal workflows. | Eu otimizei fluxos internos.
+I reduced operational risks. | Eu reduzi riscos operacionais.
+I improved efficiency across departments. | Eu melhorei a eficiência entre departamentos.
+I worked with cross-functional teams. | Eu trabalhei com equipes multifuncionais.
+I handled complex payroll structures. | Eu lidei com estruturas complexas de folha.
+I ensured compliance with regulations. | Eu garanti conformidade com regulamentações.
+I automated manual processes. | Eu automatizei processos manuais.
+I developed performance dashboards. | Eu desenvolvi dashboards de desempenho.
+I monitored KPIs regularly. | Eu monitorei KPIs regularmente.
+I aligned HR strategy with business goals. | Eu alinhei a estratégia de RH com os objetivos do negócio.
+I supported leadership decisions. | Eu apoiei decisões da liderança.
+I managed multiple stakeholders. | Eu gerenciei múltiplas partes interessadas.
+I improved reporting accuracy. | Eu melhorei a precisão dos relatórios.
+I streamlined payroll cycles. | Eu simplifiquei ciclos de folha.
+I reviewed operational gaps. | Eu revisei lacunas operacionais.
+I introduced performance metrics. | Eu introduzi métricas de desempenho.
+I handled sensitive information carefully. | Eu lidei com informações sensíveis cuidadosamente.
+I built structured processes. | Eu construí processos estruturados.
+I ensured timely deliveries. | Eu garanti entregas no prazo.
+I improved internal communication. | Eu melhorei a comunicação interna.
+I reduced processing time. | Eu reduzi o tempo de processamento.
+I led implementation projects. | Eu liderei projetos de implementação.
+I coordinated external vendors. | Eu coordenei fornecedores externos.
+I resolved compliance issues. | Eu resolvi questões de compliance.
+I analyzed workforce data. | Eu analisei dados da força de trabalho.
+I supervised HR operations. | Eu supervisionei operações de RH.
+I improved data visibility. | Eu melhorei a visibilidade dos dados.
+I supported executive reporting. | Eu apoiei relatórios executivos.
+I strengthened internal controls. | Eu fortaleci controles internos.
+I managed benefit programs. | Eu gerenciei programas de benefícios.
+I worked under tight deadlines. | Eu trabalhei sob prazos apertados.
+I delivered consistent results. | Eu entreguei resultados consistentes.
+I ensured data accuracy. | Eu garanti a precisão dos dados.
+I contributed to strategic planning. | Eu contribuí para o planejamento estratégico.
+I aligned processes with company standards. | Eu alinhei processos com padrões da empresa.
+I improved system integrations. | Eu melhorei integrações de sistemas.
+I reduced manual errors. | Eu reduzi erros manuais.
+I monitored labor costs. | Eu monitorei custos trabalhistas.
+I ensured smooth transitions. | Eu garanti transições suaves.
+I developed improvement plans. | Eu desenvolvi planos de melhoria.
+I drove operational excellence. | Eu conduzi excelência operacional.
+I took ownership of my responsibilities. | Eu assumi responsabilidade pelas minhas funções.
+I improved team coordination. | Eu melhorei a coordenação da equipe.
+I started my career in HR operations. | Eu comecei minha carreira em operações de RH.
+I built my background in payroll management. | Eu construí minha base em gestão de folha.
+I focused my career on process improvement. | Eu foquei minha carreira em melhoria de processos.
+I specialized in payroll and compliance. | Eu me especializei em folha e compliance.
+I worked in complex HR environments. | Eu trabalhei em ambientes complexos de RH.
+I developed strong expertise in labor regulations. | Eu desenvolvi forte expertise em legislação trabalhista.
+I led payroll operations for multiple entities. | Eu liderei operações de folha para múltiplas empresas.
+I improved internal HR processes. | Eu melhorei processos internos de RH.
+I implemented automation in payroll routines. | Eu implementei automação em rotinas de folha.
+I reduced operational risks through compliance controls. | Eu reduzi riscos operacionais por meio de controles de compliance.
+I worked closely with finance and leadership teams. | Eu trabalhei de perto com equipes de finanças e liderança.
+I optimized payroll workflows. | Eu otimizei fluxos de folha.
+I introduced data-driven decision models. | Eu introduzi modelos de decisão baseados em dados.
+I strengthened reporting accuracy. | Eu fortaleci a precisão dos relatórios.
+I supported strategic HR initiatives. | Eu apoiei iniciativas estratégicas de RH.
+I developed dashboards to monitor KPIs. | Eu desenvolvi dashboards para monitorar KPIs.
+I aligned HR operations with business strategy. | Eu alinhei operações de RH com a estratégia do negócio.
+I handled full-cycle payroll processes. | Eu gerenciei processos completos de folha.
+I managed benefits and compliance structures. | Eu gerenciei estruturas de benefícios e compliance.
+I improved cost control mechanisms. | Eu melhorei mecanismos de controle de custos.
+I automated manual reporting tasks. | Eu automatizei tarefas manuais de relatório.
+I enhanced workforce data visibility. | Eu aumentei a visibilidade de dados da força de trabalho.
+I supervised payroll transitions and implementations. | Eu supervisionei transições e implementações de folha.
+I coordinated cross-department projects. | Eu coordenei projetos entre departamentos.
+I implemented internal control frameworks. | Eu implementei estruturas de controle interno.
+I improved payroll processing time. | Eu melhorei o tempo de processamento da folha.
+I analyzed labor cost structures. | Eu analisei estruturas de custo trabalhista.
+I supported executive-level reporting. | Eu apoiei relatórios de nível executivo.
+I introduced standardized HR procedures. | Eu introduzi procedimentos padronizados de RH.
+I worked in high-volume payroll environments. | Eu trabalhei em ambientes de folha de alto volume.
+I ensured compliance with labor audits. | Eu garanti conformidade em auditorias trabalhistas.
+I strengthened benefit administration processes. | Eu fortaleci processos de administração de benefícios.
+I implemented payroll system upgrades. | Eu implementei atualizações de sistema de folha.
+I managed stakeholder expectations effectively. | Eu gerenciei expectativas de partes interessadas de forma eficaz.
+I improved internal communication flows. | Eu melhorei fluxos de comunicação interna.
+I supported mergers and integrations. | Eu apoiei fusões e integrações.
+I structured payroll governance processes. | Eu estruturei processos de governança de folha.
+I optimized HR operational efficiency. | Eu otimizei a eficiência operacional de RH.
+I developed automation tools in HR. | Eu desenvolvi ferramentas de automação em RH.
+I implemented BI solutions for payroll. | Eu implementei soluções de BI para folha.
+I enhanced compliance monitoring systems. | Eu melhorei sistemas de monitoramento de compliance.
+I worked on large-scale HR transformation projects. | Eu trabalhei em projetos de transformação de RH em larga escala.
+I introduced performance tracking models. | Eu introduzi modelos de acompanhamento de desempenho.
+I improved accuracy in financial reporting. | Eu melhorei a precisão nos relatórios financeiros.
+I optimized vendor management processes. | Eu otimizei processos de gestão de fornecedores.
+I reduced manual workload through automation. | Eu reduzi carga manual por meio de automação.
+I built scalable HR operational models. | Eu construí modelos operacionais de RH escaláveis.
+I aligned payroll systems with compliance standards. | Eu alinhei sistemas de folha com padrões de compliance.
+I improved operational transparency. | Eu melhorei a transparência operacional.
+I positioned HR as a strategic partner. | Eu posicionei o RH como parceiro estratégico.
+Hi, how are you doing? | Oi, como você estava?
+Nice to meet you. | Foi um prazer te conhecer.
+Where are you from? | De onde você era?
+What do you do? | O que você fazia?
+How was your day? | Como foi o seu dia?
+What are you working on? | Em que você estava trabalhando?
+That sounds interesting. | Isso pareceu interessante.
+I see what you mean. | Eu entendi o que você quis dizer.
+Really? Tell me more. | Sério? Me contou mais.
+That makes sense. | Isso fez sentido.
+I agree with you. | Eu concordei com você.
+I’m not sure about that. | Eu não tive certeza sobre isso.
+What do you think? | O que você achou?
+How long have you been here? | Há quanto tempo você estava aqui?
+Is this your first time here? | Foi sua primeira vez aqui?
+What brought you here? | O que te trouxe aqui?
+That’s a good question. | Essa foi uma boa pergunta.
+Let me think about that. | Eu pensei sobre isso.
+It depends on the situation. | Dependeu da situação.
+I’ve been busy lately. | Eu estive ocupado ultimamente.
+Things have been hectic. | As coisas estiveram agitadas.
+I totally understand. | Eu entendi totalmente.
+That’s interesting. | Isso foi interessante.
+I didn’t know that. | Eu não sabia disso.
+That’s true. | Isso foi verdade.
+I appreciate that. | Eu apreciei isso.
+No worries. | Não houve problema.
+It happens. | Isso aconteceu.
+Let’s catch up soon. | Nós combinamos de conversar em breve.
+What’s new with you? | O que houve de novo com você?
+How have you been? | Como você esteve?
+I’ve been doing well. | Eu estive bem.
+Not much, just working. | Nada demais, só estive trabalhando.
+Sounds good to me. | Isso soou bom para mim.
+That’s great to hear. | Foi ótimo ouvir isso.
+I’m glad you said that. | Eu fiquei feliz que você disse isso.
+I was thinking the same thing. | Eu estava pensando a mesma coisa.
+Can you explain that again? | Você explicou isso novamente?
+I didn’t catch that. | Eu não entendi isso.
+Could you repeat that? | Você repetiu isso?
+That’s exactly what I meant. | Isso foi exatamente o que eu quis dizer.
+What’s your opinion on that? | Qual foi sua opinião sobre isso?
+I’ve heard about that before. | Eu já tinha ouvido falar disso antes.
+That sounds like a good idea. | Isso pareceu uma boa ideia.
+I’m just curious about that. | Eu fiquei curioso sobre isso.
+That’s a fair point. | Esse foi um ponto justo.
+I didn’t expect that. | Eu não esperava isso.
+That surprised me. | Isso me surpreendeu.
+Let’s see what happens. | Nós vimos o que aconteceu.
+It was nice talking to you. | Foi bom conversar com você.
+
 
