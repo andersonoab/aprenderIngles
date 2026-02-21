@@ -423,112 +423,101 @@ It’s been a busy week. | Foi uma semana corrida.
 Let’s be clear about the goal. | Vamos deixar claro o objetivo.
 I’ll be honest with you. | Vou ser sincero com você.
 
-Have |ter.
+
 Do you have a minute? | Você tem um minuto?
 I have a quick question. | Eu tenho uma pergunta rápida.
 I don’t have the latest version. | Eu não tenho a versão mais recente.
 We have a deadline today. | A gente tem um prazo hoje.
 I have everything I need. | Eu tenho tudo o que preciso.
 
-Do (fazer.
 I’ll do it right now. | Eu faço agora.
 What should we do next? | O que a gente faz agora?
 I did a quick check. | Eu fiz uma conferência rápida.
 Let’s do a quick review. | Vamos fazer uma revisão rápida.
 I can do that for you. | Eu posso fazer isso pra você.
 
-Say |dizer.
 Just say the word. | É só dizer.
 What did you say about the date? | O que você disse sobre a data?
 Let me say it again. | Deixa eu falar de novo.
 I’m just saying. | Só estou dizendo.
 Say it one more time, please. | Diga mais uma vez, por favor.
 
-Get (pegar - obter - receber.
+
 I’ll get back to you today. | Eu te retorno hoje.
 Did you get my email? | Você recebeu meu e-mail?
 Let’s get this done. | Vamos resolver isso.
 I need to get approval first. | Eu preciso da aprovação primeiro.
 Can you get me the file? | Você consegue pegar o arquivo pra mim?
 
-Make (fazer - criar.
 Let’s make a decision. | Vamos tomar uma decisão.
 Can you make a small change? | Você pode fazer uma pequena alteração?
 I want to make sure it’s correct. | Eu quero ter certeza de que está correto.
 That makes sense. | Isso faz sentido.
 Let’s make it simple. | Vamos deixar isso simples.
 
-Go (ir.
 I have to go now. | Eu tenho que ir agora.
 Let’s go over the details. | Vamos passar pelos detalhes.
 Where should this go? | Para onde isso deve ir?
 I’ll go check. | Eu vou checar.
 Let’s go with option A. | Vamos com a opção A.
 
-Know (saber.
 Let me know when you can. | Me avisa quando você puder.
 Do you know the status? | Você sabe o status?
 I don’t know yet. | Eu ainda não sei.
 Just so you know… | Só para você saber…
 I want you to know I’m on it. | Quero que você saiba que estou cuidando.
 
-Take (pegar - levar.
 Please take a look. | Por favor, dê uma olhada.
 I’ll take care of it. | Eu vou cuidar disso.
 Can you take this call? | Você pode atender essa ligação?
 Let’s take a quick break. | Vamos fazer uma pausa rápida.
 I’ll take the lead on this. | Eu vou liderar isso.
 
-See |ver.
 I see the issue now. | Eu vejo o problema agora.
 Let me see what I can do. | Deixa eu ver o que eu posso fazer.
 See you tomorrow. | Te vejo amanhã.
 I’ll see if it’s possible. | Eu vou ver se é possível.
 I didn’t see your message. | Eu não vi sua mensagem.
 
-Come |vir.
 Can you come to the meeting? | Você pode entrar na reunião?
 I’ll come back with an answer. | Eu volto com uma resposta.
 This comes from Finance. | Isso vem do Financeiro.
 It came up in the review. | Isso apareceu na revisão.
 Come with me on this. | Vai comigo nessa.
 
-Think |pensar - achar.
 I think this is correct. | Eu acho que isso está correto.
 What do you think? | O que você acha?
 I don’t think it will work. | Eu não acho que vai funcionar.
 Let me think for a second. | Deixa eu pensar um segundo.
 I think we should confirm first. | Eu acho que a gente deve confirmar antes.
 
-Look |olhar - verificar.
+
 I’ll look into it. | Eu vou verificar isso.
 Can you look at this? | Você pode olhar isso?
 It looks good to me. | Pra mim, parece bom.
 Look at the last line. | Olha a última linha.
 I’m looking for the file. | Eu estou procurando o arquivo.
 
-Want |querer.
+
 I want to be clear. | Eu quero ser claro.
 I want to confirm the value. | Eu quero confirmar o valor.
 I want to avoid mistakes. | Eu quero evitar erros.
 Do you want me to send it? | Você quer que eu envie?
 I want to align on the plan. | Eu quero alinhar o plano.
 
-Give |dar.
+
 Can you give me a minute? | Você pode me dar um minuto?
 Give me a quick update. | Me dá uma atualização rápida.
 I’ll give you a call. | Eu te ligo.
 Can you give me access? | Você pode me dar acesso?
 I’ll give you the final version. | Eu te envio a versão final.
 
-Use |usar.
 We can use this template. | A gente pode usar esse modelo.
 I usually use this report. | Eu geralmente uso esse relatório.
 Use the latest file. | Use o arquivo mais recente.
 How do you use this tool? | Como você usa essa ferramenta?
 Let’s use a simple approach. | Vamos usar uma abordagem simples.
 
-Find |encontrar.
 I found the issue. | Eu encontrei o problema.
 Can you find the email? | Você consegue achar o e-mail?
 I can’t find the file. | Eu não consigo achar o arquivo.
@@ -950,6 +939,122 @@ Thanks for calling. | Eu agradeci por ligar.
 Talk to you soon. | Eu falei com você em breve.
 Have a great day. | Eu tive um ótimo dia.
 Goodbye for now. | Eu me despedi por enquanto.
+Thank you. | Eu agradeci.
+I'm honored to be with you today. | Eu fiquei honrado de estar com vocês hoje.
+Truth be told, I never graduated from college. | Verdade seja dita, eu nunca me formei na faculdade.
+This is the closest I've ever gotten to a college graduation. | Esse foi o mais perto que eu já cheguei de uma formatura universitária.
+Today I wanna tell you three stories from my life. | Hoje eu quis contar três histórias da minha vida.
+That's it. No big deal. | Foi só isso. Não foi nada demais.
+The first story is about connecting the dots. | A primeira história foi sobre conectar os pontos.
+I dropped out of Reed College after the first six months. | Eu abandonei a faculdade Reed após seis meses.
+I stayed around for another eighteen months. | Eu permaneci por mais dezoito meses.
+So why did I drop out? | Então por que eu abandonei?
+It started before I was born. | Isso começou antes de eu nascer.
+My biological mother decided to put me up for adoption. | Minha mãe biológica decidiu me colocar para adoção.
+She felt strongly that I should be adopted by college graduates. | Ela acreditou fortemente que eu deveria ser adotado por formados na faculdade.
+Everything was all set. | Tudo estava preparado.
+They decided at the last minute that they wanted a girl. | Eles decidiram no último minuto que queriam uma menina.
+My parents got a call in the middle of the night. | Meus pais receberam uma ligação no meio da noite.
+We've got an unexpected baby boy. | Nós tivemos um bebê inesperado.
+My biological mother refused to sign the adoption papers. | Minha mãe biológica se recusou a assinar os documentos de adoção.
+She relented a few months later. | Ela cedeu alguns meses depois.
+My parents promised that I would go to college. | Meus pais prometeram que eu iria para a faculdade.
+Seventeen years later, I did go to college. | Dezessete anos depois, eu realmente fui para a faculdade.
+I naively chose a college that was almost as expensive as Stanford. | Eu ingenuamente escolhi uma faculdade quase tão cara quanto Stanford.
+All of my parents' savings were being spent on tuition. | Todas as economias dos meus pais foram gastas na mensalidade.
+After six months, I couldn't see the value in it. | Após seis meses, eu não vi valor naquilo.
+I had no idea what I wanted to do with my life. | Eu não tinha ideia do que eu queria fazer da minha vida.
+I decided to drop out and trust that it would work out. | Eu decidi abandonar e confiar que tudo daria certo.
+It was pretty scary at the time. | Foi bastante assustador na época.
+Looking back, it was one of the best decisions I ever made. | Olhando para trás, foi uma das melhores decisões que eu já tomei.
+I stopped taking the required classes. | Eu parei de fazer as aulas obrigatórias.
+I began dropping in on the classes that interested me. | Eu comecei a frequentar as aulas que me interessavam.
+I didn't have a dorm room. | Eu não tive quarto no campus.
+I slept on the floor in friends' rooms. | Eu dormi no chão no quarto de amigos.
+I returned coke bottles to buy food. | Eu devolvi garrafas para comprar comida.
+I walked seven miles across town every Sunday night. | Eu caminhei sete milhas pela cidade todo domingo à noite.
+I loved it. | Eu amei aquilo.
+Much of what I stumbled into turned out to be priceless later on. | Muito do que eu descobri acabou sendo valioso mais tarde.
+
+Reed College offered the best calligraphy instruction. | A faculdade ofereceu as melhores aulas de caligrafia.
+I decided to take a calligraphy class. | Eu decidi fazer uma aula de caligrafia.
+I learned about serif and sans serif typefaces. | Eu aprendi sobre fontes serif e sans serif.
+I learned about spacing between letters. | Eu aprendi sobre espaçamento entre letras.
+None of this had any practical application in my life. | Nada disso teve aplicação prática na minha vida.
+Ten years later it all came back to me. | Dez anos depois tudo voltou para mim.
+We designed it into the first Macintosh. | Nós projetamos isso no primeiro Macintosh.
+It was the first computer with beautiful typography. | Foi o primeiro computador com tipografia bonita.
+
+You can't connect the dots looking forward. | Você não conseguiu conectar os pontos olhando para frente.
+You can only connect them looking backward. | Você só conseguiu conectá-los olhando para trás.
+You have to trust that the dots will connect. | Você teve que confiar que os pontos se conectariam.
+Believing that gave me confidence. | Acreditar nisso me deu confiança.
+That made all the difference. | Isso fez toda a diferença.
+
+My second story was about love and loss. | Minha segunda história foi sobre amor e perda.
+I found what I loved to do early in life. | Eu encontrei cedo o que eu amava fazer.
+We started Apple in my parents' garage. | Nós começamos a Apple na garagem dos meus pais.
+Apple grew into a two billion dollar company. | A Apple cresceu e virou uma empresa de dois bilhões de dólares.
+We released the Macintosh. | Nós lançamos o Macintosh.
+Then I got fired. | Então eu fui demitido.
+Our visions began to diverge. | Nossas visões começaram a divergir.
+We had a falling out. | Nós tivemos um desentendimento.
+The board sided with him. | O conselho ficou do lado dele.
+At thirty I was out. | Aos trinta eu fiquei fora.
+It was devastating. | Foi devastador.
+
+I didn't know what to do for a few months. | Eu não soube o que fazer por alguns meses.
+I felt I had let people down. | Eu senti que eu tinha decepcionado as pessoas.
+I tried to apologize for screwing up. | Eu tentei me desculpar por estragar tudo.
+I thought about running away. | Eu pensei em fugir.
+But I still loved what I did. | Mas eu ainda amei o que eu fazia.
+So I decided to start over. | Então eu decidi começar de novo.
+Getting fired turned out to be the best thing. | Ser demitido acabou sendo a melhor coisa.
+It freed me to enter a creative period. | Isso me libertou para entrar em um período criativo.
+I started NeXT. | Eu comecei a NeXT.
+I started Pixar. | Eu comecei a Pixar.
+I fell in love with an amazing woman. | Eu me apaixonei por uma mulher incrível.
+
+Apple bought NeXT. | A Apple comprou a NeXT.
+I returned to Apple. | Eu voltei para a Apple.
+None of this would have happened if I hadn't been fired. | Nada disso teria acontecido se eu não tivesse sido demitido.
+Life hit me in the head with a brick. | A vida me acertou na cabeça como um tijolo.
+I didn't lose faith. | Eu não perdi a fé.
+I loved what I did. | Eu amei o que eu fazia.
+You have to find what you love. | Você teve que encontrar o que ama.
+Don't settle. | Você não se acomodou.
+
+My third story was about death. | Minha terceira história foi sobre a morte.
+I read a quote when I was seventeen. | Eu li uma citação quando eu tinha dezessete anos.
+It made an impression on me. | Isso causou uma impressão em mim.
+I looked in the mirror every morning. | Eu olhei no espelho toda manhã.
+Whenever the answer was no, I changed something. | Sempre que a resposta foi não, eu mudei algo.
+Remembering death helped me make big decisions. | Lembrar da morte me ajudou a tomar grandes decisões.
+Almost everything fell away in the face of death. | Quase tudo desapareceu diante da morte.
+There was no reason not to follow my heart. | Não houve razão para não seguir meu coração.
+
+I was diagnosed with cancer. | Eu fui diagnosticado com câncer.
+The scan showed a tumor on my pancreas. | O exame mostrou um tumor no meu pâncreas.
+The doctors said it was incurable. | Os médicos disseram que era incurável.
+They told me to get my affairs in order. | Eles me disseram para organizar meus assuntos.
+Later it turned out to be curable. | Depois acabou sendo curável.
+I had surgery. | Eu fiz a cirurgia.
+Thankfully I was fine. | Felizmente eu fiquei bem.
+No one wanted to die. | Ninguém quis morrer.
+
+Death was the best invention of life. | A morte foi a melhor invenção da vida.
+It cleared out the old to make way for the new. | Ela limpou o velho para dar lugar ao novo.
+Your time was limited. | Seu tempo foi limitado.
+Don't waste it living someone else's life. | Você não desperdiçou vivendo a vida de outra pessoa.
+Don't be trapped by dogma. | Você não ficou preso por dogmas.
+Don't let opinions drown out your inner voice. | Você não deixou opiniões abafarem sua voz interior.
+Have the courage to follow your heart. | Você teve coragem de seguir seu coração.
+Everything else was secondary. | Todo o resto foi secundário.
+
+Stay Hungry. Stay Foolish. | Continue com fome. Continue tolo.
+I always wished that for myself. | Eu sempre desejei isso para mim.
+I wished that for you. | Eu desejei isso para você.
+Thank you all very much. | Eu agradeci muito a todos vocês.
 
 
 
