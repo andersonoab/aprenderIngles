@@ -231,6 +231,7 @@
             <button id="trainWorstBtn" class="btn btn-soft" style="display:none;">Treinar minhas piores frases</button>
             <button id="speakModeBtn" class="btn btn-soft" style="display:none;">Modo falar</button>
             <button id="patternModeBtn" class="btn btn-soft" style="display:none;">Modo blocos</button>
+            <button id="autoReadBtn" class="btn btn-soft" style="display:none;">Leitura guiada</button>
             <button id="favoriteBtn" class="btn btn-soft" style="display:none;">Marcar frase</button>
             <button id="trainFavoritesBtn" class="btn btn-soft" style="display:none;">Treinar favoritas</button>
             <button id="clearBtn" class="btn btn-primary" style="display:none;">Limpar Histórico</button>
@@ -959,34 +960,139 @@ function maybeAutoSkipOnStuck() {
       window.speechSynthesis.speak(utter);
     }
 
-    // =========================
-    // TRADUÇÃO: SEM BUG
-    // =========================
-    async function getPtTranslationForCurrentCard() {
-      const en = textEn;
+    function speakQueued(txt, lang = 'en-US', rate = 1) {
+      return new Promise((resolve) => {
+        try {
+          const utter = new SpeechSynthesisUtterance(txt);
+          utter.lang = lang;
+          utter.rate = rate;
+          utter.onend = () => resolve(true);
+          utter.onerror = () => resolve(false);
+          window.speechSynthesis.speak(utter);
+        } catch {
+          resolve(false);
+        }
+      });
+    }
 
-      if (textPt && textPt.trim()) return textPt.trim();
+    function loadAutoReadMode() {
+      autoReadMode = localStorage.getItem(AUTO_READ_KEY) === '1';
+    }
+
+    function saveAutoReadMode() {
+      localStorage.setItem(AUTO_READ_KEY, autoReadMode ? '1' : '0');
+    }
+
+    function updateAutoReadButton() {
+      const btn = document.getElementById('autoReadBtn');
+      if (!btn) return;
+      btn.textContent = autoReadMode ? 'Parar leitura guiada' : 'Iniciar leitura guiada';
+      btn.classList.toggle('favorite-btn-active', autoReadMode);
+    }
+
+    async function getPtTranslationForCard(card) {
+      const en = card?.en || textEn || '';
+      if (!en) return 'Tradução indisponível';
+
+      if (card?.pt && card.pt.trim()) return card.pt.trim();
+      if (textPt && en === textEn && textPt.trim()) return textPt.trim();
 
       const cached = translationCache[en];
-      if (cached && cached.trim()) {
-        textPt = cached.trim();
-        return textPt;
-      }
+      if (cached && cached.trim()) return cached.trim();
 
       try {
         const url = `https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=pt&dt=t&q=${encodeURIComponent(en)}`;
         const res = await fetch(url);
         const data = await res.json();
-        const pt = data?.[0]?.[0]?.[0] || "Tradução indisponível";
+        const pt = data?.[0]?.[0]?.[0] || 'Tradução indisponível';
         translationCache[en] = pt;
         localStorage.setItem(TRANSLATION_KEY, JSON.stringify(translationCache));
-        textPt = pt;
         return pt;
       } catch {
-        textPt = "Tradução indisponível";
-        return textPt;
+        return 'Tradução indisponível';
       }
     }
+
+    async function getPtTranslationForCurrentCard() {
+      const pt = await getPtTranslationForCard(currentCard || { en: textEn, pt: textPt });
+      textPt = pt;
+      return pt;
+    }
+
+    function pickSequentialAutoReadCard(step = 1) {
+      if (!sentences.length) return null;
+
+      if (favoriteMode && favorites.length) {
+        const pool = sentences.filter(s => favorites.includes(s.en));
+        if (!pool.length) return null;
+        const pos = Math.max(0, pool.findIndex(s => s.en === (currentCard?.en || textEn)));
+        return pool[(pos + step + pool.length) % pool.length];
+      }
+
+      if (trainMode === "worst") {
+        return pickWorstCard(false);
+      }
+
+      if (newOnlyMode) {
+        const c = pickNewOnlyCard(step);
+        if (c) return c;
+      }
+
+      const len = sentences.length;
+      const start = currentCardIndex >= 0 ? currentCardIndex : 0;
+      const nextIndex = ((start + step) % len + len) % len;
+      return sentences[nextIndex];
+    }
+
+    async function playGuidedReading(card = currentCard) {
+      if (!card || !card.en) return;
+      const token = autoReadToken;
+      const pt = await getPtTranslationForCard(card);
+      if (token !== autoReadToken || !autoReadMode) return;
+
+      window.speechSynthesis.cancel();
+      await speakQueued(card.en, 'en-US', 0.98);
+      if (token !== autoReadToken || !autoReadMode) return;
+      await speakQueued(card.en, 'en-US', 0.94);
+      if (token !== autoReadToken || !autoReadMode) return;
+      await speakQueued(pt || 'Tradução indisponível', 'pt-BR', 1.02);
+      if (token !== autoReadToken || !autoReadMode) return;
+      await speakQueued(card.en, 'en-US', 0.96);
+      if (token !== autoReadToken || !autoReadMode) return;
+      await new Promise(resolve => setTimeout(resolve, 450));
+      if (token !== autoReadToken || !autoReadMode) return;
+
+      const nextCard = pickSequentialAutoReadCard(1);
+      if (!nextCard || nextCard.en === card.en) {
+        autoReadToken += 1;
+        setTimeout(() => playGuidedReading(card), 200);
+        return;
+      }
+
+      loadSentence(nextCard);
+    }
+
+    function toggleAutoReadMode() {
+      autoReadMode = !autoReadMode;
+      saveAutoReadMode();
+      autoReadToken += 1;
+      updateAutoReadButton();
+      const el = document.getElementById('speechStatus');
+      if (el) {
+        el.textContent = autoReadMode
+          ? 'Leitura guiada contínua ativa: 2x em inglês, 1x em português e 1x em inglês até você parar.'
+          : 'Leitura guiada desligada.';
+      }
+      if (autoReadMode && currentCard) {
+        playGuidedReading(currentCard);
+      } else {
+        window.speechSynthesis.cancel();
+      }
+    }
+
+    // =========================
+    // TRADUÇÃO: SEM BUG
+    // =========================
 
     function setPlayAudioHandlers() {
       document.getElementById("playAudioEn").onclick = () => speak(textEn, "en-US", 1);
@@ -1247,8 +1353,14 @@ modeEl.innerHTML = pills.length ? (" " + pills.join(" ")) : "";
       renderMission();
       renderBrCoach();
       updateFavoriteButton();
+      updateAutoReadButton();
 
-      setTimeout(() => speak(textEn, "en-US", 1), 200);
+      if (autoReadMode) {
+        autoReadToken += 1;
+        setTimeout(() => playGuidedReading(card), 200);
+      } else {
+        setTimeout(() => speak(textEn, "en-US", 1), 200);
+      }
 
       markCardShown(textEn);
       localStorage.setItem(CURRENT_KEY, textEn);
@@ -1368,6 +1480,7 @@ modeEl.innerHTML = pills.length ? (" " + pills.join(" ")) : "";
     const APP_PREF_KEY = "appPrefs_v2";
     const FAVORITES_KEY = "favoritePhrases_v1";
     const MIC_PREF_KEY = "micPermission_v1";
+    const AUTO_READ_KEY = "autoReadMode_v1";
     let appPrefs = { speakMode: false, patternMode: true };
     let speechRecognition = null;
     let speechSupported = false;
@@ -1375,6 +1488,8 @@ modeEl.innerHTML = pills.length ? (" " + pills.join(" ")) : "";
     let favoriteMode = false;
     let micPermissionGranted = false;
     let micStream = null;
+    let autoReadMode = false;
+    let autoReadToken = 0;
 
     function loadAppPrefs() {
       try {
@@ -1650,6 +1765,7 @@ modeEl.innerHTML = pills.length ? (" " + pills.join(" ")) : "";
       const patternBtn = document.getElementById('patternModeBtn');
       if (speakBtn) speakBtn.textContent = appPrefs.speakMode ? 'Modo falar ativo' : 'Modo falar';
       if (patternBtn) patternBtn.textContent = appPrefs.patternMode ? 'Modo blocos ativo' : 'Modo blocos';
+      updateAutoReadButton();
     }
 
     function renderSpeechPanel() {
@@ -1788,6 +1904,7 @@ modeEl.innerHTML = pills.length ? (" " + pills.join(" ")) : "";
       updateTrainButtonUI();
       loadAppPrefs();
       loadFavorites();
+      loadAutoReadMode();
       micPermissionGranted = localStorage.getItem(MIC_PREF_KEY) === "1";
       updateModeButtons();
       renderFavoritesPanel();
@@ -1830,6 +1947,7 @@ modeEl.innerHTML = pills.length ? (" " + pills.join(" ")) : "";
         document.getElementById("trainWorstBtn").style.display = 'inline-block';
         document.getElementById("speakModeBtn").style.display = 'inline-block';
         document.getElementById("patternModeBtn").style.display = 'inline-block';
+        document.getElementById("autoReadBtn").style.display = 'inline-block';
         document.getElementById("favoriteBtn").style.display = 'inline-block';
         document.getElementById("trainFavoritesBtn").style.display = 'inline-block';
         document.getElementById("clearBtn").style.display = 'inline-block';
@@ -1884,6 +2002,7 @@ modeEl.innerHTML = pills.length ? (" " + pills.join(" ")) : "";
       document.getElementById("startRecBtn").onclick = startSpeechCapture;
       document.getElementById("retryRecBtn").onclick = startSpeechCapture;
       document.getElementById("micPermissionBtn").onclick = () => ensureMicPermission(true);
+      document.getElementById("autoReadBtn").onclick = toggleAutoReadMode;
       document.getElementById("generateVariationBtn").onclick = () => renderVariation(textEn);
 
       refreshErrorAnalysis();
@@ -1923,6 +2042,7 @@ modeEl.innerHTML = pills.length ? (" " + pills.join(" ")) : "";
           document.getElementById("trainWorstBtn").style.display = "inline-block";
           document.getElementById("speakModeBtn").style.display = "inline-block";
           document.getElementById("patternModeBtn").style.display = "inline-block";
+          document.getElementById("autoReadBtn").style.display = "inline-block";
           document.getElementById("favoriteBtn").style.display = "inline-block";
           document.getElementById("trainFavoritesBtn").style.display = "inline-block";
           document.getElementById("clearBtn").style.display = "inline-block";
@@ -1957,6 +2077,7 @@ modeEl.innerHTML = pills.length ? (" " + pills.join(" ")) : "";
         document.getElementById("trainWorstBtn").style.display = 'inline-block';
         document.getElementById("speakModeBtn").style.display = 'inline-block';
         document.getElementById("patternModeBtn").style.display = 'inline-block';
+        document.getElementById("autoReadBtn").style.display = 'inline-block';
         document.getElementById("favoriteBtn").style.display = 'inline-block';
         document.getElementById("trainFavoritesBtn").style.display = 'inline-block';
         document.getElementById("clearBtn").style.display = 'inline-block';
