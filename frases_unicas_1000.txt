@@ -1079,5 +1079,56 @@ I felt like a little child whose life had just begun | Eu me senti como uma cria
 You came and breathed new life into this lonely heart of mine | Você veio e trouxe nova vida para esse meu coração solitário
 You threw out the lifeline just in the nick of time | Você lançou a linha de resgate bem no último instante
 
+Things have been hectic. | As coisas estiveram corridas.
+It has been a busy week. | Foi uma semana movimentada.
+We had a tight deadline. | Nós tivemos um prazo apertado.
+We managed to deliver on time. | Nós conseguimos entregar no prazo.
+I needed your support on this. | Eu precisei do seu apoio nisso.
+We aligned on the next steps. | Nós alinhamos os próximos passos.
+I shared the report with the team. | Eu compartilhei o relatório com o time.
+The file was not available yet. | O arquivo não estava disponível ainda.
+We expected the report by the 20th. | Nós esperamos o relatório até o dia 20.
+We had only a few working days. | Nós tivemos poucos dias úteis.
+I followed up on this request. | Eu acompanhei essa solicitação.
+We reviewed the data together. | Nós revisamos os dados juntos.
+I asked for clarification. | Eu pedi esclarecimento.
+We confirmed the process. | Nós confirmamos o processo.
+The team supported the activity. | O time apoiou a atividade.
+I updated the website. | Eu atualizei o site.
+We completed the publication. | Nós concluímos a publicação.
+I ensured the delivery. | Eu garanti a entrega.
+We worked under pressure. | Nós trabalhamos sob pressão.
+I coordinated with the team. | Eu coordenei com o time.
+We handled the request quickly. | Nós tratamos a solicitação rapidamente.
+I checked the information. | Eu verifiquei as informações.
+We validated the data. | Nós validamos os dados.
+I sent the final version. | Eu enviei a versão final.
+We received the file late. | Nós recebemos o arquivo tarde.
+I escalated the issue. | Eu escalei o problema.
+We adjusted the timeline. | Nós ajustamos o cronograma.
+I communicated the delay. | Eu comuniquei o atraso.
+We prioritized this activity. | Nós priorizamos essa atividade.
+I confirmed the deadline. | Eu confirmei o prazo.
+We delivered within the deadline. | Nós entregamos dentro do prazo.
+I aligned expectations. | Eu alinhei as expectativas.
+We improved the process. | Nós melhoramos o processo.
+I supported the implementation. | Eu apoiei a implementação.
+We completed the task successfully. | Nós concluímos a tarefa com sucesso.
+I handled the communication. | Eu conduzi a comunicação.
+We ensured compliance. | Nós garantimos conformidade.
+I reviewed the request carefully. | Eu revisei a solicitação cuidadosamente.
+We identified the issue. | Nós identificamos o problema.
+I proposed a solution. | Eu propus uma solução.
+We resolved the issue. | Nós resolvemos o problema.
+I shared the updates. | Eu compartilhei as atualizações.
+We kept the stakeholders informed. | Nós mantivemos os stakeholders informados.
+I followed the standard process. | Eu segui o processo padrão.
+We met the requirements. | Nós atendemos os requisitos.
+I requested additional time. | Eu solicitei mais tempo.
+We completed the review. | Nós concluímos a revisão.
+I ensured accuracy. | Eu garanti a precisão.
+We finalized the report. | Nós finalizamos o relatório.
+I confirmed everything was correct. | Eu confirmei que tudo estava correto.
+
 
 
