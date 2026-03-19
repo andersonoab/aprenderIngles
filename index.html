@@ -25,9 +25,38 @@
     #word-bank { display:flex; flex-wrap:wrap; justify-content:center; gap:12px; margin-top:12px; }
     .word { flex:1 1 100px; max-width:150px; padding:8px 16px; background:#fff; border:2px solid var(--blue-1); color:var(--blue-1); border-radius:6px; font-size:0.85rem; cursor:grab; user-select:none; transition:.2s; text-align:center; word-wrap:break-word; }
     .word.incorrect { border-color:#e53935; color:#e53935; }
-    #controls { margin-bottom:24px; display:flex; flex-wrap:wrap; gap:10px; justify-content:center; }
+    #controls { margin-bottom:24px; width:100%; }
+    .control-shell { display:flex; flex-direction:column; gap:12px; }
+    .action-hero {
+      display:grid;
+      grid-template-columns: minmax(180px,1.15fr) minmax(170px,1fr) minmax(220px,1.25fr) minmax(150px,0.9fr);
+      gap:10px;
+      align-items:stretch;
+    }
+    .action-stack {
+      display:grid;
+      grid-template-columns: repeat(auto-fit, minmax(210px,1fr));
+      gap:10px;
+      padding:12px;
+      background:#f8fbff;
+      border:1px solid rgba(0,123,255,0.12);
+      border-radius:10px;
+    }
     input[type="file"] { display:none; }
     .btn { padding:10px 20px; font-size:1rem; font-weight:500; border:none; border-radius:6px; cursor:pointer; transition:.2s; flex:1 1 auto; min-width:170px; }
+    .action-hero .btn, .action-hero label.btn {
+      min-width:0;
+      min-height:58px;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      font-size:1.02rem;
+      font-weight:700;
+      text-align:center;
+    }
+    .action-stack .btn, .action-stack label.toggle {
+      min-width:0;
+    }
     .btn-primary { background:var(--blue-1); color:#fff; }
     .btn-primary:hover { background:var(--blue-2); }
     .btn-orange { background:var(--orange); color:#fff; }
@@ -127,15 +156,54 @@
     }
     .muted { color: var(--grey-txt); font-weight: 600; }
 
-    #nextBtn {
-      position: relative;
-      box-shadow: 0 0 0 3px rgba(255,107,0,0.22);
-      border: 2px solid rgba(255,107,0,0.65);
+
+    .mark-red { color:#e53935; font-weight:700; }
+    .mark-green { color:#1b5e20; font-weight:700; }
+    .favorite-btn-active { background:#fff4e8; color:var(--orange); border:2px solid var(--orange); }
+
+    #loadOnlineBtn {
+      background: linear-gradient(135deg, var(--blue-1) 0%, var(--blue-2) 100%);
+      box-shadow: 0 8px 18px rgba(0,123,255,0.22);
     }
-    #nextBtn:hover {
-      box-shadow: 0 0 0 4px rgba(255,107,0,0.28);
+    #loadOnlineBtn:hover {
+      filter: brightness(1.03);
       transform: translateY(-1px);
     }
+    #nextBtn {
+      background: linear-gradient(135deg, #0b6dff 0%, #1f8bff 100%);
+      color:#fff;
+      box-shadow: 0 0 0 3px rgba(255,107,0,0.22), 0 10px 20px rgba(0,123,255,0.18);
+      border: 2px solid rgba(255,107,0,0.65);
+      font-size:1.06rem;
+    }
+    #nextBtn:hover {
+      box-shadow: 0 0 0 4px rgba(255,107,0,0.28), 0 12px 24px rgba(0,123,255,0.20);
+      transform: translateY(-1px);
+    }
+    #menuToggleBtn {
+      min-width:0;
+      border-width:2px;
+      font-weight:700;
+    }
+    #menuToggleBtn.menu-open {
+      background: rgba(0,123,255,0.08);
+    }
+
+    @media (max-width: 900px) {
+      .action-hero {
+        grid-template-columns: repeat(2, minmax(0,1fr));
+      }
+    }
+
+    @media (max-width: 640px) {
+      .action-hero {
+        grid-template-columns: 1fr;
+      }
+      .action-stack {
+        grid-template-columns: 1fr;
+      }
+    }
+
   </style>
 </head>
 
@@ -150,14 +218,25 @@
   <div class="container">
     <div class="main">
       <div id="controls">
-        <button id="loadOnlineBtn" class="btn btn-primary">Carregar Online</button>
-        <label class="btn btn-primary" for="fileInput">Carregar TXT</label>
-        <input type="file" id="fileInput" accept=".txt" />
-        <button id="nextBtn" class="btn btn-primary" style="display:none;">Próxima Frase</button>
-        <button id="reviewNowBtn" class="btn btn-soft" style="display:none;">Revisar Agora</button>
-        <button id="trainWorstBtn" class="btn btn-soft" style="display:none;">Treinar minhas piores frases</button>
-        <button id="clearBtn" class="btn btn-primary" style="display:none;">Limpar Histórico</button>
-        <label class="toggle" id="newOnlyToggleWrap" style="display:none;"><input type="checkbox" id="newOnlyToggle" />Modo novas frases (ignorar dívida do dia)</label>
+        <div class="control-shell">
+          <div class="action-hero">
+            <button id="loadOnlineBtn" class="btn btn-primary">Carregar Online</button>
+            <label class="btn btn-primary" for="fileInput">Carregar TXT</label>
+            <input type="file" id="fileInput" accept=".txt" />
+            <button id="nextBtn" class="btn btn-primary" style="display:none;">Próxima Frase</button>
+            <button id="menuToggleBtn" class="btn btn-soft">Mais ações</button>
+          </div>
+          <div class="action-stack" id="secondaryActions" style="display:none;">
+            <button id="reviewNowBtn" class="btn btn-soft" style="display:none;">Revisar Agora</button>
+            <button id="trainWorstBtn" class="btn btn-soft" style="display:none;">Treinar minhas piores frases</button>
+            <button id="speakModeBtn" class="btn btn-soft" style="display:none;">Modo falar</button>
+            <button id="patternModeBtn" class="btn btn-soft" style="display:none;">Modo blocos</button>
+            <button id="favoriteBtn" class="btn btn-soft" style="display:none;">Marcar frase</button>
+            <button id="trainFavoritesBtn" class="btn btn-soft" style="display:none;">Treinar favoritas</button>
+            <button id="clearBtn" class="btn btn-primary" style="display:none;">Limpar Histórico</button>
+            <label class="toggle" id="newOnlyToggleWrap" style="display:none;"><input type="checkbox" id="newOnlyToggle" />Modo novas frases (ignorar dívida do dia)</label>
+          </div>
+        </div>
       </div>
 
       <div class="board">
@@ -183,6 +262,26 @@
       <div class="feedback" id="feedback">
         <div id="sentenceEn"></div>
         <div id="sentencePt"></div>
+      </div>
+
+      <div class="panel" id="speakLabPanel" style="display:none; text-align:left; margin-top:18px;">
+        <div class="title">Laboratório de fala</div>
+        <div class="small">Treino seguro: fale sem nota punitiva. O app mede aproximação, não perfeição.</div>
+        <button id="startRecBtn" class="btn btn-primary" style="width:100%; margin-top:10px;">Falar agora</button>
+        <button id="retryRecBtn" class="btn btn-soft" style="width:100%; margin-top:10px;">Tentar novamente</button>
+        <button id="micPermissionBtn" class="btn btn-soft" style="width:100%; margin-top:10px;">Autorizar microfone</button>
+        <div id="speechStatus" class="small" style="margin-top:10px;">Microfone parado.</div>
+        <div id="speechHeard" style="margin-top:10px;"></div>
+        <div id="speechEval" style="margin-top:10px;"></div>
+      </div>
+
+      <div class="panel" id="patternPanel" style="display:none; text-align:left; margin-top:18px;">
+        <div class="title">Construtor de frases</div>
+        <div class="small">Modelo base para o brasileiro montar frases sem travar.</div>
+        <div id="patternFrame" style="margin-top:8px;"></div>
+        <div id="patternTips" class="small" style="margin-top:8px;"></div>
+        <button id="generateVariationBtn" class="btn btn-primary" style="width:100%; margin-top:10px;">Gerar variação prática</button>
+        <div id="variationBox" style="margin-top:10px;"></div>
       </div>
     </div>
 
@@ -214,6 +313,27 @@
       <div class="panel" id="errorWordPanel">
         <div class="title">Palavras Mais Erradas</div>
         <div id="errorWordTable"></div>
+      </div>
+
+      <div class="panel" id="seldonPanel">
+        <div class="title">Motor Seldon</div>
+        <div class="small">Prevê o que deve vir agora: medo de falar, lacuna estrutural, revisão vencida e chance de consolidar.</div>
+        <div id="predictionBox" style="margin-top:8px;"></div>
+      </div>
+
+      <div class="panel" id="missionPanel">
+        <div class="title">Missão do dia</div>
+        <div id="missionBox" class="small">Carregue frases para começar.</div>
+      </div>
+
+      <div class="panel" id="brCoachPanel">
+        <div class="title">Coach do brasileiro</div>
+        <div id="brCoachBox" class="small">O foco aqui é falar com segurança, sem esperar perfeição.</div>
+      </div>
+
+            <div class="panel" id="favoritesPanel">
+        <div class="title">Frases favoritas</div>
+        <div id="favoritesBox" class="small">Nenhuma frase marcada ainda.</div>
       </div>
 
       <h2>Histórico</h2>
@@ -375,6 +495,11 @@ function pickNewOnlyCard(step = 1) {
 }
 
 function pickCardForNavigation(forceReviewOnly = false, step = 1) {
+  if (favoriteMode) {
+    const pool = sentences.filter(s => favorites.includes(s.en));
+    if (pool.length) return pickBestCard(pool);
+  }
+
   if (trainMode === "worst") {
     return pickWorstCard(!!forceReviewOnly);
   }
@@ -1116,6 +1241,12 @@ modeEl.innerHTML = pills.length ? (" " + pills.join(" ")) : "";
 
       setupBoard();
       setPlayAudioHandlers();
+      renderSpeechPanel();
+      renderPatternPanel(textEn);
+      renderPrediction();
+      renderMission();
+      renderBrCoach();
+      updateFavoriteButton();
 
       setTimeout(() => speak(textEn, "en-US", 1), 200);
 
@@ -1232,6 +1363,404 @@ modeEl.innerHTML = pills.length ? (" " + pills.join(" ")) : "";
 }
 
 // =========================
+    // MODO FALA + MODO BLOCOS + MOTOR PREDITIVO
+    // =========================
+    const APP_PREF_KEY = "appPrefs_v2";
+    const FAVORITES_KEY = "favoritePhrases_v1";
+    const MIC_PREF_KEY = "micPermission_v1";
+    let appPrefs = { speakMode: false, patternMode: true };
+    let speechRecognition = null;
+    let speechSupported = false;
+    let favorites = [];
+    let favoriteMode = false;
+    let micPermissionGranted = false;
+    let micStream = null;
+
+    function loadAppPrefs() {
+      try {
+        const raw = localStorage.getItem(APP_PREF_KEY);
+        if (raw) {
+          const parsed = JSON.parse(raw);
+          appPrefs = { ...appPrefs, ...parsed };
+        }
+      } catch {}
+    }
+
+    function saveAppPrefs() {
+      localStorage.setItem(APP_PREF_KEY, JSON.stringify(appPrefs));
+    }
+
+
+    function loadFavorites() {
+      try {
+        const raw = localStorage.getItem(FAVORITES_KEY);
+        favorites = raw ? JSON.parse(raw) : [];
+        if (!Array.isArray(favorites)) favorites = [];
+      } catch {
+        favorites = [];
+      }
+    }
+
+    function saveFavorites() {
+      localStorage.setItem(FAVORITES_KEY, JSON.stringify(favorites));
+    }
+
+    function isFavoritePhrase(en) {
+      return favorites.includes(en);
+    }
+
+    function toggleFavoriteCurrent() {
+      if (!textEn) return;
+      if (isFavoritePhrase(textEn)) favorites = favorites.filter(x => x !== textEn);
+      else favorites.push(textEn);
+      saveFavorites();
+      updateFavoriteButton();
+      renderFavoritesPanel();
+    }
+
+    function updateFavoriteButton() {
+      const btn = document.getElementById('favoriteBtn');
+      if (!btn) return;
+      const active = !!textEn && isFavoritePhrase(textEn);
+      btn.textContent = active ? 'Frase marcada' : 'Marcar frase';
+      btn.classList.toggle('favorite-btn-active', active);
+    }
+
+    function renderFavoritesPanel() {
+      const box = document.getElementById('favoritesBox');
+      if (!box) return;
+      if (!favorites.length) {
+        box.innerHTML = 'Nenhuma frase marcada ainda.';
+        return;
+      }
+      const rows = favorites.slice(0, 8).map((f, i) => `${i+1}. ${f}`);
+      const rest = favorites.length > 8 ? `<br>... e mais ${favorites.length - 8}.` : '';
+      box.innerHTML = `Marcadas: <b>${favorites.length}</b><br>${rows.join('<br>')}${rest}`;
+    }
+
+    async function ensureMicPermission(forceAsk = false) {
+      if (!navigator.mediaDevices || !navigator.mediaDevices.getUserMedia) {
+        const el = document.getElementById('speechStatus');
+        if (el) el.textContent = 'Seu navegador não expõe getUserMedia para autorizar microfone.';
+        return false;
+      }
+
+      if (micPermissionGranted && !forceAsk) return true;
+
+      try {
+        if (!forceAsk && navigator.permissions && navigator.permissions.query) {
+          const result = await navigator.permissions.query({ name: 'microphone' });
+          if (result.state === 'granted') {
+            micPermissionGranted = true;
+            localStorage.setItem(MIC_PREF_KEY, '1');
+            const el = document.getElementById('speechStatus');
+            if (el) el.textContent = 'Microfone já autorizado para este site.';
+            return true;
+          }
+        }
+      } catch {}
+
+      try {
+        micStream = await navigator.mediaDevices.getUserMedia({ audio: true });
+        micPermissionGranted = true;
+        localStorage.setItem(MIC_PREF_KEY, '1');
+        const el = document.getElementById('speechStatus');
+        if (el) el.textContent = 'Microfone autorizado para este site.';
+        if (micStream) {
+          micStream.getTracks().forEach(t => t.stop());
+          micStream = null;
+        }
+        return true;
+      } catch (err) {
+        const el = document.getElementById('speechStatus');
+        if (el) el.textContent = 'Microfone não autorizado: ' + (err?.message || 'permita o acesso no navegador');
+        return false;
+      }
+    }
+
+    function initSpeechRecognition() {
+      const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
+      speechSupported = !!SR;
+      if (!SR) return;
+      speechRecognition = new SR();
+      speechRecognition.lang = 'en-US';
+      speechRecognition.interimResults = false;
+      speechRecognition.maxAlternatives = 1;
+
+      speechRecognition.onstart = () => {
+        const el = document.getElementById('speechStatus');
+        if (el) el.textContent = 'Ouvindo... fale a frase em inglês.';
+      };
+
+      speechRecognition.onresult = (event) => {
+        const transcript = event.results?.[0]?.[0]?.transcript || '';
+        renderSpeechResult(transcript);
+      };
+
+      speechRecognition.onerror = (event) => {
+        const el = document.getElementById('speechStatus');
+        if (el) el.textContent = 'Falha no microfone: ' + (event.error || 'erro desconhecido');
+      };
+
+      speechRecognition.onend = () => {
+        const el = document.getElementById('speechStatus');
+        if (el && !el.textContent.includes('Pontuação')) {
+          el.textContent = 'Microfone parado.';
+        }
+      };
+    }
+
+    function normalizeToken(t) {
+      return String(t || '').toLowerCase()
+        .normalize('NFD').replace(/[̀-ͯ]/g, '')
+        .replace(/[^a-z0-9' ]/g, ' ')
+        .replace(/\s+/g, ' ')
+        .trim();
+    }
+
+    function tokenize(t) {
+      return normalizeToken(t).split(' ').filter(Boolean);
+    }
+
+    function buildPatternData(en) {
+      const words = en.split(' ').filter(Boolean);
+      const subjectHints = ['i','you','we','they','he','she','it'];
+      const beHints = ['am','is','are','was','were'];
+      const auxHints = ['do','does','did','will','can','should','would','could','have','has','had'];
+      const lower = words.map(w => w.toLowerCase());
+      let subject = words[0] || '';
+      let verb = words[1] || '';
+      let complement = words.slice(2).join(' ');
+
+      if (lower.length >= 3 && subjectHints.includes(lower[0]) && (beHints.includes(lower[1]) || auxHints.includes(lower[1]) || lower[1].endsWith('ing'))) {
+        subject = words[0];
+        verb = words[1] + (words[2] ? ' ' + words[2] : '');
+        complement = words.slice(3).join(' ');
+      }
+
+      const tips = [];
+      if (subjectHints.includes((words[0] || '').toLowerCase())) {
+        tips.push('Comece com sujeito curto: I, you, we.');
+      } else {
+        tips.push('Ache primeiro quem faz a ação.');
+      }
+      if (/to/.test(' ' + lower.join(' ') + ' ')) tips.push('Quando aparecer to, pense em direção, objetivo ou infinitivo.');
+      if (lower.some(w => w.endsWith('ing'))) tips.push('Verbo com ing costuma indicar ação em andamento ou função de atividade.');
+      if (lower.some(w => ['do','does','did'].includes(w))) tips.push('Do/does/did ajudam pergunta, negação e ênfase.');
+
+      return {
+        subject,
+        verb,
+        complement,
+        frame: [subject || 'Sujeito', verb || 'Verbo', complement || 'Complemento']
+      , tips };
+    }
+
+    function renderPatternPanel(en) {
+      const panel = document.getElementById('patternPanel');
+      if (!panel) return;
+      panel.style.display = appPrefs.patternMode ? 'block' : 'none';
+      if (!appPrefs.patternMode || !en) return;
+
+      const data = buildPatternData(en);
+      document.getElementById('patternFrame').innerHTML =
+        '<b>Estrutura prevista:</b><br>' +
+        '1. ' + (data.frame[0] || '-') + '<br>' +
+        '2. ' + (data.frame[1] || '-') + '<br>' +
+        '3. ' + (data.frame[2] || '-');
+      document.getElementById('patternTips').innerHTML = data.tips.map(t => '• ' + t).join('<br>');
+      renderVariation(en);
+    }
+
+    function renderVariation(en) {
+      const box = document.getElementById('variationBox');
+      if (!box) return;
+      const data = buildPatternData(en);
+      const subject = data.subject || 'I';
+      const verb = data.verb || 'need';
+      const complement = data.complement || 'more practice';
+      const variation = `${subject} really ${verb} ${complement}`.replace(/\s+/g, ' ').trim();
+      const pt = 'Variação de treino para sair do engessado.';
+      box.innerHTML = `<b>Variação:</b> ${variation}<br><span class="small">${pt}</span>`;
+    }
+
+    function evaluateSpeech(target, spoken) {
+      const targetTokens = tokenize(target);
+      const spokenTokens = tokenize(spoken);
+      if (!targetTokens.length) return {score: 0, matched: [], missing: [], extra: spokenTokens};
+
+      const targetSet = new Set(targetTokens);
+      const spokenSet = new Set(spokenTokens);
+      const matched = targetTokens.filter(t => spokenSet.has(t));
+      const missing = targetTokens.filter(t => !spokenSet.has(t));
+      const extra = spokenTokens.filter(t => !targetSet.has(t));
+      const score = Math.round((matched.length / targetTokens.length) * 100);
+      return { score, matched, missing, extra };
+    }
+
+    function renderSpeechResult(transcript) {
+      const heard = document.getElementById('speechHeard');
+      const evalBox = document.getElementById('speechEval');
+      const status = document.getElementById('speechStatus');
+
+      const result = evaluateSpeech(textEn, transcript);
+      const spokenTokens = tokenize(transcript);
+      const expectedTokens = tokenize(textEn);
+      const expectedSet = new Set(expectedTokens);
+      const spokenHtml = spokenTokens.length
+        ? spokenTokens.map(t => expectedSet.has(t)
+            ? `<span class="mark-green">${t}</span>`
+            : `<span class="mark-red">${t}</span>`).join(' ')
+        : '(vazio)';
+
+      if (heard) heard.innerHTML = `<b>Você disse:</b> ${spokenHtml}`;
+      if (status) status.textContent = `Pontuação de aproximação: ${result.score}%`;
+      if (evalBox) {
+        evalBox.innerHTML =
+          `<b>Acertos:</b> ${result.matched.join(', ') || '-'}<br>` +
+          `<b>Faltaram:</b> <span class="mark-red">${result.missing.join(', ') || '-'}</span><br>` +
+          `<b>Sobraram:</b> <span class="mark-red">${result.extra.join(', ') || '-'}</span>`;
+      }
+
+      const entry = ensureSrsEntry(textEn);
+      entry.lastSpeechScore = result.score;
+      saveSRS();
+      renderPrediction();
+      renderMission();
+    }
+
+    function toggleSpeakMode() {
+      appPrefs.speakMode = !appPrefs.speakMode;
+      saveAppPrefs();
+      updateModeButtons();
+      renderSpeechPanel();
+      renderPrediction();
+    }
+
+    function togglePatternMode() {
+      appPrefs.patternMode = !appPrefs.patternMode;
+      saveAppPrefs();
+      updateModeButtons();
+      renderPatternPanel(textEn);
+      renderPrediction();
+    }
+
+    function updateModeButtons() {
+      const speakBtn = document.getElementById('speakModeBtn');
+      const patternBtn = document.getElementById('patternModeBtn');
+      if (speakBtn) speakBtn.textContent = appPrefs.speakMode ? 'Modo falar ativo' : 'Modo falar';
+      if (patternBtn) patternBtn.textContent = appPrefs.patternMode ? 'Modo blocos ativo' : 'Modo blocos';
+    }
+
+    function renderSpeechPanel() {
+      const panel = document.getElementById('speakLabPanel');
+      if (!panel) return;
+      panel.style.display = appPrefs.speakMode ? 'block' : 'none';
+      const status = document.getElementById('speechStatus');
+      if (status && appPrefs.speakMode && !speechSupported) {
+        status.textContent = 'Seu navegador pode não suportar reconhecimento de fala nativo. Mesmo assim, o restante do app continua funcionando.';
+      }
+    }
+
+    async function startSpeechCapture() {
+      if (!speechSupported || !speechRecognition) {
+        const el = document.getElementById('speechStatus');
+        if (el) el.textContent = 'Reconhecimento de fala não disponível neste navegador.';
+        return;
+      }
+      const ok = await ensureMicPermission(false);
+      if (!ok) return;
+      document.getElementById('speechHeard').innerHTML = '';
+      document.getElementById('speechEval').innerHTML = '';
+      speechRecognition.start();
+    }
+
+
+    function pickBestCard(pool) {
+      if (!pool || !pool.length) return null;
+      let best = pool[0];
+      let bestScore = -1;
+      pool.forEach(card => {
+        const pred = getPredictionForCard(card.en);
+        const score = pred ? pred.total : 0;
+        if (score > bestScore) {
+          best = card;
+          bestScore = score;
+        }
+      });
+      return best;
+    }
+
+    function getPredictionForCard(en) {
+      if (!en) return null;
+      const entry = ensureSrsEntry(en);
+      const now = Date.now();
+      const dueRisk = (entry.due || 0) <= now ? 30 : 0;
+      const errorRisk = Math.min(30, (entry.wrong || 0) * 6);
+      const noveltyRisk = (entry.seen || 0) === 0 ? 20 : 0;
+      const speechRisk = appPrefs.speakMode ? Math.max(0, 20 - Math.floor((entry.lastSpeechScore || 0) / 5)) : 0;
+      const total = Math.min(100, dueRisk + errorRisk + noveltyRisk + speechRisk);
+
+      let action = 'Consolidar';
+      if (speechRisk >= 12) action = 'Falar em voz alta';
+      else if (errorRisk >= 18) action = 'Reconstruir por blocos';
+      else if (dueRisk >= 30) action = 'Revisar agora';
+      else if (noveltyRisk >= 20) action = 'Apresentar nova frase com apoio';
+
+      return {
+        total,
+        action,
+        dueRisk,
+        errorRisk,
+        noveltyRisk,
+        speechRisk
+      };
+    }
+
+    function renderPrediction() {
+      const box = document.getElementById('predictionBox');
+      if (!box || !textEn) return;
+      const p = getPredictionForCard(textEn);
+      if (!p) return;
+      box.innerHTML =
+        `<b>Próxima melhor ação:</b> ${p.action}<br>` +
+        `Dificuldade prevista: <b>${p.total}%</b><br>` +
+        `Revisão: ${p.dueRisk} | Erros: ${p.errorRisk} | Novidade: ${p.noveltyRisk} | Fala: ${p.speechRisk}`;
+    }
+
+    function renderMission() {
+      const box = document.getElementById('missionBox');
+      if (!box) return;
+      if (!sentences.length) {
+        box.textContent = 'Carregue frases para começar.';
+        return;
+      }
+      const due = sentences.filter(s => (ensureSrsEntry(s.en).due || 0) <= Date.now() && (ensureSrsEntry(s.en).seen || 0) > 0).length;
+      const newCount = sentences.filter(s => (ensureSrsEntry(s.en).seen || 0) === 0).length;
+      const attempts = loadAttemptLog();
+      const today = new Date().toDateString();
+      const todayAttempts = attempts.filter(a => new Date(a.ts).toDateString() === today).length;
+      box.innerHTML =
+        `Hoje: <b>${todayAttempts}</b> tentativas<br>` +
+        `Revisões vencidas: <b>${due}</b><br>` +
+        `Frases novas: <b>${newCount}</b><br>` +
+        `Meta sugerida: <b>${Math.min(12, Math.max(5, due + 3))}</b> frases.`;
+    }
+
+    function renderBrCoach() {
+      const box = document.getElementById('brCoachBox');
+      if (!box || !textEn) return;
+      const lower = textEn.toLowerCase();
+      const notes = [];
+      if (/i/.test(lower)) notes.push('Quando começar com I, tente falar a frase inteira sem traduzir palavra por palavra.');
+      if (/do|does|did/.test(lower)) notes.push('Se aparecer do, does ou did, pense em pergunta, negação ou reforço.');
+      if (/the/.test(lower)) notes.push('The não precisa travar sua fala. Primeiro comunique, depois refine a pronúncia.');
+      if (/ing/.test(lower)) notes.push('Verbo com ing costuma ser bom para treino oral porque cria ritmo.');
+      if (!notes.length) notes.push('Estratégia prática: leia, monte, fale e só depois revele a tradução.');
+      box.innerHTML = notes.join('<br>');
+    }
+
+// =========================
     // BOOT / RESTORE
     // =========================
     document.addEventListener('DOMContentLoaded', () => {
@@ -1257,6 +1786,12 @@ modeEl.innerHTML = pills.length ? (" " + pills.join(" ")) : "";
       // Modo treino (persistente)
       loadTrainMode();
       updateTrainButtonUI();
+      loadAppPrefs();
+      loadFavorites();
+      micPermissionGranted = localStorage.getItem(MIC_PREF_KEY) === "1";
+      updateModeButtons();
+      renderFavoritesPanel();
+      initSpeechRecognition();
 
       // Modo novas frases (ignorar dívida) - persistente
       loadNewOnlyMode();
@@ -1293,6 +1828,10 @@ modeEl.innerHTML = pills.length ? (" " + pills.join(" ")) : "";
         document.getElementById("nextBtn").style.display = 'inline-block';
         document.getElementById("reviewNowBtn").style.display = 'inline-block';
         document.getElementById("trainWorstBtn").style.display = 'inline-block';
+        document.getElementById("speakModeBtn").style.display = 'inline-block';
+        document.getElementById("patternModeBtn").style.display = 'inline-block';
+        document.getElementById("favoriteBtn").style.display = 'inline-block';
+        document.getElementById("trainFavoritesBtn").style.display = 'inline-block';
         document.getElementById("clearBtn").style.display = 'inline-block';
         applyNewOnlyToggleUI();
       } else {
@@ -1327,7 +1866,31 @@ modeEl.innerHTML = pills.length ? (" " + pills.join(" ")) : "";
         }
       };
 
+      document.getElementById("speakModeBtn").onclick = toggleSpeakMode;
+      document.getElementById("patternModeBtn").onclick = togglePatternMode;
+      document.getElementById("favoriteBtn").onclick = toggleFavoriteCurrent;
+      document.getElementById("trainFavoritesBtn").onclick = () => {
+        if (!favorites.length) {
+          alert('Marque pelo menos uma frase para treinar depois.');
+          return;
+        }
+        favoriteMode = !favoriteMode;
+        const btn = document.getElementById('trainFavoritesBtn');
+        if (btn) btn.textContent = favoriteMode ? 'Treinando favoritas' : 'Treinar favoritas';
+        const pool = sentences.filter(s => favorites.includes(s.en));
+        const next = favoriteMode ? pickBestCard(pool) : pickCardForNavigation(false, 1);
+        if (next) loadSentence(next);
+      };
+      document.getElementById("startRecBtn").onclick = startSpeechCapture;
+      document.getElementById("retryRecBtn").onclick = startSpeechCapture;
+      document.getElementById("micPermissionBtn").onclick = () => ensureMicPermission(true);
+      document.getElementById("generateVariationBtn").onclick = () => renderVariation(textEn);
+
       refreshErrorAnalysis();
+      renderMission();
+      renderPrediction();
+      renderBrCoach();
+      renderSpeechPanel();
     });
 
     // =========================
@@ -1358,6 +1921,10 @@ modeEl.innerHTML = pills.length ? (" " + pills.join(" ")) : "";
           document.getElementById("nextBtn").style.display = "inline-block";
           document.getElementById("reviewNowBtn").style.display = "inline-block";
           document.getElementById("trainWorstBtn").style.display = "inline-block";
+          document.getElementById("speakModeBtn").style.display = "inline-block";
+          document.getElementById("patternModeBtn").style.display = "inline-block";
+          document.getElementById("favoriteBtn").style.display = "inline-block";
+          document.getElementById("trainFavoritesBtn").style.display = "inline-block";
           document.getElementById("clearBtn").style.display = "inline-block";
         applyNewOnlyToggleUI();
         });
@@ -1388,6 +1955,10 @@ modeEl.innerHTML = pills.length ? (" " + pills.join(" ")) : "";
         document.getElementById("nextBtn").style.display = 'inline-block';
         document.getElementById("reviewNowBtn").style.display = 'inline-block';
         document.getElementById("trainWorstBtn").style.display = 'inline-block';
+        document.getElementById("speakModeBtn").style.display = 'inline-block';
+        document.getElementById("patternModeBtn").style.display = 'inline-block';
+        document.getElementById("favoriteBtn").style.display = 'inline-block';
+        document.getElementById("trainFavoritesBtn").style.display = 'inline-block';
         document.getElementById("clearBtn").style.display = 'inline-block';
         applyNewOnlyToggleUI();
 
@@ -1395,6 +1966,19 @@ modeEl.innerHTML = pills.length ? (" " + pills.join(" ")) : "";
       };
 
       reader.readAsText(file, "UTF-8");
+    };
+
+    function setSecondaryMenu(open) {
+      const panel = document.getElementById('secondaryActions');
+      const btn = document.getElementById('menuToggleBtn');
+      panel.style.display = open ? 'grid' : 'none';
+      btn.classList.toggle('menu-open', open);
+      btn.textContent = open ? 'Ocultar ações' : 'Mais ações';
+    }
+
+    document.getElementById('menuToggleBtn').onclick = () => {
+      const panel = document.getElementById('secondaryActions');
+      setSecondaryMenu(panel.style.display === 'none');
     };
 
     document.getElementById("nextBtn").onclick = () => {
@@ -1444,6 +2028,7 @@ modeEl.innerHTML = pills.length ? (" " + pills.join(" ")) : "";
 
       doc.save("historico_frases.pdf");
     };
+    setSecondaryMenu(false);
   </script>
 </body>
 </html>
