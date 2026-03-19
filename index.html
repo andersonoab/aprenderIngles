@@ -189,6 +189,93 @@
       background: rgba(0,123,255,0.08);
     }
 
+
+    .walk-status {
+      margin-top:10px;
+      padding:10px 14px;
+      border-radius:10px;
+      background:#f8fbff;
+      border:1px solid rgba(0,123,255,0.12);
+      font-size:0.95rem;
+      color:#234;
+      text-align:center;
+    }
+    .walk-status strong { color:var(--blue-1); }
+
+    #walkModeBtn {
+      background: linear-gradient(135deg, #14213d 0%, #243b68 100%);
+      color:#fff;
+    }
+    #walkModeBtn:hover {
+      filter: brightness(1.05);
+      transform: translateY(-1px);
+    }
+
+    body.walk-mode {
+      background:#08111f;
+      color:#eef4ff;
+    }
+    body.walk-mode header {
+      padding:24px 20px 30px;
+      background:linear-gradient(135deg,#08111f 0%, #102544 100%);
+    }
+    body.walk-mode header svg.wave path {
+      fill:#08111f;
+    }
+    body.walk-mode .container {
+      padding-top:18px;
+    }
+    body.walk-mode .board,
+    body.walk-mode .panel,
+    body.walk-mode .feedback,
+    body.walk-mode .tips,
+    body.walk-mode .sidebar,
+    body.walk-mode .statusline,
+    body.walk-mode .action-stack,
+    body.walk-mode .walk-status {
+      background:#101b2f;
+      color:#eef4ff;
+      border-color:rgba(120,170,255,0.28);
+      box-shadow:none;
+    }
+    body.walk-mode .board p,
+    body.walk-mode .panel .title,
+    body.walk-mode .small,
+    body.walk-mode .muted,
+    body.walk-mode #sentenceEn,
+    body.walk-mode #sentencePt,
+    body.walk-mode .statusline,
+    body.walk-mode .walk-status {
+      color:#eef4ff;
+    }
+    body.walk-mode .slot,
+    body.walk-mode .word,
+    body.walk-mode .toggle {
+      background:#0d1628;
+      color:#eef4ff;
+      border-color:#5d85d6;
+    }
+    body.walk-mode .word.incorrect,
+    body.walk-mode .mark-red {
+      color:#ff7d7d;
+      border-color:#ff7d7d;
+    }
+    body.walk-mode #sentenceEn {
+      font-size:1.45rem;
+      line-height:1.6;
+      font-weight:700;
+    }
+    body.walk-mode #sentencePt {
+      font-size:1.2rem;
+      line-height:1.5;
+    }
+    body.walk-mode #audio-controls,
+    body.walk-mode #word-bank,
+    body.walk-mode #slots,
+    body.walk-mode #feedback {
+      margin-top:18px;
+    }
+
     @media (max-width: 900px) {
       .action-hero {
         grid-template-columns: repeat(2, minmax(0,1fr));
@@ -232,11 +319,13 @@
             <button id="speakModeBtn" class="btn btn-soft" style="display:none;">Modo falar</button>
             <button id="patternModeBtn" class="btn btn-soft" style="display:none;">Modo blocos</button>
             <button id="autoReadBtn" class="btn btn-soft" style="display:none;">Leitura guiada</button>
+            <button id="walkModeBtn" class="btn btn-soft" style="display:none;">Modo Caminhada</button>
             <button id="favoriteBtn" class="btn btn-soft" style="display:none;">Marcar frase</button>
             <button id="trainFavoritesBtn" class="btn btn-soft" style="display:none;">Treinar favoritas</button>
             <button id="clearBtn" class="btn btn-primary" style="display:none;">Limpar Histórico</button>
             <label class="toggle" id="newOnlyToggleWrap" style="display:none;"><input type="checkbox" id="newOnlyToggle" />Modo novas frases (ignorar dívida do dia)</label>
           </div>
+          <div id="walkStatus" class="walk-status" style="display:none;">Modo Caminhada pronto. Tela escura, leitura contínua e tentativa de manter a tela ativa.</div>
         </div>
       </div>
 
@@ -983,6 +1072,101 @@ function maybeAutoSkipOnStuck() {
       localStorage.setItem(AUTO_READ_KEY, autoReadMode ? '1' : '0');
     }
 
+
+    function loadWalkMode() {
+      walkMode = localStorage.getItem(WALK_MODE_KEY) === '1';
+    }
+
+    function saveWalkMode() {
+      localStorage.setItem(WALK_MODE_KEY, walkMode ? '1' : '0');
+    }
+
+    function updateWalkStatus(message = '') {
+      const box = document.getElementById('walkStatus');
+      if (!box) return;
+      box.style.display = sentences.length ? 'block' : 'none';
+      if (message) {
+        box.innerHTML = message;
+        return;
+      }
+      if (walkMode) {
+        box.innerHTML = wakeLockSentinel
+          ? '<strong>Modo Caminhada ativo.</strong> Leitura contínua ligada e tela mantida acordada enquanto o navegador permitir.'
+          : '<strong>Modo Caminhada ativo.</strong> Leitura contínua ligada. A tentativa de manter a tela ativa depende do navegador.';
+      } else {
+        box.innerHTML = 'Modo Caminhada pronto. Tela escura, leitura contínua e tentativa de manter a tela ativa.';
+      }
+    }
+
+    function updateWalkModeButton() {
+      const btn = document.getElementById('walkModeBtn');
+      if (!btn) return;
+      btn.textContent = walkMode ? 'Parar modo caminhada' : 'Iniciar modo caminhada';
+      btn.classList.toggle('favorite-btn-active', walkMode);
+      document.body.classList.toggle('walk-mode', walkMode);
+      updateWalkStatus();
+    }
+
+    async function requestWakeLock() {
+      if (!('wakeLock' in navigator) || !navigator.wakeLock?.request) {
+        wakeLockSentinel = null;
+        updateWalkStatus('<strong>Modo Caminhada ativo.</strong> Leitura contínua ligada. Seu navegador não oferece Wake Lock nesta página.');
+        return false;
+      }
+      try {
+        wakeLockSentinel = await navigator.wakeLock.request('screen');
+        wakeLockSentinel.addEventListener('release', () => {
+          wakeLockSentinel = null;
+          if (walkMode) {
+            updateWalkStatus('<strong>Modo Caminhada ativo.</strong> A tela foi liberada pelo sistema. Toque no botão novamente para reforçar.');
+          }
+        });
+        updateWalkStatus();
+        return true;
+      } catch (err) {
+        wakeLockSentinel = null;
+        updateWalkStatus('<strong>Modo Caminhada ativo.</strong> O navegador não concedeu Wake Lock agora. Mantenha a página visível para maior estabilidade.');
+        return false;
+      }
+    }
+
+    async function releaseWakeLock() {
+      try {
+        if (wakeLockSentinel) {
+          await wakeLockSentinel.release();
+        }
+      } catch {}
+      wakeLockSentinel = null;
+    }
+
+    async function toggleWalkMode() {
+      walkMode = !walkMode;
+      saveWalkMode();
+      if (walkMode) {
+        if (!autoReadMode) {
+          autoReadMode = true;
+          saveAutoReadMode();
+          autoReadToken += 1;
+          updateAutoReadButton();
+        }
+        updateWalkModeButton();
+        await requestWakeLock();
+        const statusEl = document.getElementById('speechStatus');
+        if (statusEl) statusEl.textContent = 'Modo Caminhada ativo: leitura contínua com tela escura.';
+        if (currentCard) playGuidedReading(currentCard);
+      } else {
+        await releaseWakeLock();
+        autoReadMode = false;
+        saveAutoReadMode();
+        autoReadToken += 1;
+        updateAutoReadButton();
+        window.speechSynthesis.cancel();
+        const statusEl = document.getElementById('speechStatus');
+        if (statusEl) statusEl.textContent = 'Modo Caminhada desligado.';
+        updateWalkModeButton();
+      }
+    }
+
     function updateAutoReadButton() {
       const btn = document.getElementById('autoReadBtn');
       if (!btn) return;
@@ -1072,10 +1256,16 @@ function maybeAutoSkipOnStuck() {
       loadSentence(nextCard);
     }
 
-    function toggleAutoReadMode() {
+    async function toggleAutoReadMode() {
       autoReadMode = !autoReadMode;
       saveAutoReadMode();
       autoReadToken += 1;
+      if (!autoReadMode && walkMode) {
+        walkMode = false;
+        saveWalkMode();
+        await releaseWakeLock();
+        updateWalkModeButton();
+      }
       updateAutoReadButton();
       const el = document.getElementById('speechStatus');
       if (el) {
@@ -1084,11 +1274,25 @@ function maybeAutoSkipOnStuck() {
           : 'Leitura guiada desligada.';
       }
       if (autoReadMode && currentCard) {
+        if (walkMode) await requestWakeLock();
         playGuidedReading(currentCard);
       } else {
         window.speechSynthesis.cancel();
       }
     }
+
+
+    document.addEventListener('visibilitychange', async () => {
+      if (document.visibilityState === 'visible' && walkMode) {
+        await requestWakeLock();
+      }
+    });
+
+    window.addEventListener('beforeunload', () => {
+      try {
+        window.speechSynthesis.cancel();
+      } catch {}
+    });
 
     // =========================
     // TRADUÇÃO: SEM BUG
@@ -1354,6 +1558,7 @@ modeEl.innerHTML = pills.length ? (" " + pills.join(" ")) : "";
       renderBrCoach();
       updateFavoriteButton();
       updateAutoReadButton();
+      updateWalkModeButton();
 
       if (autoReadMode) {
         autoReadToken += 1;
@@ -1481,6 +1686,7 @@ modeEl.innerHTML = pills.length ? (" " + pills.join(" ")) : "";
     const FAVORITES_KEY = "favoritePhrases_v1";
     const MIC_PREF_KEY = "micPermission_v1";
     const AUTO_READ_KEY = "autoReadMode_v1";
+    const WALK_MODE_KEY = "walkMode_v1";
     let appPrefs = { speakMode: false, patternMode: true };
     let speechRecognition = null;
     let speechSupported = false;
@@ -1490,6 +1696,8 @@ modeEl.innerHTML = pills.length ? (" " + pills.join(" ")) : "";
     let micStream = null;
     let autoReadMode = false;
     let autoReadToken = 0;
+    let walkMode = false;
+    let wakeLockSentinel = null;
 
     function loadAppPrefs() {
       try {
@@ -1940,6 +2148,7 @@ modeEl.innerHTML = pills.length ? (" " + pills.join(" ")) : "";
           startCard = pickCardForNavigation(false, 1);
         }
 
+        loadWalkMode();
         loadSentence(startCard);
 
         document.getElementById("nextBtn").style.display = 'inline-block';
@@ -1948,6 +2157,7 @@ modeEl.innerHTML = pills.length ? (" " + pills.join(" ")) : "";
         document.getElementById("speakModeBtn").style.display = 'inline-block';
         document.getElementById("patternModeBtn").style.display = 'inline-block';
         document.getElementById("autoReadBtn").style.display = 'inline-block';
+        document.getElementById("walkModeBtn").style.display = 'inline-block';
         document.getElementById("favoriteBtn").style.display = 'inline-block';
         document.getElementById("trainFavoritesBtn").style.display = 'inline-block';
         document.getElementById("clearBtn").style.display = 'inline-block';
@@ -1986,6 +2196,7 @@ modeEl.innerHTML = pills.length ? (" " + pills.join(" ")) : "";
 
       document.getElementById("speakModeBtn").onclick = toggleSpeakMode;
       document.getElementById("patternModeBtn").onclick = togglePatternMode;
+      document.getElementById("walkModeBtn").onclick = toggleWalkMode;
       document.getElementById("favoriteBtn").onclick = toggleFavoriteCurrent;
       document.getElementById("trainFavoritesBtn").onclick = () => {
         if (!favorites.length) {
@@ -2043,6 +2254,7 @@ modeEl.innerHTML = pills.length ? (" " + pills.join(" ")) : "";
           document.getElementById("speakModeBtn").style.display = "inline-block";
           document.getElementById("patternModeBtn").style.display = "inline-block";
           document.getElementById("autoReadBtn").style.display = "inline-block";
+          document.getElementById("walkModeBtn").style.display = "inline-block";
           document.getElementById("favoriteBtn").style.display = "inline-block";
           document.getElementById("trainFavoritesBtn").style.display = "inline-block";
           document.getElementById("clearBtn").style.display = "inline-block";
@@ -2078,6 +2290,7 @@ modeEl.innerHTML = pills.length ? (" " + pills.join(" ")) : "";
         document.getElementById("speakModeBtn").style.display = 'inline-block';
         document.getElementById("patternModeBtn").style.display = 'inline-block';
         document.getElementById("autoReadBtn").style.display = 'inline-block';
+        document.getElementById("walkModeBtn").style.display = 'inline-block';
         document.getElementById("favoriteBtn").style.display = 'inline-block';
         document.getElementById("trainFavoritesBtn").style.display = 'inline-block';
         document.getElementById("clearBtn").style.display = 'inline-block';
