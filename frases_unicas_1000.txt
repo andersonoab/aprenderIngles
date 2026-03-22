@@ -1295,6 +1295,103 @@ We completed the review. | Nós concluímos a revisão.
 I ensured accuracy. | Eu garanti a precisão.
 We finalized the report. | Nós finalizamos o relatório.
 I confirmed everything was correct. | Eu confirmei que tudo estava correto.
+I handled a last-minute payroll adjustment. | Eu tratei um ajuste de folha de última hora.
+I reprocessed payroll due to an error. | Eu reprocesssei a folha devido a um erro.
+I escalated a compliance risk. | Eu escalei um risco de compliance.
+I reviewed payroll impacts before approval. | Eu revisei impactos da folha antes da aprovação.
+I mapped a critical payroll issue. | Eu mapeei um problema crítico de folha.
+I corrected tax calculations manually. | Eu corrigi cálculos de impostos manualmente.
+I supported a system migration. | Eu apoiei uma migração de sistema.
+I validated integration between systems. | Eu validei integração entre sistemas.
+I identified a gap in the process. | Eu identifiquei uma falha no processo.
+I proposed a process improvement. | Eu propus uma melhoria de processo.
 
+I reviewed employee benefits allocation. | Eu revisei a alocação de benefícios.
+I handled a sensitive employee case. | Eu tratei um caso sensível de colaborador.
+I aligned payroll data with finance. | Eu alinhei dados da folha com o financeiro.
+I corrected inconsistencies in reports. | Eu corrigi inconsistências nos relatórios.
+I monitored payroll exceptions. | Eu monitorei exceções da folha.
+I ensured data consistency across systems. | Eu garanti consistência de dados entre sistemas.
+I reviewed historical payroll data. | Eu revisei dados históricos da folha.
+I validated bonus calculations. | Eu validei cálculos de bônus.
+I tracked variable compensation. | Eu acompanhei remuneração variável.
+I adjusted payroll entries. | Eu ajustei lançamentos da folha.
+
+I handled multiple payroll cycles. | Eu tratei múltiplos ciclos de folha.
+I supported off-cycle payments. | Eu apoiei pagamentos fora do ciclo.
+I analyzed workforce costs. | Eu analisei custos de força de trabalho.
+I reviewed headcount planning. | Eu revisei planejamento de headcount.
+I monitored budget execution. | Eu monitorei execução de orçamento.
+I flagged inconsistencies early. | Eu sinalizei inconsistências antecipadamente.
+I anticipated operational risks. | Eu antecipei riscos operacionais.
+I supported internal audits. | Eu apoiei auditorias internas.
+I prepared audit documentation. | Eu preparei documentação de auditoria.
+I responded to compliance findings. | Eu respondi apontamentos de compliance.
+
+I structured payroll controls. | Eu estruturei controles de folha.
+I improved data governance. | Eu melhorei governança de dados.
+I reviewed approval workflows. | Eu revisei fluxos de aprovação.
+I redesigned a payroll process. | Eu redesenhei um processo de folha.
+I implemented validation rules. | Eu implementei regras de validação.
+I reduced process errors. | Eu reduzi erros de processo.
+I standardized operational routines. | Eu padronizei rotinas operacionais.
+I improved data traceability. | Eu melhorei rastreabilidade de dados.
+I ensured audit readiness. | Eu garanti prontidão para auditoria.
+I tracked compliance indicators. | Eu acompanhei indicadores de compliance.
+
+I led a payroll alignment meeting. | Eu liderei uma reunião de alinhamento de folha.
+I clarified requirements with stakeholders. | Eu esclareci requisitos com stakeholders.
+I translated business needs into actions. | Eu traduzi necessidades do negócio em ações.
+I aligned cross-functional teams. | Eu alinhei equipes multifuncionais.
+I facilitated decision-making discussions. | Eu facilitei discussões de decisão.
+I presented risks and impacts. | Eu apresentei riscos e impactos.
+I negotiated deadlines with teams. | Eu negociei prazos com equipes.
+I handled conflicting priorities. | Eu tratei prioridades conflitantes.
+I supported leadership alignment. | Eu apoiei alinhamento da liderança.
+I drove accountability in the team. | Eu conduzi responsabilidade no time.
+
+I automated payroll validations. | Eu automatizei validações da folha.
+I built a payroll control tool. | Eu construí uma ferramenta de controle de folha.
+I extracted data using scripts. | Eu extraí dados usando scripts.
+I transformed raw data into insights. | Eu transformei dados brutos em insights.
+I created data pipelines. | Eu criei pipelines de dados.
+I optimized data extraction processes. | Eu otimizei processos de extração de dados.
+I improved reporting accuracy. | Eu melhorei a precisão dos relatórios.
+I automated repetitive validations. | Eu automatizei validações repetitivas.
+I structured large datasets. | Eu estruturei grandes bases de dados.
+I improved data processing speed. | Eu melhorei a velocidade de processamento de dados.
+
+I monitored service delivery performance. | Eu monitorei a performance da entrega de serviços.
+I tracked SLA compliance. | Eu acompanhei cumprimento de SLA.
+I improved vendor performance. | Eu melhorei a performance de fornecedores.
+I managed service escalations. | Eu gerenciei escalonamentos de serviço.
+I reviewed contract deliverables. | Eu revisei entregáveis de contrato.
+I handled vendor discrepancies. | Eu tratei divergências de fornecedores.
+I ensured service quality standards. | Eu garanti padrões de qualidade de serviço.
+I analyzed supplier risks. | Eu analisei riscos de fornecedores.
+I aligned expectations with vendors. | Eu alinhei expectativas com fornecedores.
+I controlled external service costs. | Eu controlei custos de serviços externos.
+
+I structured HR dashboards. | Eu estruturei dashboards de RH.
+I analyzed employee behavior data. | Eu analisei dados de comportamento dos colaboradores.
+I tracked engagement indicators. | Eu acompanhei indicadores de engajamento.
+I evaluated attrition trends. | Eu avaliei tendências de turnover.
+I monitored workforce performance. | Eu monitorei performance da força de trabalho.
+I identified productivity gaps. | Eu identifiquei lacunas de produtividade.
+I supported strategic planning. | Eu apoiei planejamento estratégico.
+I delivered insights to leadership. | Eu entreguei insights à liderança.
+I connected data to business outcomes. | Eu conectei dados a resultados do negócio.
+I influenced decision-making with data. | Eu influenciei decisões com dados.
+
+I handled urgent operational issues. | Eu tratei problemas operacionais urgentes.
+I managed high-pressure situations. | Eu gerenciei situações de alta pressão.
+I ensured continuity of operations. | Eu garanti continuidade das operações.
+I maintained process stability. | Eu mantive estabilidade dos processos.
+I resolved critical bottlenecks. | Eu resolvi gargalos críticos.
+I improved operational resilience. | Eu melhorei a resiliência operacional.
+I ensured process transparency. | Eu garanti transparência dos processos.
+I documented key decisions. | Eu documentei decisões-chave.
+I maintained alignment with business goals. | Eu mantive alinhamento com objetivos do negócio.
+I delivered consistent results. | Eu entreguei resultados consistentes.
 
 
