@@ -1394,4 +1394,59 @@ I documented key decisions. | Eu documentei decisões-chave.
 I maintained alignment with business goals. | Eu mantive alinhamento com objetivos do negócio.
 I delivered consistent results. | Eu entreguei resultados consistentes.
 
+I handled payroll end-to-end. | Eu cuidei da folha de ponta a ponta.
+I fixed payroll issues fast. | Eu resolvi problemas de folha rapidamente.
+I kept everything on track. | Eu mantive tudo no caminho certo.
+I made sure payroll closed right. | Eu garanti que a folha fechou corretamente.
+I dealt with tight deadlines. | Eu lidei com prazos apertados.
+I worked closely with finance. | Eu trabalhei próximo do financeiro.
+I aligned things with leadership. | Eu alinhei tudo com a liderança.
+I kept the process clean. | Eu mantive o processo organizado.
+I avoided rework whenever possible. | Eu evitei retrabalho sempre que possível.
+I caught issues early. | Eu identifiquei problemas cedo.
+
+I improved how we worked. | Eu melhorei a forma como trabalhávamos.
+I simplified complex processes. | Eu simplifiquei processos complexos.
+I made data easier to read. | Eu deixei os dados mais fáceis de entender.
+I built dashboards that made sense. | Eu construí dashboards claros.
+I turned data into decisions. | Eu transformei dados em decisões.
+I supported business decisions. | Eu apoiei decisões do negócio.
+I helped teams move faster. | Eu ajudei times a avançarem mais rápido.
+I removed bottlenecks. | Eu removi gargalos.
+I made processes more reliable. | Eu deixei processos mais confiáveis.
+I kept things running smoothly. | Eu mantive tudo rodando bem.
+
+I worked on system implementations. | Eu trabalhei em implementações de sistema.
+I supported system changes. | Eu apoiei mudanças de sistema.
+I tested everything before go-live. | Eu testei tudo antes do go-live.
+I made sure integrations worked. | Eu garanti que as integrações funcionaram.
+I handled data migrations. | Eu cuidei de migrações de dados.
+I validated payroll outputs. | Eu validei resultados da folha.
+I ensured data was accurate. | Eu garanti que os dados estavam corretos.
+I checked everything twice. | Eu conferi tudo duas vezes.
+I documented the process clearly. | Eu documentei o processo claramente.
+I trained the team when needed. | Eu treinei o time quando necessário.
+
+I dealt with sensitive cases. | Eu lidei com casos sensíveis.
+I handled confidential data. | Eu tratei dados confidenciais.
+I supported employee needs. | Eu apoiei necessidades dos colaboradores.
+I solved issues quickly. | Eu resolvi problemas rapidamente.
+I stayed calm under pressure. | Eu mantive calma sob pressão.
+I managed multiple priorities. | Eu gerenciei múltiplas prioridades.
+I kept communication clear. | Eu mantive a comunicação clara.
+I aligned everyone involved. | Eu alinhei todos os envolvidos.
+I followed through on actions. | Eu garanti execução das ações.
+I made sure nothing was missed. | Eu garanti que nada foi perdido.
+
+I worked with large datasets. | Eu trabalhei com grandes volumes de dados.
+I cleaned and structured data. | Eu limpei e estruturei dados.
+I automated repetitive tasks. | Eu automatizei tarefas repetitivas.
+I used Python to optimize work. | Eu usei Python para otimizar o trabalho.
+I improved reporting time. | Eu melhorei o tempo de relatórios.
+I made reports more useful. | Eu deixei relatórios mais úteis.
+I tracked key HR metrics. | Eu acompanhei métricas-chave de RH.
+I analyzed trends over time. | Eu analisei tendências ao longo do tempo.
+I supported strategic insights. | Eu apoiei insights estratégicos.
+I added value through data. | Eu agreguei valor com dados.
+
 
