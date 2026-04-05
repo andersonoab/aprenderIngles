@@ -900,6 +900,7 @@
             <button id="walkModeBtn" class="btn btn-soft" style="display:none;"><i class="fa fa-walking"></i> Modo Caminhada</button>
             <button id="favoriteBtn" class="btn btn-soft" style="display:none;"><i class="fa fa-star"></i> Marcar frase</button>
             <button id="trainFavoritesBtn" class="btn btn-soft" style="display:none;"><i class="fa fa-heart"></i> Treinar favoritas</button>
+            <button id="groupModeBtn" class="btn btn-soft" style="display:none;"><i class="fa fa-layer-group"></i> Treinar grupo</button>
             <button id="clearBtn" class="btn btn-soft" style="display:none;"><i class="fa fa-trash-alt"></i> Limpar Histórico</button>
             <label class="toggle" id="newOnlyToggleWrap" style="display:none;"><input type="checkbox" id="newOnlyToggle" /><i class="fa fa-seedling"></i> Modo novas frases</label>
           </div>
@@ -1005,6 +1006,13 @@
       <div class="panel" id="favoritesPanel">
         <div class="title">⭐ Frases favoritas</div>
         <div id="favoritesBox" class="small">Nenhuma frase marcada ainda.</div>
+      </div>
+
+      <div class="panel" id="groupsPanel">
+        <div class="title">📂 Meus Grupos</div>
+        <div class="small" style="margin-bottom:10px;">Selecione frases do banco para treinar como grupo focado.</div>
+        <div id="groupsList"></div>
+        <button id="newGroupBtn" class="btn btn-primary" style="width:100%; margin-top:10px;"><i class="fa fa-plus"></i> Novo grupo</button>
       </div>
 
       <h2>🕒 Histórico</h2>
@@ -2732,6 +2740,7 @@ modeEl.innerHTML = pills.length ? (" " + pills.join(" ")) : "";
       const persisted = loadPersistedSentences();
       if (persisted && persisted.length) {
         sentences = persisted;
+        window._sentences = sentences; // expõe para sistema de grupos
         sentences.forEach(s => ensureSrsEntry(s.en));
         saveSRS();
         renderSrsStats();
@@ -2841,6 +2850,7 @@ modeEl.innerHTML = pills.length ? (" " + pills.join(" ")) : "";
         .then(res => res.text())
         .then(txt => {
           sentences = parseTxtToSentences(txt);
+          window._sentences = sentences; // expõe para sistema de grupos
 
           sentences.forEach(s => ensureSrsEntry(s.en));
           saveSRS();
@@ -2878,6 +2888,7 @@ modeEl.innerHTML = pills.length ? (" " + pills.join(" ")) : "";
       reader.onload = e => {
         const txt = e.target.result;
         sentences = parseTxtToSentences(txt);
+        window._sentences = sentences; // expõe para sistema de grupos
 
         sentences.forEach(s => ensureSrsEntry(s.en));
         saveSRS();
@@ -2973,6 +2984,562 @@ modeEl.innerHTML = pills.length ? (" " + pills.join(" ")) : "";
       doc.save("historico_frases.pdf");
     };
     setSecondaryMenu(false);
+  </script>
+
+  <!-- ═══════════════════════════════════════════
+       SISTEMA DE GRUPOS — adicionado sem alterar lógica existente
+  ═══════════════════════════════════════════ -->
+  <style>
+    /* Modal overlay */
+    #groupModal {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: rgba(10,14,26,0.72);
+      backdrop-filter: blur(6px);
+      z-index: 1000;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+    #groupModal.open { display: flex; animation: fadeIn .2s ease; }
+    @keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+
+    .group-modal-box {
+      background: var(--surface, #fff);
+      border-radius: 20px;
+      width: 100%;
+      max-width: 560px;
+      max-height: 90vh;
+      overflow-y: auto;
+      box-shadow: 0 24px 64px rgba(0,0,0,0.28);
+      display: flex;
+      flex-direction: column;
+      animation: slideUp .25s cubic-bezier(.34,1.56,.64,1);
+    }
+    @keyframes slideUp {
+      from { transform: translateY(24px) scale(0.97); opacity:0; }
+      to   { transform: translateY(0) scale(1); opacity:1; }
+    }
+
+    .group-modal-header {
+      padding: 20px 24px 16px;
+      border-bottom: 1px solid var(--border, rgba(0,0,0,0.08));
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      position: sticky;
+      top: 0;
+      background: var(--surface, #fff);
+      border-radius: 20px 20px 0 0;
+      z-index: 1;
+    }
+    .group-modal-header h3 {
+      font-family: 'Syne', sans-serif;
+      font-size: 1.1rem;
+      font-weight: 800;
+      color: var(--ink, #0a0e1a);
+    }
+    .group-modal-close {
+      background: var(--grey-bg, #f0f4fa);
+      border: none;
+      width: 32px; height: 32px;
+      border-radius: 50%;
+      cursor: pointer;
+      font-size: 1rem;
+      color: var(--grey-txt, #6b7280);
+      display: flex; align-items: center; justify-content: center;
+      transition: background .15s;
+      flex-shrink: 0;
+    }
+    .group-modal-close:hover { background: #e5e7eb; }
+
+    .group-modal-body { padding: 16px 24px 24px; flex: 1; }
+
+    /* Campo nome do grupo */
+    .group-name-field {
+      width: 100%;
+      padding: 10px 14px;
+      border: 1.5px solid var(--border, rgba(0,0,0,0.08));
+      border-radius: 10px;
+      font-family: var(--font-body, sans-serif);
+      font-size: 0.9rem;
+      font-weight: 600;
+      color: var(--ink, #0a0e1a);
+      background: var(--surface-2, #f8fafc);
+      margin-bottom: 14px;
+      outline: none;
+      transition: border-color .15s;
+    }
+    .group-name-field:focus { border-color: var(--blue, #2563eb); }
+
+    /* Busca de frases */
+    .group-search {
+      width: 100%;
+      padding: 9px 14px 9px 36px;
+      border: 1.5px solid var(--border, rgba(0,0,0,0.08));
+      border-radius: 10px;
+      font-family: var(--font-body, sans-serif);
+      font-size: 0.85rem;
+      background: var(--surface-2, #f8fafc);
+      color: var(--ink, #0a0e1a);
+      outline: none;
+      transition: border-color .15s;
+      margin-bottom: 10px;
+    }
+    .group-search:focus { border-color: var(--blue, #2563eb); }
+    .group-search-wrap { position: relative; }
+    .group-search-wrap i {
+      position: absolute;
+      left: 12px; top: 50%;
+      transform: translateY(-50%);
+      color: var(--grey-txt, #6b7280);
+      font-size: 0.82rem;
+      pointer-events: none;
+    }
+
+    /* Seletor de frases */
+    .group-sentence-counter {
+      font-size: 0.78rem;
+      font-weight: 700;
+      color: var(--blue, #2563eb);
+      margin-bottom: 8px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+    .group-sentence-list {
+      max-height: 280px;
+      overflow-y: auto;
+      border: 1px solid var(--border, rgba(0,0,0,0.08));
+      border-radius: 10px;
+      margin-bottom: 16px;
+    }
+    .group-sentence-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 10px;
+      padding: 10px 14px;
+      border-bottom: 1px solid var(--border, rgba(0,0,0,0.06));
+      cursor: pointer;
+      transition: background .12s;
+      user-select: none;
+    }
+    .group-sentence-item:last-child { border-bottom: none; }
+    .group-sentence-item:hover { background: #eff6ff; }
+    .group-sentence-item.selected { background: #dbeafe; }
+    .group-sentence-item input[type="checkbox"] {
+      width: 16px; height: 16px;
+      accent-color: var(--blue, #2563eb);
+      flex-shrink: 0;
+      margin-top: 2px;
+      cursor: pointer;
+    }
+    .group-sentence-en {
+      font-size: 0.84rem;
+      font-weight: 600;
+      color: var(--ink, #0a0e1a);
+      line-height: 1.4;
+    }
+    .group-sentence-pt {
+      font-size: 0.78rem;
+      color: var(--grey-txt, #6b7280);
+      line-height: 1.35;
+    }
+
+    /* Botões do modal */
+    .group-modal-actions {
+      display: flex;
+      gap: 10px;
+    }
+    .group-modal-actions .btn { flex: 1; height: 44px; font-size: 0.88rem; }
+
+    /* Lista de grupos no sidebar */
+    .group-item {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      padding: 8px 10px;
+      border-radius: 8px;
+      border: 1px solid var(--border, rgba(0,0,0,0.08));
+      background: var(--surface-2, #f8fafc);
+      margin-bottom: 6px;
+      cursor: pointer;
+      transition: all .15s;
+    }
+    .group-item:hover { border-color: var(--blue, #2563eb); background: #eff6ff; }
+    .group-item.group-active {
+      background: linear-gradient(135deg, #dbeafe 0%, #e0f2fe 100%);
+      border-color: var(--blue, #2563eb);
+    }
+    .group-item-info { flex: 1; min-width: 0; }
+    .group-item-name {
+      font-size: 0.84rem;
+      font-weight: 700;
+      color: var(--ink, #0a0e1a);
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    .group-item-count {
+      font-size: 0.74rem;
+      color: var(--grey-txt, #6b7280);
+    }
+    .group-item-del {
+      background: none;
+      border: none;
+      color: #cbd5e1;
+      cursor: pointer;
+      padding: 4px;
+      border-radius: 4px;
+      font-size: 0.78rem;
+      transition: color .12s;
+      flex-shrink: 0;
+    }
+    .group-item-del:hover { color: var(--red, #ef4444); }
+
+    /* Badge modo grupo ativo */
+    #groupModeBadge {
+      display: none;
+      padding: 6px 12px;
+      background: linear-gradient(135deg, #dbeafe, #e0f2fe);
+      border: 1px solid rgba(37,99,235,0.25);
+      border-radius: 8px;
+      font-size: 0.8rem;
+      font-weight: 600;
+      color: var(--blue, #2563eb);
+      margin-top: 8px;
+      text-align: center;
+    }
+  </style>
+
+  <!-- Modal de criação/edição de grupo -->
+  <div id="groupModal" role="dialog" aria-modal="true">
+    <div class="group-modal-box">
+      <div class="group-modal-header">
+        <h3 id="groupModalTitle">📂 Novo Grupo</h3>
+        <button class="group-modal-close" id="groupModalClose"><i class="fa fa-times"></i></button>
+      </div>
+      <div class="group-modal-body">
+        <input type="text" class="group-name-field" id="groupNameInput" placeholder="Nome do grupo (ex: Sonova, Verbos, Frases difíceis...)" maxlength="40" />
+        <div class="group-search-wrap">
+          <i class="fa fa-search"></i>
+          <input type="text" class="group-search" id="groupSearchInput" placeholder="Buscar frase..." />
+        </div>
+        <div class="group-sentence-counter" id="groupCounter">0 selecionadas</div>
+        <div class="group-sentence-list" id="groupSentenceList"></div>
+        <div class="group-modal-actions">
+          <button class="btn btn-soft" id="groupCancelBtn"><i class="fa fa-times"></i> Cancelar</button>
+          <button class="btn btn-primary" id="groupSaveBtn"><i class="fa fa-save"></i> Salvar grupo</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="groupModeBadge"></div>
+
+  <script>
+  // ═══════════════════════════════════════════════════════
+  // SISTEMA DE GRUPOS — lógica completamente isolada
+  // Não altera nenhuma variável ou função existente.
+  // Usa: sentences (leitura), loadSentence(), pickBestCard()
+  // ═══════════════════════════════════════════════════════
+
+  const GROUPS_KEY = 'sentenceGroups_v1';
+  const ACTIVE_GROUP_KEY = 'activeGroupKey_v1';
+
+  let sentenceGroups = [];      // [{ id, name, sentences: [en,...] }]
+  let activeGroupId  = null;    // id do grupo sendo treinado (ou null)
+  let groupMode      = false;   // true = treinar só esse grupo
+  let editingGroupId = null;    // id do grupo sendo editado no modal
+  let groupSelectedEns = new Set(); // seleção atual no modal
+
+  function getSentences() {
+    return window._sentences || [];
+  }
+  function loadGroups() {
+    try { sentenceGroups = JSON.parse(localStorage.getItem(GROUPS_KEY)) || []; }
+    catch { sentenceGroups = []; }
+    activeGroupId = localStorage.getItem(ACTIVE_GROUP_KEY) || null;
+  }
+
+  function saveGroups() {
+    localStorage.setItem(GROUPS_KEY, JSON.stringify(sentenceGroups));
+  }
+
+  function saveActiveGroup() {
+    if (activeGroupId) localStorage.setItem(ACTIVE_GROUP_KEY, activeGroupId);
+    else localStorage.removeItem(ACTIVE_GROUP_KEY);
+  }
+
+  /* ── Selecionar próxima frase do grupo ── */
+  function pickGroupCard() {
+    const grp = sentenceGroups.find(g => g.id === activeGroupId);
+    if (!grp || !grp.sentences.length) return null;
+    // Filtra sentences globais para o grupo
+    const pool = getSentences().filter(s => grp.sentences.includes(s.en));
+    if (!pool.length) return null;
+    // Usa pickBestCard se disponível, senão aleatório
+    if (typeof pickBestCard === 'function') return pickBestCard(pool);
+    return pool[Math.floor(Math.random() * pool.length)];
+  }
+
+  /* ── Ativar / desativar modo grupo ── */
+  function setGroupMode(active, groupId) {
+    groupMode     = !!active;
+    activeGroupId = active ? groupId : null;
+    saveActiveGroup();
+    renderGroupsSidebar();
+    updateGroupModeBtn();
+    updateGroupBadge();
+
+    if (groupMode) {
+      const card = pickGroupCard();
+      if (card && typeof loadSentence === 'function') loadSentence(card);
+    } else {
+      // volta ao fluxo normal
+      if (typeof pickCardForNavigation === 'function' && typeof loadSentence === 'function') {
+        const card = pickCardForNavigation(false, 1);
+        if (card) loadSentence(card);
+      }
+    }
+  }
+
+  /* ── Badge de modo grupo ─ */
+  function updateGroupBadge() {
+    const badge = document.getElementById('groupModeBadge');
+    if (!badge) return;
+    if (groupMode && activeGroupId) {
+      const grp = sentenceGroups.find(g => g.id === activeGroupId);
+      badge.style.display = 'block';
+      badge.innerHTML = `<i class="fa fa-layer-group"></i> Treinando grupo: <strong>${grp ? grp.name : ''}</strong>`;
+    } else {
+      badge.style.display = 'none';
+    }
+  }
+
+  /* ── Botão "Treinar grupo" no action-stack ── */
+  function updateGroupModeBtn() {
+    const btn = document.getElementById('groupModeBtn');
+    if (!btn) return;
+    if (groupMode) {
+      btn.innerHTML = '<i class="fa fa-stop-circle"></i> Parar grupo';
+      btn.classList.add('btn-active-mode');
+    } else {
+      btn.innerHTML = '<i class="fa fa-layer-group"></i> Treinar grupo';
+      btn.classList.remove('btn-active-mode');
+    }
+  }
+
+  /* ── Render lista de grupos no sidebar ── */
+  function renderGroupsSidebar() {
+    const box = document.getElementById('groupsList');
+    if (!box) return;
+    if (!sentenceGroups.length) {
+      box.innerHTML = '<div class="small" style="color:#94a3b8; padding:4px 0;">Nenhum grupo criado ainda.</div>';
+      return;
+    }
+    box.innerHTML = sentenceGroups.map(g => {
+      const isActive = groupMode && activeGroupId === g.id;
+      return `
+        <div class="group-item ${isActive ? 'group-active' : ''}" data-gid="${g.id}">
+          <div class="group-item-info">
+            <div class="group-item-name">${escHtml(g.name)}</div>
+            <div class="group-item-count">${g.sentences.length} frase${g.sentences.length !== 1 ? 's' : ''}</div>
+          </div>
+          <button class="btn btn-soft" style="height:30px;padding:0 10px;font-size:0.76rem;border-radius:6px;" onclick="event.stopPropagation(); openGroupModal('${g.id}')">
+            <i class="fa fa-edit"></i>
+          </button>
+          <button class="group-item-del" onclick="event.stopPropagation(); deleteGroup('${g.id}')" title="Excluir grupo">
+            <i class="fa fa-times"></i>
+          </button>
+        </div>`;
+    }).join('');
+
+    // click no item = ativar/desativar grupo
+    box.querySelectorAll('.group-item').forEach(el => {
+      el.addEventListener('click', () => {
+        const gid = el.dataset.gid;
+        if (groupMode && activeGroupId === gid) setGroupMode(false, null);
+        else setGroupMode(true, gid);
+      });
+    });
+  }
+
+  function escHtml(s) {
+    return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+  }
+
+  /* ── Deletar grupo ── */
+  function deleteGroup(id) {
+    if (!confirm('Excluir este grupo?')) return;
+    sentenceGroups = sentenceGroups.filter(g => g.id !== id);
+    saveGroups();
+    if (activeGroupId === id) setGroupMode(false, null);
+    else renderGroupsSidebar();
+  }
+
+  /* ── Modal: abrir para criar ou editar ── */
+  function openGroupModal(editId) {
+    if (!getSentences().length) {
+      alert('Carregue as frases primeiro (Online ou TXT) antes de criar um grupo.');
+      return;
+    }
+    editingGroupId = editId || null;
+    groupSelectedEns = new Set();
+
+    const modal = document.getElementById('groupModal');
+    const title = document.getElementById('groupModalTitle');
+    const nameInput = document.getElementById('groupNameInput');
+
+    if (editingGroupId) {
+      const grp = sentenceGroups.find(g => g.id === editingGroupId);
+      title.textContent = '✏️ Editar grupo';
+      nameInput.value = grp ? grp.name : '';
+      if (grp) grp.sentences.forEach(en => groupSelectedEns.add(en));
+    } else {
+      title.textContent = '📂 Novo Grupo';
+      nameInput.value = '';
+    }
+
+    document.getElementById('groupSearchInput').value = '';
+    modal.classList.add('open');
+    renderModalSentenceList('');
+    nameInput.focus();
+  }
+
+  function closeGroupModal() {
+    document.getElementById('groupModal').classList.remove('open');
+    editingGroupId = null;
+    groupSelectedEns = new Set();
+  }
+
+  /* ── Modal: renderizar lista de frases ── */
+  function renderModalSentenceList(filter) {
+    const list = document.getElementById('groupSentenceList');
+    const counter = document.getElementById('groupCounter');
+    if (!list) return;
+
+    const src = getSentences();
+    const q = filter.toLowerCase().trim();
+    const filtered = q
+      ? src.filter(s => s.en.toLowerCase().includes(q) || (s.pt || '').toLowerCase().includes(q))
+      : src;
+
+    if (!filtered.length) {
+      list.innerHTML = '<div style="padding:16px;text-align:center;color:#94a3b8;font-size:0.84rem;">Nenhuma frase encontrada.</div>';
+    } else {
+      list.innerHTML = filtered.map(s => {
+        const checked = groupSelectedEns.has(s.en);
+        return `
+          <label class="group-sentence-item ${checked ? 'selected' : ''}">
+            <input type="checkbox" ${checked ? 'checked' : ''} data-en="${escHtml(s.en)}" />
+            <div>
+              <div class="group-sentence-en">${escHtml(s.en)}</div>
+              ${s.pt ? `<div class="group-sentence-pt">${escHtml(s.pt)}</div>` : ''}
+            </div>
+          </label>`;
+      }).join('');
+
+      list.querySelectorAll('input[type="checkbox"]').forEach(cb => {
+        cb.addEventListener('change', () => {
+          const en = cb.dataset.en;
+          if (cb.checked) groupSelectedEns.add(en);
+          else groupSelectedEns.delete(en);
+          cb.closest('.group-sentence-item').classList.toggle('selected', cb.checked);
+          counter.textContent = `${groupSelectedEns.size} selecionada${groupSelectedEns.size !== 1 ? 's' : ''}`;
+        });
+      });
+    }
+
+    counter.textContent = `${groupSelectedEns.size} selecionada${groupSelectedEns.size !== 1 ? 's' : ''}`;
+  }
+
+  /* ── Salvar grupo ── */
+  function saveGroup() {
+    const name = (document.getElementById('groupNameInput').value || '').trim();
+    if (!name) { document.getElementById('groupNameInput').focus(); return; }
+    if (!groupSelectedEns.size) { alert('Selecione ao menos uma frase.'); return; }
+
+    if (editingGroupId) {
+      const grp = sentenceGroups.find(g => g.id === editingGroupId);
+      if (grp) { grp.name = name; grp.sentences = [...groupSelectedEns]; }
+    } else {
+      sentenceGroups.push({
+        id: 'grp_' + Date.now(),
+        name,
+        sentences: [...groupSelectedEns]
+      });
+    }
+
+    saveGroups();
+    closeGroupModal();
+    renderGroupsSidebar();
+  }
+
+  /* ── "Treinar grupo" button no action-stack ── */
+  function handleGroupModeBtn() {
+    if (groupMode) { setGroupMode(false, null); return; }
+    if (!sentenceGroups.length) { openGroupModal(null); return; }
+    // se há só um grupo, ativa direto; senão mostra lista
+    if (sentenceGroups.length === 1) { setGroupMode(true, sentenceGroups[0].id); return; }
+    // vários grupos: scroll até o sidebar para escolher
+    document.getElementById('groupsPanel')?.scrollIntoView({ behavior: 'smooth', block: 'center' });
+  }
+
+  /* ── Hook no pickCardForNavigation para interceptar grupo ──
+     Sobrescreve apenas a chamada de loadSentence quando em groupMode,
+     sem tocar nas funções originais. ── */
+  (function patchNextBtn() {
+    const origNextBtn = document.getElementById('nextBtn');
+    if (!origNextBtn) return;
+    origNextBtn.addEventListener('click', function patchedNext(e) {
+      if (!groupMode) return; // lógica original continua
+      e.stopImmediatePropagation();
+      if (typeof autoAdvanceToken !== 'undefined') window.autoAdvanceToken = (window.autoAdvanceToken || 0) + 1;
+      const card = pickGroupCard();
+      if (card && typeof loadSentence === 'function') loadSentence(card);
+    }, true); // capture=true, roda antes do listener original
+  })();
+
+  /* ── Mostrar botão de grupo quando sentences carregam ── */
+  function showGroupBtn() {
+    const btn = document.getElementById('groupModeBtn');
+    if (btn) btn.style.display = 'inline-flex';
+  }
+
+  // Observa quando o botão nextBtn fica visível (indica que sentences foram carregadas)
+  (function watchSentencesLoad() {
+    const nextBtn = document.getElementById('nextBtn');
+    if (!nextBtn) return;
+    const obs = new MutationObserver(() => {
+      if (nextBtn.style.display !== 'none') {
+        showGroupBtn();
+        renderGroupsSidebar();
+        updateGroupBadge();
+        updateGroupModeBtn();
+      }
+    });
+    obs.observe(nextBtn, { attributes: true, attributeFilter: ['style'] });
+  })();
+
+  /* ── Event listeners ── */
+  document.getElementById('newGroupBtn').addEventListener('click', () => openGroupModal(null));
+  document.getElementById('groupModeBtn').addEventListener('click', handleGroupModeBtn);
+  document.getElementById('groupModalClose').addEventListener('click', closeGroupModal);
+  document.getElementById('groupCancelBtn').addEventListener('click', closeGroupModal);
+  document.getElementById('groupSaveBtn').addEventListener('click', saveGroup);
+  document.getElementById('groupModal').addEventListener('click', e => {
+    if (e.target === document.getElementById('groupModal')) closeGroupModal();
+  });
+  document.getElementById('groupSearchInput').addEventListener('input', e => {
+    renderModalSentenceList(e.target.value);
+  });
+
+  /* ── Init ── */
+  loadGroups();
+  renderGroupsSidebar();
+  updateGroupModeBtn();
   </script>
 </body>
 </html>
