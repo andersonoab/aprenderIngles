@@ -1,3 +1,105 @@
+Welcome to our office. I hope your trip was comfortable. | Bem-vindo ao nosso escritório. Espero que sua viagem tenha sido confortável.
+It is a pleasure to meet you in person. | É um prazer te conhecer pessoalmente.
+Can I offer you some coffee or water? | Posso te oferecer um café ou água?
+Please have a seat. We will start in a moment. | Por favor, sente-se. Vamos começar em um momento.
+Thank you for coming all the way from Switzerland. | Obrigado por vir até aqui desde a Suíça.
+Let me introduce you to our team. | Deixa eu te apresentar ao nosso time.
+I am the payroll coordinator for this region. | Eu sou o coordenador de folha de pagamento desta região.
+Our department handles payroll for over five hundred employees. | Nosso departamento gerencia a folha de mais de quinhentos colaboradores.
+We process payroll on a monthly basis. | Processamos a folha de pagamento mensalmente.
+I would like to walk you through our current workflow. | Gostaria de te mostrar como funciona nosso processo atual.
+We use an integrated HR and payroll system. | Usamos um sistema integrado de RH e folha de pagamento.
+Our team ensures full compliance with Brazilian labor law. | Nosso time garante total conformidade com a legislação trabalhista brasileira.
+The CLT is the main labor legislation here in Brazil. | A CLT é a principal legislação trabalhista aqui no Brasil.
+We manage all employee benefits and deductions. | Gerenciamos todos os benefícios e descontos dos colaboradores.
+Social security contributions are mandatory for all employees. | As contribuições previdenciárias são obrigatórias para todos os colaboradores.
+Income tax is withheld directly from the payroll. | O imposto de renda é retido diretamente na folha de pagamento.
+We handle vacation pay and thirteenth salary calculations. | Cuidamos dos cálculos de férias e décimo terceiro salário.
+The thirteenth salary is paid in two installments here in Brazil. | O décimo terceiro é pago em duas parcelas aqui no Brasil.
+We generate detailed payroll reports every month. | Geramos relatórios detalhados de folha de pagamento todo mês.
+Our error rate has been consistently below one percent. | Nossa taxa de erro tem sido consistentemente abaixo de um por cento.
+We have implemented several process improvements this year. | Implementamos várias melhorias de processo este ano.
+Automation has reduced our processing time significantly. | A automação reduziu significativamente nosso tempo de processamento.
+I would like to share some key performance indicators with you. | Gostaria de compartilhar alguns indicadores-chave de desempenho com você.
+Our team is fully aligned with global HR standards. | Nosso time está totalmente alinhado com os padrões globais de RH.
+We are working to integrate our systems with the global platform. | Estamos trabalhando para integrar nossos sistemas com a plataforma global.
+Data accuracy is our top priority. | A precisão dos dados é nossa prioridade máxima.
+We run payroll audits on a quarterly basis. | Realizamos auditorias de folha trimestralmente.
+All sensitive data is protected according to LGPD regulations. | Todos os dados sensíveis são protegidos conforme a LGPD.
+LGPD is the Brazilian data protection law, similar to GDPR. | A LGPD é a lei brasileira de proteção de dados, semelhante ao GDPR europeu.
+We have a dedicated team for compliance and audit support. | Temos um time dedicado para suporte de compliance e auditoria.
+Could you tell me more about Sonova's global payroll strategy? | Você poderia me contar mais sobre a estratégia global de folha da Sonova?
+We are open to aligning our processes with the global framework. | Estamos abertos para alinhar nossos processos com o framework global.
+I would love to learn from best practices across other regions. | Adoraria aprender com as melhores práticas de outras regiões.
+Our headcount has grown fifteen percent over the last two years. | Nosso quadro de colaboradores cresceu quinze por cento nos últimos dois anos.
+We currently support employees across three different states. | Atualmente atendemos colaboradores em três estados diferentes.
+Each state has specific tax rules that we must follow. | Cada estado tem regras tributárias específicas que precisamos seguir.
+I am happy to answer any questions you may have. | Estou feliz em responder qualquer dúvida que você tiver.
+Please feel free to ask about any aspect of our operations. | Sinta-se à vontade para perguntar sobre qualquer aspecto das nossas operações.
+We prepared a summary report for your visit today. | Preparamos um relatório resumido para a sua visita hoje.
+Would you like me to go over the numbers in detail? | Gostaria que eu detalhasse os números?
+Our team works closely with finance and accounting. | Nosso time trabalha de perto com financeiro e contabilidade.
+We ensure all deadlines are met without exception. | Garantimos que todos os prazos sejam cumpridos sem exceção.
+We recently completed a full system migration with no downtime. | Concluímos recentemente uma migração completa de sistema sem nenhuma interrupção.
+Our average payroll closing time is three business days. | Nosso tempo médio de fechamento de folha é de três dias úteis.
+We track all changes to employee records in real time. | Acompanhamos todas as alterações nos registros de colaboradores em tempo real.
+Any updates from HR are reflected in payroll immediately. | Qualquer atualização do RH é refletida na folha imediatamente.
+We have a clear escalation process for any payroll issues. | Temos um processo claro de escalonamento para qualquer problema de folha.
+Employee satisfaction with payroll accuracy is very high. | A satisfação dos colaboradores com a precisão da folha é muito alta.
+We conduct regular training sessions to keep the team updated. | Realizamos treinamentos regulares para manter o time atualizado.
+How does Sonova handle payroll complexity in other countries? | Como a Sonova lida com a complexidade da folha em outros países?
+What are the main challenges you see for HR operations globally? | Quais são os principais desafios que você vê para as operações de RH globalmente?
+We would appreciate any feedback on our current processes. | Ficaríamos muito gratos por qualquer feedback sobre nossos processos atuais.
+Is there any specific area you would like to focus on today? | Há alguma área específica na qual você gostaria de focar hoje?
+We are always looking for opportunities to improve efficiency. | Estamos sempre buscando oportunidades para melhorar a eficiência.
+Let me show you our payroll dashboard. | Deixa eu te mostrar nosso painel de controle da folha de pagamento.
+This chart shows our monthly headcount evolution. | Este gráfico mostra a evolução mensal do nosso quadro de colaboradores.
+Here you can see our average processing time per payroll cycle. | Aqui você pode ver nosso tempo médio de processamento por ciclo de folha.
+We have reduced manual interventions by forty percent. | Reduzimos as intervenções manuais em quarenta por cento.
+All payroll calculations are validated by a second reviewer. | Todos os cálculos de folha são validados por um segundo revisor.
+We maintain a complete audit trail for every transaction. | Mantemos um rastro de auditoria completo para cada transação.
+I can send you a detailed report after our meeting. | Posso te enviar um relatório detalhado após nossa reunião.
+Would you prefer the report in English or Portuguese? | Você prefere o relatório em inglês ou português?
+Our team is bilingual and ready to support global initiatives. | Nosso time é bilíngue e está pronto para apoiar iniciativas globais.
+We are excited about the opportunities that come with being part of Sonova. | Estamos entusiasmados com as oportunidades que vêm de fazer parte da Sonova.
+Sonova's mission resonates strongly with our team here. | A missão da Sonova ressoa muito com nosso time aqui.
+Helping people hear better is a purpose we all believe in. | Ajudar as pessoas a ouvir melhor é um propósito em que todos acreditamos.
+We are committed to supporting the company's growth in Brazil. | Estamos comprometidos em apoiar o crescimento da empresa no Brasil.
+Brazil is one of the largest hearing health markets in the world. | O Brasil é um dos maiores mercados de saúde auditiva do mundo.
+Our workforce is highly skilled and motivated. | Nosso time é altamente qualificado e motivado.
+Employee retention has improved significantly this year. | A retenção de colaboradores melhorou significativamente este ano.
+We offer competitive benefits aligned with market standards. | Oferecemos benefícios competitivos alinhados com o mercado.
+Health insurance and meal vouchers are part of our package. | Plano de saúde e vale-refeição fazem parte do nosso pacote de benefícios.
+We also provide transportation and life insurance benefits. | Também oferecemos vale-transporte e seguro de vida.
+Profit sharing is distributed annually to all employees. | A participação nos lucros é distribuída anualmente a todos os colaboradores.
+Our onboarding process has been fully digitized. | Nosso processo de integração foi totalmente digitalizado.
+New hires complete all documentation through our HR portal. | Os novos colaboradores concluem toda a documentação pelo nosso portal de RH.
+Electronic payslips are available to all employees online. | Os holerites eletrônicos estão disponíveis para todos os colaboradores online.
+We have a self-service portal for common HR requests. | Temos um portal de autoatendimento para solicitações comuns de RH.
+Employees can check their payslip and benefits at any time. | Os colaboradores podem consultar o holerite e os benefícios a qualquer momento.
+Our helpdesk response time for payroll queries is under four hours. | Nosso tempo de resposta para dúvidas de folha é inferior a quatro horas.
+We take employee feedback very seriously. | Levamos o feedback dos colaboradores muito a sério.
+I would like to schedule a follow-up meeting after your visit. | Gostaria de agendar uma reunião de acompanhamento após sua visita.
+Is there anything specific you would like us to prepare? | Há algo específico que você gostaria que preparássemos?
+We are very transparent about our numbers and processes. | Somos muito transparentes sobre nossos números e processos.
+I believe our team is ready for the next level of integration. | Acredito que nosso time está pronto para o próximo nível de integração.
+This has been a very productive conversation, thank you. | Esta foi uma conversa muito produtiva, obrigado.
+I hope we can continue to build a strong partnership. | Espero que possamos continuar construindo uma parceria sólida.
+Please do not hesitate to contact me directly if you need anything. | Não hesite em me contatar diretamente se precisar de qualquer coisa.
+It was truly an honor to receive you here today. | Foi uma honra genuína receber você aqui hoje.
+Safe travels back to Switzerland. | Boa viagem de volta à Suíça.
+We look forward to seeing you again soon. | Esperamos vê-lo novamente em breve.
+Thank you for your time and your trust in our team. | Obrigado pelo seu tempo e pela confiança no nosso time.
+I am very proud to represent our payroll team today. | Tenho muito orgulho de representar nosso time de folha hoje.
+Together we can make a real difference for our employees. | Juntos podemos fazer uma diferença real para nossos colaboradores.
+We are ready to grow together as a global company. | Estamos prontos para crescer juntos como uma empresa global.
+I am confident our team will exceed your expectations. | Estou confiante de que nosso time vai superar suas expectativas.
+Your visit means a great deal to our entire department. | Sua visita significa muito para todo o nosso departamento.
+We appreciate the opportunity to show what we have built here. | Agradecemos a oportunidade de mostrar o que construímos aqui.
+Let's keep in touch and move forward together. | Vamos manter contato e avançar juntos.
+I am looking forward to our next conversation. | Estou ansioso para nossa próxima conversa.
+
+
 I focused on delivering the best results. | Eu foquei em entregar os melhores resultados.
 We worked hard for our customers. | Nós trabalhamos duro pelos nossos clientes.
 I appreciated the team effort. | Eu valorizei o esforço do time.
