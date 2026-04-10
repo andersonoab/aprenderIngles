@@ -1,3 +1,199 @@
+What's up? | Tudo bem?
+Hey, what's going on? | E aí?
+Long time no see | Faz tempo que não te vejo
+Nice to meet you | Prazer em te conhecer
+How are you doing? | Como você tá?
+I'm good, how about you? | Tô bem, e você?
+Talk to you later | Falou!
+See you later | Até mais
+Bye, take care | Tchau, se cuida
+Good to see you | Bom te ver
+I'm on my way | Tô a caminho
+I'm running late | Tô atrasado
+I'm in a hurry | Tô com pressa
+I'm exhausted | Tô cansado demais
+I'm starving | Tô com fome
+I'm sleepy | Tô com sono
+I'm bored | Tô entediado
+I'm going for a walk | Vou dar uma volta
+I'm gonna take a break | Vou descansar um pouco
+I just got here | Acabei de chegar
+I just woke up | Acabei de acordar
+I'll be right back | Já volto
+Let me know when you get there | Me avisa quando chegar
+I overslept | Perdi a hora
+What a busy day | Que dia corrido
+That makes sense | Faz sentido
+I don't agree with that | Não concordo
+I know, right? | Pois é
+For real? | Sério?
+Tell me about it | Nem me fale
+I don't mind | Tanto faz
+It depends | Depende
+I think so | Acho que sim
+I don't think so | Acho que não
+Absolutely | Com certeza
+No doubt | Sem dúvida
+Maybe | Pode ser
+I'm not sure | Não tenho certeza
+I knew it! | Eu sabia!
+I can't believe it | Não acredito
+That's awesome! | Que legal!
+That sucks | Que chato
+What a relief | Que alívio
+I hope so | Tomara
+I'm surprised | Tô surpreso
+Excuse me | Com licença
+Can you help me out? | Pode me ajudar?
+Make yourself at home | Fica à vontade
+You don't have to | Não precisa
+I appreciate it | Eu agradeço
+Don't mention it | De nada
+Sorry to bother you | Desculpa o incômodo
+Can you say that again? | Pode repetir?
+Can you speak slower, please? | Fala mais devagar, por favor
+Is it okay if I...? | Tudo bem se eu...?
+Do you mind if I...? | Importa se eu...?
+I need a favor | Preciso de um favor
+Thanks for the help | Obrigado pela ajuda
+My bad | Foi mal
+No worries | Sem problemas
+Actually... | Na verdade...
+It's like... | Tipo assim...
+The thing is... | O negócio é que...
+To be honest... | Pra ser sincero...
+At the end of the day... | No final das contas...
+Anyway... | De qualquer forma...
+For instance... | Por exemplo...
+In other words... | Ou seja...
+Long story short... | Resumindo...
+As far as I know... | Pelo que eu sei...
+If I'm not mistaken... | Se não me engano...
+Speaking of which... | Falando nisso...
+By the way... | Mudando de assunto...
+Before I forget... | Antes que eu esqueça...
+Come to think of it... | Pensando bem...
+I'll take a look | Vou dar uma olhada
+Send me an email | Me manda por e-mail
+Let's schedule a meeting | Vamos marcar uma reunião
+I'm working on it | Tô trabalhando nisso
+What's the deadline? | Qual é o prazo?
+I need more time | Preciso de mais tempo
+I'm done | Já terminei
+Can I call you back? | Posso te ligar depois?
+I'm in a meeting right now | Tô em reunião agora
+I'll keep you posted | Vou te atualizar
+I got this | Deixa comigo
+It turned out great | Ficou ótimo
+We need to figure this out | Temos que resolver isso
+What's the next step? | Qual é o próximo passo?
+I'm overwhelmed | Tô sobrecarregado
+Table for two, please | Mesa pra dois, por favor
+Can I see the menu? | Posso ver o cardápio?
+What do you recommend? | O que você recomenda?
+I'll have this one | Vou querer esse aqui
+Can I get the check, please? | A conta, por favor
+It's delicious | Tá delicioso
+I'm full | Tô satisfeito
+Can I get more water? | Pode trazer mais água?
+Do you have any vegetarian options? | Tem opção vegetariana?
+Let's split the bill | Vamos dividir a conta
+Where is...? | Onde fica...?
+How do I get there? | Como eu chego lá?
+Is it far from here? | É longe daqui?
+I'm lost | Tô perdido
+Can you give me directions? | Pode me indicar o caminho?
+How long does it take? | Quanto tempo demora?
+Can I walk there? | Posso ir a pé?
+Where do I catch the bus? | Onde pego o ônibus?
+What time does the next one leave? | A que horas sai o próximo?
+I'd like a room for two nights | Quero um quarto pra duas noites
+How much is it? | Quanto custa?
+It's too expensive | Tá caro demais
+Is there a discount? | Tem desconto?
+Can I try it on? | Posso experimentar?
+Do you have another size? | Tem outro tamanho?
+Do you take cards? | Aceita cartão?
+I'm just browsing | Só tô dando uma olhada
+I'll take it | Vou levar
+Can you gift wrap it? | Pode embalar pra presente?
+Where's the fitting room? | Onde é o provador?
+I'm so happy | Tô feliz demais
+I'm worried | Tô preocupado
+I'm nervous | Tô nervoso
+I'm excited | Tô empolgado
+I miss you | Tô com saudade
+I'm upset | Tô com raiva
+I'm confused | Tô confuso
+I'm chill | Tô de boa
+I'm feeling great | Tô me sentindo bem
+I'm stressed out | Tô estressado
+Wanna hang out today? | Quer sair hoje?
+Let's do it! | Bora!
+What time are we meeting? | Que horas a gente se encontra?
+Where should we meet? | Onde a gente se encontra?
+How about tomorrow? | Pode ser amanhã?
+I'm in | Tô dentro
+I can't make it | Não vai dar pra mim
+Maybe next time | Fica pra próxima
+It was a lot of fun | Foi muito divertido
+Let's keep in touch | A gente se fala
+Bring whoever you want | Traz quem você quiser
+Come on over | Chega mais
+I feel like going out | Tô a fim de sair
+I'd rather stay home | Prefiro ficar em casa
+That was a great time | Que programa top
+My internet is down | Minha internet caiu
+What's the Wi-Fi password? | Qual é a senha do Wi-Fi?
+Send me a message | Me manda uma mensagem
+I saw it on your story | Vi no seu story
+Follow me on there | Me segue lá
+My phone is dead | Meu celular tá sem bateria
+I'll send you the link | Vou te mandar o link
+I can't log in | Não tô conseguindo acessar
+Update the app | Atualiza o app
+Let's video call | Faz uma chamada de vídeo
+I'm not feeling well | Tô me sentindo mal
+I need to see a doctor | Preciso ir ao médico
+I have a headache | Tô com dor de cabeça
+I have a cold | Tô resfriado
+I have a fever | Tô com febre
+I need some medicine | Preciso de remédio
+I'm getting better | Tô melhorando
+Take care of yourself | Cuida da sua saúde
+My back hurts | Tô com dor nas costas
+I need to rest | Preciso descansar
+Don't forget | Não esquece
+Remind me later | Me lembra depois
+I'm just kidding | Tô brincando
+Stop making a fuss | Para de frescura
+Never mind | Deixa pra lá
+It's not worth it | Não vale a pena
+It's gonna work out | Vai dar certo
+Don't worry about it | Não se preocupa
+Do whatever you want | Faz o que quiser
+Life goes on | A vida segue
+To each their own | Cada um na sua
+It is what it is | É o que é
+It's none of my business | Não é da minha conta
+Watch out | Cuidado
+Pay attention | Presta atenção
+That's not fair | Isso não é justo
+I have no idea | Tô por fora
+I'm aware | Tô ligado
+You got that right | Pode crer
+It's all good | Tá de boa
+I see your point | Entendo seu ponto
+But on the other hand... | Mas por outro lado...
+I partly agree | Concordo em parte
+Let me explain | Deixa eu explicar
+You have a point | Você tem razão
+It's not quite like that | Não é bem assim
+The problem is... | O problema é que...
+I see it differently | Eu penso diferente
+Let's agree that... | Vamos combinar que...
+Good question | Boa pergunta
+
 Welcome to our office. I hope your trip was comfortable. | Bem-vindo ao nosso escritório. Espero que sua viagem tenha sido confortável.
 It is a pleasure to meet you in person. | É um prazer te conhecer pessoalmente.
 Can I offer you some coffee or water? | Posso te oferecer um café ou água?
