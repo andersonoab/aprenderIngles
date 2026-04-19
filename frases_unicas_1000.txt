@@ -1,3 +1,77 @@
+Effectively, you can | Basicamente, podemos
+think of as 50% of our effort is on scaling | pensar que 50% do nosso esforço é voltado para a expansão
+50% of it is on innovation | 50% é voltado para a inovação
+My betting is you're going to need both to get to AGI | Eu acreditei que você precisaria dos dois para chegar à AGI
+I've always felt this | Eu sempre senti isso
+if we build AGI | se nós construirmos AGI
+and then use that as a simulation of the mind | e então usamos isso como uma simulação da mente
+and then compare that to the real mind | e então comparamos isso com a mente real
+we will then see what the differences are | nós então vimos quais eram as diferenças
+and potentially what’s special | e potencialmente o que era especial
+and remaining about the human mind | e o que restou sobre a mente humana
+Maybe that's creativity | Talvez isso tenha sido criatividade
+Maybe it's emotions | Talvez tenham sido emoções
+Maybe it's dreaming | Talvez tenha sido sonhar
+Maybe it's consciousness | Talvez tenha sido consciência
+There's a lot of hypotheses out there | Existiram muitas hipóteses
+about what may or may not be computable | sobre o que poderia ou não ser computável
+And this comes back to the Turing machine question | E isso voltou para a questão da máquina de Turing
+what is the limit of a Turing machine | qual foi o limite de uma máquina de Turing
+Nobody's found anything in the universe that's non-computable | Ninguém encontrou nada no universo que fosse não computável
+It has been an extraordinary year for AI | Foi um ano extraordinário para a IA
+We have seen the center of gravity shift | Nós vimos o centro de gravidade mudar
+from large language models to agentic AI | de modelos de linguagem para IA agente
+We’ve seen AI accelerate drug discovery | Nós vimos a IA acelerar a descoberta de medicamentos
+models integrated into robotics | modelos integrados à robótica
+and driverless cars | e carros autônomos
+we wanted to take a broader view | Nós quisemos ter uma visão mais ampla
+beyond the headlines and product launches | além das manchetes e lançamentos
+Where is all this heading | Para onde tudo isso estava indo
+What are the scientific questions | Quais foram as questões científicas
+that will define the next phase | que definiram a próxima fase
+It feels like we packed 10 years in one year | Pareceu que vivemos 10 anos em um ano
+we've just released Gemini 3 | Nós lançamos o Gemini 3
+we're really happy with it | Nós ficamos muito satisfeitos com isso
+the multi-modal capabilities advanced well | As capacidades multimodais avançaram bem
+the thing I'm very excited about | A coisa que me deixou animado
+is world models being advanced | foi o avanço dos modelos de mundo
+the big proof point was AlphaFold | A grande prova foi o AlphaFold
+it was possible to solve these problems | Foi possível resolver esses problemas
+we're exploring all the other ones now | Nós exploramos todos os outros agora
+I think material science | Eu pensei em ciência dos materiais
+I’d love to build better batteries | Eu quis criar baterias melhores
+we're also working on fusion | Nós também trabalhamos com fusão
+we want to accelerate that | Nós quisemos acelerar isso
+helping them contain the plasma | Ajudamos eles a conter o plasma
+we're collaborating with quantum teams | Nós colaboramos com equipes quânticas
+we're using machine learning to help them | Nós usamos machine learning para ajudá-los
+maybe one day they'll help us | Talvez um dia eles nos ajudaram
+fusion has always been the holy grail | A fusão sempre foi o santo graal
+it would transform everything | Isso transformou tudo
+if energy was cheap and clean | Se a energia fosse barata e limpa
+many things would become viable | Muitas coisas se tornaram viáveis
+we could have desalination plants everywhere | Nós poderíamos ter usinas de dessalinização em todo lugar
+you could produce energy 24/7 | Você poderia produzir energia 24/7
+AI is applying itself to mathematics | A IA se aplicou à matemática
+models can make basic mistakes | Os modelos cometeram erros básicos
+there is something missing in these systems | Há algo faltando nesses sistemas
+they are not consistent yet | Eles não foram consistentes ainda
+they are very good at some things | Eles foram muito bons em algumas coisas
+but very basic in others | mas muito básicos em outras
+we need to close those gaps | Nós precisamos fechar essas lacunas
+these systems need better reasoning | Esses sistemas precisaram de melhor raciocínio
+they need to double-check outputs | Eles precisaram verificar suas respostas
+they sometimes give wrong answers | Eles às vezes deram respostas erradas
+we are halfway there | Nós estivemos na metade do caminho
+we are still in the early days | Nós ainda estivemos no começo
+these models start with human knowledge | Esses modelos começaram com conhecimento humano
+they compress knowledge into useful outputs | Eles comprimiram conhecimento em respostas úteis
+we don't know how to use them reliably | Nós não soubemos usar eles com confiabilidade
+they don't continue learning like humans | Eles não continuaram aprendendo como humanos
+that is a missing piece | Isso foi uma peça faltante
+AI was overhyped in the short term | A IA foi superestimada no curto prazo
+but underestimated in the long term | mas subestimada no longo prazo
+
 I'm only human | Eu sou apenas humano
 Maybe I'm foolish | Talvez eu seja tolo
 Maybe I'm blind | Talvez eu seja cego
