@@ -37,6 +37,8 @@
             <button id="patternModeBtn" class="btn btn-soft" style="display:none;"><i class="fa fa-cubes"></i> Modo blocos</button>
             <button id="autoReadBtn" class="btn btn-soft" style="display:none;"><i class="fa fa-book-open"></i> Leitura guiada</button>
             <button id="walkModeBtn" class="btn btn-soft" style="display:none;"><i class="fa fa-walking"></i> Modo Caminhada</button>
+            <button id="pocketModeBtn" class="btn btn-soft"><i class="fa fa-moon"></i> Modo Bolso</button>
+            <button id="bridgeModeBtn" class="btn btn-soft"><i class="fa fa-language"></i> Modo Ponte PT→EN</button>
             <button id="favoriteBtn" class="btn btn-soft" style="display:none;"><i class="fa fa-star"></i> Marcar frase</button>
             <button id="trainFavoritesBtn" class="btn btn-soft" style="display:none;"><i class="fa fa-heart"></i> Treinar favoritas</button>
             <button id="groupModeBtn" class="btn btn-soft" style="display:none;"><i class="fa fa-layer-group"></i> Treinar grupo</button>
@@ -44,8 +46,51 @@
             <label class="toggle" id="newOnlyToggleWrap" style="display:none;"><input type="checkbox" id="newOnlyToggle" /><i class="fa fa-seedling"></i> Modo novas frases</label>
           </div>
           <div id="walkStatus" class="walk-status" style="display:none;">Modo Caminhada pronto. Tela escura, leitura contínua e tentativa de manter a tela ativa.</div>
+
+          <div class="opt-row" id="bridgeOptions" style="display:none;">
+            <label class="opt-item">
+              Palavras extras
+              <select id="bridgeDistractors">
+                <option value="0">nenhuma</option>
+                <option value="2">2 distratores</option>
+                <option value="4">4 distratores</option>
+              </select>
+            </label>
+            <label class="opt-item opt-check">
+              <input type="checkbox" id="bridgeTapToggle" checked /> Tocar para posicionar
+            </label>
+          </div>
+
+          <div class="opt-row" id="walkOptions">
+            <label class="opt-item opt-check">
+              <input type="checkbox" id="walkScreenOff" checked /> Deixar a tela apagar
+            </label>
+            <label class="opt-item">
+              Voz
+              <select id="walkVoiceSelect">
+                <option value="auto">MP3 com fallback</option>
+                <option value="mp3">só MP3</option>
+                <option value="tts">voz do sistema</option>
+              </select>
+            </label>
+            <label class="opt-item">
+              Repetições em inglês
+              <select id="walkRepeatSelect">
+                <option value="1">1x</option>
+                <option value="2">2x</option>
+                <option value="3">3x</option>
+              </select>
+            </label>
+            <label class="opt-item opt-check">
+              <input type="checkbox" id="walkIncludePt" checked /> Falar a tradução
+            </label>
+          </div>
+
+          <div id="walkEngineStatus" class="walk-status walk-status-engine"></div>
         </div>
       </div>
+
+      <div id="bridgePrompt" class="bridge-prompt" style="display:none;"></div>
 
       <div class="board">
         <p>Arraste as palavras para os quadrados:</p>
@@ -207,6 +252,27 @@
 
   <div id="groupModeBadge"></div>
 
+  <!-- ═══════════════════════════════════════════
+       MODO BOLSO — tela preta, botões grandes
+  ═══════════════════════════════════════════ -->
+  <div id="pocketOverlay">
+    <button id="pocketClose" class="pocket-close" aria-label="Sair do Modo Bolso"><i class="fa fa-times"></i></button>
+    <div class="pocket-body">
+      <div class="pocket-eyebrow">Caminhada</div>
+      <div id="pocketEn" class="pocket-en"></div>
+      <div id="pocketPt" class="pocket-pt"></div>
+    </div>
+    <div class="pocket-controls">
+      <button id="pocketPrev" class="pocket-btn" aria-label="Frase anterior"><i class="fa fa-backward"></i></button>
+      <button id="pocketRepeat" class="pocket-btn" aria-label="Repetir frase"><i class="fa fa-redo"></i></button>
+      <button id="pocketPlay" class="pocket-btn pocket-btn-main" aria-label="Pausar ou continuar"><i class="fa fa-pause"></i></button>
+      <button id="pocketNext" class="pocket-btn" aria-label="Próxima frase"><i class="fa fa-forward"></i></button>
+    </div>
+    <div class="pocket-hint">Toque na tela para acordar os controles. A leitura continua com a tela apagada.</div>
+  </div>
+
   <script src="app.js"></script>
+  <script src="walk-engine.js"></script>
+  <script src="bridge-mode.js"></script>
 </body>
 </html>

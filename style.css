@@ -1149,3 +1149,277 @@ body.walk-mode footer { color: #475569; }
   color: #94a3b8;
   font-weight: 600;
 }
+
+/* ═══════════════════════════════════════════════
+   MODO PONTE PT→EN  +  MOTOR DE CAMINHADA
+   Extensões do design system — Igarapé Digital
+═══════════════════════════════════════════════ */
+
+/* ── Linhas de opções (caminhada e ponte) ─────── */
+.opt-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 16px;
+  align-items: center;
+  margin-top: 12px;
+  padding: 12px 14px;
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  border-radius: var(--r-md);
+}
+
+.opt-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #475569;
+  letter-spacing: 0.1px;
+}
+
+.opt-item select {
+  font-family: var(--font-body);
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--ink-2);
+  background: var(--surface);
+  border: 1px solid var(--border-2);
+  border-radius: var(--r-xs);
+  padding: 5px 8px;
+  cursor: pointer;
+}
+
+.opt-item select:focus-visible,
+.opt-item input:focus-visible {
+  outline: 2px solid var(--blue);
+  outline-offset: 2px;
+}
+
+.opt-check input { accent-color: var(--blue); width: 16px; height: 16px; cursor: pointer; }
+
+.walk-status-engine { margin-top: 10px; display: block; }
+
+body.walk-mode .opt-row {
+  background: #111827;
+  border-color: #1f2937;
+}
+body.walk-mode .opt-item { color: #94a3b8; }
+body.walk-mode .opt-item select {
+  background: #1e293b;
+  color: #e2e8f0;
+  border-color: #334155;
+}
+
+/* ── Enunciado em português ───────────────────── */
+.bridge-prompt {
+  position: relative;
+  margin: 0 0 18px;
+  padding: 20px 22px 20px 26px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-left: 5px solid var(--cyan);
+  border-radius: var(--r-lg);
+  box-shadow: var(--sh-md);
+  text-align: left;
+}
+
+.bridge-eyebrow {
+  font-size: 0.68rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 1.4px;
+  color: var(--cyan);
+  margin-bottom: 8px;
+}
+
+.bridge-pt {
+  font-family: var(--font-head);
+  font-size: 1.35rem;
+  font-weight: 700;
+  line-height: 1.35;
+  color: var(--ink);
+}
+
+.bridge-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 14px;
+}
+
+.bridge-btn {
+  font-family: var(--font-body);
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: #fff;
+  background: var(--blue);
+  border: none;
+  border-radius: var(--r-pill);
+  padding: 8px 16px;
+  cursor: pointer;
+  transition: transform var(--t) var(--ease), box-shadow var(--t) var(--ease);
+}
+
+.bridge-btn:hover { transform: translateY(-1px); box-shadow: var(--sh-blue); }
+.bridge-btn:focus-visible { outline: 2px solid var(--ink); outline-offset: 2px; }
+
+.bridge-btn-ghost {
+  background: transparent;
+  color: #64748b;
+  border: 1px solid var(--border-2);
+}
+.bridge-btn-ghost:hover { color: var(--blue); box-shadow: none; }
+
+.bridge-answer {
+  display: none;
+  margin-top: 14px;
+  padding: 12px 14px;
+  background: var(--surface-2);
+  border-radius: var(--r-sm);
+  font-weight: 700;
+  color: var(--ink-2);
+  line-height: 1.4;
+}
+
+.bridge-answer-label {
+  display: inline-block;
+  font-size: 0.64rem;
+  font-weight: 800;
+  letter-spacing: 1px;
+  color: #fff;
+  background: var(--orange);
+  border-radius: var(--r-xs);
+  padding: 2px 7px;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+body.walk-mode .bridge-prompt {
+  background: #0f172a;
+  border-color: #1e293b;
+  border-left-color: var(--cyan);
+}
+body.walk-mode .bridge-pt { color: #e2e8f0; }
+body.walk-mode .bridge-answer { background: #1e293b; color: #cbd5e1; }
+
+/* No Modo Ponte a resposta não pode vazar antes da hora */
+body.bridge-on .feedback { text-align: left; }
+body.bridge-on .slot .hint { opacity: 0.25; }
+
+/* ── Toque para posicionar ────────────────────── */
+.word.tappable { cursor: pointer; }
+.word.tappable:active { transform: scale(0.94); }
+
+@media (hover: none) {
+  .word { min-height: 46px; display: inline-flex; align-items: center; }
+  .slot { min-height: 46px; }
+}
+
+/* ── Modo Bolso ───────────────────────────────── */
+#pocketOverlay {
+  display: none;
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  background: #000;
+  color: #e2e8f0;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 28px 20px 40px;
+  transition: opacity .6s var(--ease);
+}
+
+#pocketOverlay.open { display: flex; }
+#pocketOverlay.dim { opacity: 0.06; }
+
+.pocket-close {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: 1px solid #1f2937;
+  background: #0b0f19;
+  color: #64748b;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.pocket-body {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 40px 6px;
+}
+
+.pocket-eyebrow {
+  font-size: 0.68rem;
+  font-weight: 800;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #334155;
+  margin-bottom: 20px;
+}
+
+.pocket-en {
+  font-family: var(--font-head);
+  font-size: clamp(1.5rem, 6vw, 2.4rem);
+  font-weight: 800;
+  line-height: 1.25;
+  color: #f8fafc;
+}
+
+.pocket-pt {
+  margin-top: 16px;
+  font-size: clamp(0.95rem, 3.4vw, 1.15rem);
+  font-weight: 500;
+  line-height: 1.4;
+  color: #64748b;
+}
+
+.pocket-controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+}
+
+.pocket-btn {
+  width: 68px;
+  height: 68px;
+  border-radius: 50%;
+  border: 1px solid #1f2937;
+  background: #0b0f19;
+  color: #cbd5e1;
+  font-size: 1.25rem;
+  cursor: pointer;
+  transition: transform var(--t) var(--ease-spring), background var(--t) var(--ease);
+}
+
+.pocket-btn:active { transform: scale(0.92); background: #111827; }
+.pocket-btn:focus-visible { outline: 2px solid var(--cyan); outline-offset: 3px; }
+
+.pocket-btn-main {
+  width: 88px;
+  height: 88px;
+  font-size: 1.6rem;
+  color: #000;
+  background: var(--cyan);
+  border-color: var(--cyan);
+}
+
+.pocket-hint {
+  margin-top: 22px;
+  text-align: center;
+  font-size: 0.72rem;
+  color: #334155;
+  line-height: 1.5;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  #pocketOverlay, .pocket-btn, .bridge-btn, .word.tappable { transition: none; }
+}
