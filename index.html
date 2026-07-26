@@ -8,6 +8,7 @@
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet" />
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
   <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="ux-mobile.css" />
 </head>
 
 <body>
@@ -61,9 +62,25 @@
             </label>
           </div>
 
-          <div class="opt-row" id="walkOptions">
-            <label class="opt-item opt-check">
-              <input type="checkbox" id="walkScreenOff" checked /> Deixar a tela apagar
+          <div class="opt-row" id="walkOptions" style="display:none;">
+            <div class="seg-wrap">
+              <span class="seg-label">Durante a caminhada</span>
+              <div class="seg" role="group" aria-label="Comportamento da tela">
+                <button type="button" data-screen-policy="off" aria-pressed="true">
+                  <i class="fa fa-moon"></i> Deixar apagar
+                </button>
+                <button type="button" data-screen-policy="awake" aria-pressed="false">
+                  <i class="fa fa-lightbulb"></i> Manter acesa
+                </button>
+              </div>
+            </div>
+            <label class="opt-item">
+              Ritmo
+              <select id="walkPaceSelect">
+                <option value="rapido">rápido</option>
+                <option value="normal">normal</option>
+                <option value="pausado">pausado</option>
+              </select>
             </label>
             <label class="opt-item">
               Voz
@@ -271,8 +288,11 @@
     <div class="pocket-hint">Toque na tela para acordar os controles. A leitura continua com a tela apagada.</div>
   </div>
 
+  <script src="storage-guard.js"></script>
   <script src="app.js"></script>
   <script src="walk-engine.js"></script>
   <script src="bridge-mode.js"></script>
+  <script src="ux-mobile.js"></script>
+  <script src="data-loader.js"></script>
 </body>
 </html>
